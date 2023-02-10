@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next/core-web-vitals', 'turbo', 'prettier'],
+  extends: ['next/core-web-vitals', '@antfu', 'turbo', 'prettier'],
   // Override for next/babel issue - https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821
   overrides: [
     {

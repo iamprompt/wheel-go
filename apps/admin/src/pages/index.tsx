@@ -1,4 +1,4 @@
-import { Button } from "@wheel-go/ui";
+import { Button } from '@wheel-go/ui'
 
 export default function Web() {
   return (
@@ -6,5 +6,5 @@ export default function Web() {
       <h1>Web</h1>
       <Button />
     </div>
-  );
+  )
 }
