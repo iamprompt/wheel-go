@@ -2,7 +2,7 @@ import { Button } from '@wheel-go/ui'
 
 export default function Web() {
   return (
-    <div>
+    <div className="font-bold">
       <h1>Web</h1>
       <Button />
     </div>
