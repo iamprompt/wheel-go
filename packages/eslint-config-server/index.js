@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['eslint:recommended', '@antfu', 'turbo', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    '@antfu',
+    'turbo',
+    'plugin:prettier/recommended',
+  ],
   env: {
     node: true,
     es6: true,
@@ -16,4 +21,7 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    'prettier/prettier': 'error',
+  },
 }

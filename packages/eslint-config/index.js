@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next/core-web-vitals', '@antfu', 'turbo', 'prettier'],
+  extends: ['@antfu', 'turbo', 'plugin:prettier/recommended'],
   // Override for next/babel issue - https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821
   overrides: [
     {
@@ -20,5 +20,6 @@ module.exports = {
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
     'react/jsx-key': 'off',
+    'prettier/prettier': 'error',
   },
 }

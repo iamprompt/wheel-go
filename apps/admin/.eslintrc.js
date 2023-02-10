@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['wheel-go'],
+  extends: ['next/core-web-vitals', 'wheel-go'],
 }
