@@ -40,10 +40,21 @@ module.exports = {
     // include packages if not transpiling
     // '../../packages/**/*.{js,ts,jsx,tsx}',
   ],
-  fontFamily: {
-    sans: '"LINE Seed Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
-  },
   theme: {
+    fontFamily: {
+      sans: [
+        'LINE Seed Sans TH',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        'Segoe UI',
+        'Roboto',
+        'Oxygen-Sans',
+        'Ubuntu',
+        'Cantarell',
+        'Helvetica Neue',
+        'sans-serif',
+      ],
+    },
     colors: {
       // Base colors
       'black-pepper': {
