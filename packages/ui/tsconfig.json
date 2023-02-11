@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "ES2015"]
+    "lib": ["dom", "ES2015"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "extends": "@wheel-go/tsconfig/react-library.json",
-  "include": ["."],
+  "include": ["src"],
   "exclude": ["dist", "build", "node_modules"]
 }
