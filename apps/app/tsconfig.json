@@ -1,4 +1,10 @@
 {
   "extends": "@wheel-go/tsconfig/vite.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
