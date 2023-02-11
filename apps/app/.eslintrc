@@ -1,4 +1,5 @@
 {
   "root": true,
-  "extends": ["wheel-go"]
+  "extends": ["wheel-go"],
+  "ignorePatterns": ["!.*", "dist", "node_modules", "ios", "android"]
 }

@@ -7,7 +7,7 @@
     "build": "vite build",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "dev": "vite --host 0.0.0.0 --port 3001 --clearScreen false",
-    "lint": "tsc --noEmit && TIMING=1 eslint \"src/**/*.ts*\"",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx ./src",
     "ionic:serve": "vite --clearScreen false",
     "dev:ios": "ionic cap run ios --livereload --external"
   },

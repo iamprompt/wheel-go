@@ -1,9 +1,8 @@
-import { buildConfig } from 'payload/config'
 import path from 'path'
+import { buildConfig } from 'payload/config'
 // import Examples from './collections/Examples';
-import Users from './collections/Users'
-
 import dotenv from 'dotenv'
+import Users from './collections/Users'
 
 dotenv.config()
 
