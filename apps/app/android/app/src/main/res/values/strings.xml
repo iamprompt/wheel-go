@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Wheel Go</string>
+    <string name="title_activity_main">Wheel Go</string>
+    <string name="package_name">com.nakama.wheelgo</string>
+    <string name="custom_url_scheme">com.nakama.wheelgo</string>
+</resources>

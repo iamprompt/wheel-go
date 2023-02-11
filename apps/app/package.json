@@ -7,14 +7,25 @@
     "build": "vite build",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "dev": "vite --host 0.0.0.0 --port 3001 --clearScreen false",
-    "lint": "tsc --noEmit && TIMING=1 eslint \"src/**/*.ts*\""
+    "lint": "tsc --noEmit && TIMING=1 eslint \"src/**/*.ts*\"",
+    "ionic:serve": "vite --clearScreen false",
+    "dev:ios": "ionic cap run ios --livereload --external"
   },
   "dependencies": {
+    "@capacitor/android": "^4.6.3",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/core": "^4.6.3",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/ios": "^4.6.3",
+    "@capacitor/keyboard": "^4.1.1",
+    "@capacitor/status-bar": "4.1.1",
     "@wheel-go/tsconfig": "workspace:^0.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "^4.6.3",
+    "@ionic/cli": "^6.20.8",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",

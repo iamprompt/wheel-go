@@ -7,7 +7,15 @@
       "outputs": ["dist/**", ".next/**"]
     },
     "build#@wheel-go/payload": {
-      "env": ["PAYLOAD_SECRET", "MONGODB_URI", "PAYLOAD_PORT", "PAYLOAD_PUBLIC_SERVER_URL"]
+      "env": [
+        "PAYLOAD_SECRET",
+        "MONGODB_URI",
+        "PAYLOAD_PORT",
+        "PAYLOAD_PUBLIC_SERVER_URL"
+      ]
+    },
+    "build#@wheel-go/app": {
+      "env": ["NODE_ENV"]
     },
     "lint": {
       "outputs": []

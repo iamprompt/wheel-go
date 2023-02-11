@@ -1,0 +1,7 @@
+{
+  "name": "Wheel Go",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
