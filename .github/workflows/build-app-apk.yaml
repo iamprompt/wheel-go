@@ -9,10 +9,6 @@ on:
       - packages/**
       - .github/workflows/build-app-apk.yaml
 
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}-app-site
-
 jobs:
   build-and-publish:
     name: Build App Debug APK
@@ -35,14 +31,32 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install PNPM package manager
-        run: npm install -g pnpm
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build APK
-        run: pnpm --filter @wheel-go/app build:android
+        run: pnpm --filter @wheel-go/app build:android --no-open
 
       - name: Generate APK
         working-directory: ./apps/app/android/
