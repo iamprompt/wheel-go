@@ -8,6 +8,7 @@ on:
       - apps/app/**
       - packages/**
       - .github/workflows/build-app-site.yaml
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io

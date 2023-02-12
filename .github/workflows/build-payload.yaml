@@ -8,6 +8,7 @@ on:
       - apps/payload/**
       - packages/**
       - .github/workflows/build-payload.yaml
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
