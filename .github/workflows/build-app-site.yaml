@@ -1,0 +1,45 @@
+name: Deploy App Site Preview
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}-app-site
+
+jobs:
+  build-and-publish:
+    name: Build and Publish App Site Preview Docker Image
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: ./apps/app/Dockerfile
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      # - name: Deploy to App Site Preview
+      #   if: ${{ env.WEBHOOK_URL != '' }}
+      #   run: |
+      #     curl -X POST \
+      #       -H "Authorization: Bearer ${{ secrets.APP_SITE_PREVIEW_DEPLOY_TOKEN }}" \
+      #       -H "Content-Type: application/json" \
+      #       -d '{"ref": "main"}' \
+      #       https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-app-site.yaml/dispatches
