@@ -1,0 +1,55 @@
+name: Deploy App APK Debug Preview
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - apps/app/**
+      - packages/**
+      - .github/workflows/build-app-apk.yaml
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}-app-site
+
+jobs:
+  build-and-publish:
+    name: Build App Debug APK
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '18'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install PNPM package manager
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build APK
+        run: pnpm --filter @wheel-go/app build:android
+
+      - name: Generate APK
+        working-directory: ./apps/app/android/
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: wheel-go-debug
+          path: ./apps/app/android/app/build/outputs/apk/debug/app-debug.apk
