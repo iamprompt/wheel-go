@@ -9,7 +9,10 @@
     "dev": "vite --host 0.0.0.0 --port 3001 --clearScreen false",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx ./src",
     "ionic:serve": "vite --clearScreen false",
-    "dev:ios": "ionic cap run ios --livereload --external"
+    "ionic:build": "tsc && vite build",
+    "dev:ios": "ionic cap run ios --livereload --external",
+    "dev:android": "ionic cap run android --livereload --external",
+    "build:android": "ionic cap build android"
   },
   "dependencies": {
     "@capacitor/android": "^4.6.3",
