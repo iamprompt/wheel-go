@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - apps/app/**
+      - packages/**
+      - .github/workflows/build-app-site.yaml
 
 env:
   REGISTRY: ghcr.io
