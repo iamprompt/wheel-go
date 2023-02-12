@@ -40,6 +40,8 @@ jobs:
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           build-args: |
             PAYLOAD_PUBLIC_SERVER_URL=${{ vars.PAYLOAD_PUBLIC_SERVER_URL }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Deploy to Payload Portainer
         run: |
