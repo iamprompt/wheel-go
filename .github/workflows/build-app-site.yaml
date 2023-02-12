@@ -35,11 +35,8 @@ jobs:
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
 
-      # - name: Deploy to App Site Preview
-      #   if: ${{ env.WEBHOOK_URL != '' }}
-      #   run: |
-      #     curl -X POST \
-      #       -H "Authorization: Bearer ${{ secrets.APP_SITE_PREVIEW_DEPLOY_TOKEN }}" \
-      #       -H "Content-Type: application/json" \
-      #       -d '{"ref": "main"}' \
-      #       https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-app-site.yaml/dispatches
+      - name: Deploy to App Site Preview Portainer
+        run: |
+          curl -X POST ${{ secrets.PORTAINER_WEBHOOK_URL }} \
+            -H "Content-Type: application/json" \
+            -d '{"ref": "main"}'
