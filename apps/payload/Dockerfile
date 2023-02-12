@@ -22,12 +22,8 @@ COPY --from=builder /app/out/pnpm-lock.yaml ./pnpm-lock.yaml
 RUN pnpm install
 
 # Build the project
-COPY --from=builder /app/.husky .
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
-
-ARG PAYLOAD_PUBLIC_APP_URL
-ENV PAYLOAD_PUBLIC_APP_URL=$PAYLOAD_PUBLIC_APP_URL
 
 ARG PAYLOAD_PUBLIC_SERVER_URL
 ENV PAYLOAD_PUBLIC_SERVER_URL=$PAYLOAD_PUBLIC_SERVER_URL
@@ -42,10 +38,10 @@ COPY --from=installer /app/apps/payload/node_modules ./apps/payload/node_modules
 COPY --from=installer /app/apps/payload/build ./apps/payload/build
 COPY --from=installer /app/apps/payload/dist ./apps/payload/dist
 
+WORKDIR /app/apps/payload
 ENV NODE_ENV=production
-ENV PAYLOAD_CONFIG_PATH=apps/payload/dist/payload.config.js
+ENV PAYLOAD_CONFIG_PATH=dist/payload.config.js
 
-ENV PORT 3000
+ENV PAYLOAD_PORT 3000
 EXPOSE 3000
-
-CMD node apps/payload/dist/server.js
+CMD node dist/server.js

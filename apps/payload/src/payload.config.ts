@@ -10,6 +10,7 @@ const SERVER_URL = process.env.PAYLOAD_PUBLIC_SERVER_URL
 
 export default buildConfig({
   serverURL: SERVER_URL,
+  cors: '*',
   admin: {
     user: Users.slug,
   },
