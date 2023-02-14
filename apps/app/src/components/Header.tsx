@@ -19,8 +19,8 @@ export const Header: FC<HeaderProps> = ({ menu = true, search = true }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
 
   return (
-    <div>
-      <header className="flex flex-row w-full justify-between items-center px-5 py-3 shadow-2 rounded-b-m">
+    <div className="fixed top-0 left-0 z-50 w-full safe-top bg-white shadow-2 rounded-b-m">
+      <header className="flex flex-row w-full justify-between items-center px-5 py-3">
         {/* Left Side Hamburger Menu */}
         <div className="h-6 w-6">
           {menu ? (
