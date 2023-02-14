@@ -305,7 +305,7 @@ module.exports = {
     plugin(({ addUtilities }) => {
       const newUtilities = {
         '.safe-top': {
-          paddingTop: 'env(safe-area-inset-top, 16px)',
+          paddingTop: 'env(safe-area-inset-top)',
         },
         '.safe-left': {
           paddingLeft: 'env(safe-area-inset-left)',
@@ -314,17 +314,17 @@ module.exports = {
           paddingRight: 'env(safe-area-inset-right)',
         },
         '.safe-bottom': {
-          paddingBottom: 'env(safe-area-inset-bottom, 16px)',
+          paddingBottom: 'env(safe-area-inset-bottom)',
         },
         '.safe-all': {
-          paddingTop: 'env(safe-area-inset-top, 16px)',
+          paddingTop: 'env(safe-area-inset-top)',
           paddingLeft: 'env(safe-area-inset-left)',
           paddingRight: 'env(safe-area-inset-right)',
-          paddingBottom: 'env(safe-area-inset-bottom, 16px)',
+          paddingBottom: 'env(safe-area-inset-bottom)',
         },
         '.safe-y': {
-          paddingTop: 'env(safe-area-inset-top, 16px)',
-          paddingBottom: 'env(safe-area-inset-bottom, 16px)',
+          paddingTop: 'env(safe-area-inset-top)',
+          paddingBottom: 'env(safe-area-inset-bottom)',
         },
         '.safe-x': {
           paddingLeft: 'env(safe-area-inset-left)',

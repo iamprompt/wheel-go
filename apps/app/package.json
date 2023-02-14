@@ -31,6 +31,7 @@
   "devDependencies": {
     "@capacitor/cli": "^4.6.3",
     "@headlessui/react": "^1.7.10",
+    "@iconify/icons-ic": "^1.2.13",
     "@iconify/icons-material-symbols": "^1.2.27",
     "@iconify/react": "^4.1.0",
     "@ionic/cli": "^6.20.8",
