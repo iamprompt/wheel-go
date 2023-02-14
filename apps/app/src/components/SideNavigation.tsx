@@ -1,6 +1,44 @@
 import { Dialog, Transition } from '@headlessui/react'
 import type { FC } from 'react'
 import { Fragment } from 'react'
+import { Link } from 'react-router-dom'
+import clsx from 'clsx'
+
+import type { IconifyIcon } from '@iconify/react'
+import { Icon } from '@iconify/react'
+import IconArrowBack from '@iconify/icons-material-symbols/arrow-back-ios-new-rounded'
+import IconCampaign from '@iconify/icons-material-symbols/campaign-rounded'
+import { WheelGoWordMark } from './WheelGoWordMark'
+
+interface DialogMenuItemProps {
+  to: string
+  label: string
+  icon?: IconifyIcon
+  iconColor?: string
+  iconPosition?: 'left' | 'right'
+}
+
+const DialogMenuItem: FC<DialogMenuItemProps> = ({
+  to,
+  label,
+  icon,
+  iconColor,
+  iconPosition = 'right',
+}) => {
+  const IconElement = icon ? (
+    <Icon icon={icon} className={clsx('inline-block w-6 h-6', iconColor)} />
+  ) : null
+
+  return (
+    <div className="flex gap-3 items-center py-3 px-6">
+      {iconPosition === 'left' ? IconElement : null}
+      <Link to={to} className="font-bold text-gray-900">
+        {label}
+      </Link>
+      {iconPosition === 'right' ? IconElement : null}
+    </div>
+  )
+}
 
 interface SideNavigationProps {
   isOpen: boolean
@@ -13,7 +51,81 @@ export const SideNavigation: FC<SideNavigationProps> = ({
 }) => {
   return (
     <Transition appear show={isOpen} as={Fragment}>
-      <Dialog as="div" onClose={onClose}></Dialog>
+      <Dialog as="div" className="relative z-[80]" onClose={onClose}>
+        <Transition.Child
+          as={Fragment}
+          enter="ease-out duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="ease-in duration-200"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="fixed inset-0 bg-black/25" />
+        </Transition.Child>
+
+        <div className="fixed inset-0 overflow-y-auto">
+          <div className="relative flex min-h-full items-start justify-start">
+            <Transition.Child
+              as={Fragment}
+              enter="transition ease-in-out duration-300 transform"
+              enterFrom="-translate-x-full"
+              enterTo="-translate-x-0"
+              leave="transition ease-in-out duration-300 transform"
+              leaveFrom="-translate-x-0"
+              leaveTo="-translate-x-full"
+            >
+              <Dialog.Panel className="flex min-h-screen w-full max-w-[300px] flex-col bg-white p-6 text-left align-middle shadow-xl transition-all safe-top safe-bottom">
+                <div className="grow">
+                  <div>
+                    {/* Header */}
+                    <div className="mb-8 flex flex-row items-end justify-between py-4">
+                      <button type="button" onClick={onClose}>
+                        <Icon icon={IconArrowBack} className="h-6 w-6" />
+                      </button>
+                      <WheelGoWordMark className="h-6" />
+                    </div>
+                  </div>
+
+                  <div className="mb-8 flex items-center gap-4 border-y p-4">
+                    <div>
+                      <img
+                        src="https://gravatar.com/avatar/1b052f?d=mp"
+                        alt="Profile"
+                        className="h-16 w-16 rounded-full"
+                      />
+                    </div>
+                    <div>
+                      <div className="text-sm">Hi 👋,</div>
+                      <div className="text-xl font-bold">John Doe</div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col gap-4">
+                    <DialogMenuItem
+                      to="/announcements"
+                      label="Announcement"
+                      icon={IconCampaign}
+                      iconColor="text-error-500"
+                    />
+                    <DialogMenuItem to="/settings" label="Settings" />
+                    <DialogMenuItem to="/how-to-use" label="How to Use" />
+                    <DialogMenuItem to="/faq" label="FAQ" />
+                  </div>
+                </div>
+                <div className="py-4">
+                  <button
+                    className="w-full rounded-xl border border-gray-300 py-3 px-6 font-bold"
+                    onClick={() => {}}
+                  >
+                    Sign Out
+                  </button>
+                </div>
+              </Dialog.Panel>
+            </Transition.Child>
+          </div>
+        </div>
+      </Dialog>
     </Transition>
   )
 }
