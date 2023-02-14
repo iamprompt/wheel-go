@@ -29,6 +29,9 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^4.6.3",
+    "@headlessui/react": "^1.7.10",
+    "@iconify-json/material-symbols": "^1.1.29",
+    "@iconify/icons-material-symbols": "^1.2.27",
     "@ionic/cli": "^6.20.8",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
@@ -40,7 +43,9 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "typescript": "^4.9.5",
+    "unplugin-icons": "^0.15.3",
     "vite": "^4.1.1",
+    "vite-plugin-svgr": "^2.4.0",
     "vite-tsconfig-paths": "^4.0.5"
   }
 }
