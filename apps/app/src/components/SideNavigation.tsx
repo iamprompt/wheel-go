@@ -61,7 +61,7 @@ export const SideNavigation: FC<SideNavigationProps> = ({
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-black/25" />
+          <div className="fixed inset-0 bg-magenta-600/60" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-y-auto">
