@@ -1,5 +1,8 @@
 {
   "root": true,
   "extends": ["wheel-go"],
-  "ignorePatterns": ["!.*", "dist", "node_modules", "ios", "android"]
+  "ignorePatterns": ["!.*", "dist", "node_modules", "ios", "android"],
+  "rules": {
+    "no-console": "warn"
+  }
 }

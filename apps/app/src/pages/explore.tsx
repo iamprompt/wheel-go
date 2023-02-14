@@ -1,12 +1,13 @@
 import type { FC } from 'react'
-import { Link } from 'react-router-dom'
 import { HomeLayout } from '@/layouts/Home'
+import { ExploreMap } from '@/components/ExploreMap'
 
 export const ExplorePage: FC = () => {
   return (
     <HomeLayout>
-      <div>Explore</div>
-      <Link to="/page2">Page2</Link>
+      {/* <div>Explore</div>
+      <Link to="/page2">Page2</Link> */}
+      <ExploreMap className="z-[1] h-screen w-screen" />
     </HomeLayout>
   )
 }
