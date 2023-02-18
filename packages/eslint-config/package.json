@@ -5,14 +5,17 @@
   "license": "MIT",
   "dependencies": {
     "@antfu/eslint-config": "^0.35.2",
-    "eslint": "^7.23.0",
-    "eslint-config-next": "13.0.0",
-    "eslint-config-turbo": "latest",
+    "eslint": "^8.34.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-turbo": "^0.0.8",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "7.31.8"
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-storybook": "^0.6.10",
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^4.9.5"
   },
   "publishConfig": {
     "access": "public"

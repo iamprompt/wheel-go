@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['@antfu', 'turbo', 'plugin:prettier/recommended'],
+  extends: [
+    '@antfu',
+    'turbo',
+    'plugin:storybook/recommended',
+    'plugin:prettier/recommended',
+  ],
   // Override for next/babel issue - https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821
   overrides: [
     {
