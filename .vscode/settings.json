@@ -1,3 +1,6 @@
 {
-  "eslint.packageManager": "pnpm"
+  "eslint.packageManager": "pnpm",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
 }
