@@ -25,6 +25,15 @@ module.exports = {
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
     'react/jsx-key': 'off',
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'always',
+        printWidth: 80,
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'es5',
+      },
+    ],
   },
 }
