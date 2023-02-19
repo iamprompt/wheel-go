@@ -24,10 +24,13 @@
     "@capacitor/keyboard": "^4.1.1",
     "@capacitor/status-bar": "4.1.1",
     "@wheel-go/tsconfig": "workspace:^0.0.0",
+    "@wheel-go/ui": "workspace:^0.0.0",
     "clsx": "^1.2.1",
+    "i18next": "^22.4.10",
     "leaflet": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5",
     "react-leaflet": "^4.2.0",
     "react-router-dom": "^6.8.1"
   },
