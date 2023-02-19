@@ -8,7 +8,11 @@ const meta: Meta<typeof Button> = {
     appearance: {
       control: {
         type: 'select',
-        options: ['primary', 'secondary', 'dashed', 'danger'],
+      },
+    },
+    state: {
+      control: {
+        type: 'radio',
       },
     },
   },
@@ -20,5 +24,6 @@ type Story = StoryObj<typeof meta>
 export const Default: Story = {
   args: {
     appearance: 'primary',
+    state: 'inactive',
   },
 }
