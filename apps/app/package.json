@@ -12,7 +12,8 @@
     "ionic:build": "tsc && vite build",
     "dev:ios": "ionic cap run ios --livereload --external",
     "dev:android": "ionic cap run android --livereload --external",
-    "build:android": "ionic cap build android"
+    "build:android": "ionic cap build android",
+    "copy": "cap copy"
   },
   "dependencies": {
     "@capacitor/android": "^4.6.3",

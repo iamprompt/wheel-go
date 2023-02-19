@@ -56,8 +56,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build APK
-        run: pnpm --filter @wheel-go/app build:android --no-open
+      - name: Build Site
+        run: pnpm build --filter=app
+
+      - name: Copy Site to Native
+        run: pnpm --filter=app copy
 
       - name: Generate APK
         working-directory: ./apps/app/android/
