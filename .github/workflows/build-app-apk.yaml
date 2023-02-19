@@ -60,10 +60,10 @@ jobs:
         run: pnpm build --filter=app
 
       - name: Copy Site to Native
-        run: pnpm --filter=app cap copy android
+        run: pnpm --filter=app copy
 
       - name: Sync Plugin with Native
-        run: pnpm --filter=app cap sync android
+        run: pnpm --filter=app sync
 
       - name: Generate APK
         working-directory: ./apps/app/android/

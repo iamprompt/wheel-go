@@ -13,7 +13,8 @@
     "dev:ios": "ionic cap run ios --livereload --external",
     "dev:android": "ionic cap run android --livereload --external",
     "build:android": "ionic cap build android",
-    "copy": "cap copy"
+    "copy": "cap copy",
+    "sync": "cap sync"
   },
   "dependencies": {
     "@capacitor/android": "^4.6.3",
