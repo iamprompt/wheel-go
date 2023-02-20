@@ -20,6 +20,7 @@ export const ExploreMap: FC<ExploreMapProps> = ({ ...props }) => {
       zoom={16}
       scrollWheelZoom={true}
       className="z-[1] h-screen w-screen"
+      {...props}
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
