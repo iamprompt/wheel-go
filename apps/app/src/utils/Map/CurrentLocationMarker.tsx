@@ -1,29 +1,24 @@
-import { Geolocation } from '@capacitor/geolocation'
 import type { LatLng } from 'leaflet'
 import L from 'leaflet'
 import { useEffect, useState } from 'react'
 import { Marker, useMap } from 'react-leaflet'
+import { useGeolocation } from '@/contexts/useGeolocation'
 
 export const CurrentLocationMarker = () => {
   const [position, setPosition] = useState<LatLng | null>(null)
 
   const map = useMap()
-
-  const getCurrentLocation = async () => {
-    console.log('Getting current location')
-
-    const location = await Geolocation.getCurrentPosition()
-    const latlng = new L.LatLng(
-      location.coords.latitude,
-      location.coords.longitude
-    )
-    setPosition(latlng)
-    map.flyTo(latlng, 16)
-  }
+  const { latitude, longitude } = useGeolocation()
 
   useEffect(() => {
-    getCurrentLocation()
-  }, [])
+    if (latitude === null || longitude === null) {
+      return
+    }
+
+    const latlng = new L.LatLng(latitude, longitude)
+    setPosition(latlng)
+    map.flyTo(latlng, 16)
+  }, [latitude, longitude, map])
 
   return position === null ? null : (
     <Marker

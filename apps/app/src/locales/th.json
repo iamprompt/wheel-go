@@ -1,7 +1,8 @@
 {
   "common": {
     "app_name": "วีลโก",
-    "go_page": "ไปหน้า{{page}}"
+    "go_page": "ไปหน้า{{page}}",
+    "change_language": "เปลี่ยนภาษา"
   },
   "navigation": {
     "announcement": "ประกาศ",

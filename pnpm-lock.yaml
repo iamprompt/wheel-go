@@ -57,10 +57,12 @@ importers:
       '@capacitor/app': 4.1.1
       '@capacitor/cli': ^4.6.3
       '@capacitor/core': ^4.6.3
+      '@capacitor/device': ^4.1.0
       '@capacitor/geolocation': ^4.1.0
       '@capacitor/haptics': 4.1.0
       '@capacitor/ios': ^4.6.3
       '@capacitor/keyboard': ^4.1.1
+      '@capacitor/preferences': ^4.0.2
       '@capacitor/status-bar': 4.1.1
       '@headlessui/react': ^1.7.11
       '@iconify/icons-ic': ^1.2.13
@@ -95,10 +97,12 @@ importers:
       '@capacitor/android': 4.6.3_@capacitor+core@4.6.3
       '@capacitor/app': 4.1.1_@capacitor+core@4.6.3
       '@capacitor/core': 4.6.3
+      '@capacitor/device': 4.1.0_@capacitor+core@4.6.3
       '@capacitor/geolocation': 4.1.0_@capacitor+core@4.6.3
       '@capacitor/haptics': 4.1.0_@capacitor+core@4.6.3
       '@capacitor/ios': 4.6.3_@capacitor+core@4.6.3
       '@capacitor/keyboard': 4.1.1_@capacitor+core@4.6.3
+      '@capacitor/preferences': 4.0.2_@capacitor+core@4.6.3
       '@capacitor/status-bar': 4.1.1_@capacitor+core@4.6.3
       '@wheel-go/tsconfig': link:../../packages/tsconfig
       '@wheel-go/ui': link:../../packages/ui
@@ -1804,6 +1808,14 @@ packages:
       tslib: 2.5.0
     dev: false
 
+  /@capacitor/device/4.1.0_@capacitor+core@4.6.3:
+    resolution: {integrity: sha512-BlcYb6e6m+vC1SxeyUDIUGfuNXdKEcpFPDCs/kxk2SByFc/BkvXeoy4NjY4qmTderGELofX9bta5Iy9JV7rGUg==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.0
+    dependencies:
+      '@capacitor/core': 4.6.3
+    dev: false
+
   /@capacitor/geolocation/4.1.0_@capacitor+core@4.6.3:
     resolution: {integrity: sha512-hfI4MUcu1zcJPTvm0g6V3telTGwq9sCU8EnY4hFJpLedbIQeWPthCOSbFtNHAU5mVaAP1Zls3x6TsXL8TX08EA==}
     peerDependencies:
@@ -1830,6 +1842,14 @@ packages:
 
   /@capacitor/keyboard/4.1.1_@capacitor+core@4.6.3:
     resolution: {integrity: sha512-fdC7u2TeG4BqwC0LnPnhOdya31C4QKdhk/8pc5lxI9X5jyYAetMCN1kEkKa7KREw4DdzXotJt27B9BXxAza6og==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.0
+    dependencies:
+      '@capacitor/core': 4.6.3
+    dev: false
+
+  /@capacitor/preferences/4.0.2_@capacitor+core@4.6.3:
+    resolution: {integrity: sha512-HgcRkMdVHSIV3TeQLZFmCaCeMWQ25wLyZZ7dA2f8Rw81Q1Nroxsi7HxTEGNqrWKSN9PNKBJD8vChr6eB2GNtZg==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:

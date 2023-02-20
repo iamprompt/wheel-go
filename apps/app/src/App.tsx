@@ -1,5 +1,7 @@
 import type { FC } from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { DeviceProvider } from './contexts/useDevice'
+import { GeolocationProvider } from './contexts/useGeolocation'
 import { ExplorePage } from './pages/explore'
 import { Page2 } from './pages/page2'
 
@@ -17,7 +19,11 @@ const router = createBrowserRouter([
 const App: FC = () => {
   return (
     <>
-      <RouterProvider router={router} />
+      <DeviceProvider>
+        <GeolocationProvider>
+          <RouterProvider router={router} />
+        </GeolocationProvider>
+      </DeviceProvider>
     </>
   )
 }

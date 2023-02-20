@@ -1,7 +1,8 @@
 {
   "common": {
     "app_name": "wheel go",
-    "go_page": "Go to {{page}}"
+    "go_page": "Go to {{page}}",
+    "change_language": "Change Language"
   },
   "navigation": {
     "announcement": "Announcement",
