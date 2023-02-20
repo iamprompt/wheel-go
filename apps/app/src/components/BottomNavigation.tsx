@@ -11,12 +11,13 @@ import clsx from 'clsx'
 import { Link, useLocation } from 'react-router-dom'
 import type { IconifyIcon } from '@iconify/react'
 import { Icon } from '@iconify/react'
+import { useTranslation } from 'react-i18next'
 
 interface NavigationItemProps {
   to: string
   icon: IconifyIcon
   selectedIcon: IconifyIcon
-  label: string
+  label: keyof typeof import('../locales/th.json')['navigation']
 }
 
 export const NavigationItem: FC<NavigationItemProps> = ({
@@ -25,6 +26,7 @@ export const NavigationItem: FC<NavigationItemProps> = ({
   selectedIcon,
   label,
 }) => {
+  const { t } = useTranslation('navigation')
   const { pathname } = useLocation()
 
   const isSelected = pathname === to
@@ -38,7 +40,7 @@ export const NavigationItem: FC<NavigationItemProps> = ({
       )}
     >
       <Icon icon={isSelected ? selectedIcon : icon} className="h-6 w-6" />
-      <span className="mt-2 text-title-xs">{label}</span>
+      <span className="mt-2 text-title-xs">{t(label)}</span>
     </Link>
   )
 }
@@ -56,19 +58,19 @@ export const BottomNavigation: FC<BottomNavigationProps> = ({ ...props }) => {
           to="/"
           icon={IconExploreOutline}
           selectedIcon={IconExplore}
-          label="Explore"
+          label="explore"
         />
         <NavigationItem
           to="/records"
           icon={IconFileOutline}
           selectedIcon={IconFile}
-          label="Records"
+          label="records"
         />
         <NavigationItem
           to="/profile"
           icon={IconPersonOutline}
           selectedIcon={IconPerson}
-          label="Profile"
+          label="profile"
         />
       </div>
     </div>

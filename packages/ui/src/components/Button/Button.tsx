@@ -1,5 +1,6 @@
 import type { VariantProps } from 'class-variance-authority'
 import { cva } from 'class-variance-authority'
+import clsx from 'clsx'
 import * as React from 'react'
 
 const buttonVariants = cva(
@@ -90,22 +91,29 @@ const buttonVariants = cva(
 )
 
 type ButtonProps = VariantProps<typeof buttonVariants> &
-  React.ComponentProps<'button'>
+  Omit<React.ComponentProps<'button'>, 'children'> & {
+    label: string
+  }
 
 export const Button: React.FC<ButtonProps> = ({
   appearance,
   state,
+  label,
+  className,
   ...props
 }) => {
   return (
     <button
-      className={buttonVariants({
-        appearance,
-        state,
-      })}
+      className={clsx(
+        buttonVariants({
+          appearance,
+          state,
+        }),
+        className
+      )}
       {...props}
     >
-      Boop
+      {label}
     </button>
   )
 }

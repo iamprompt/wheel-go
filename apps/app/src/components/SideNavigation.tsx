@@ -8,11 +8,13 @@ import type { IconifyIcon } from '@iconify/react'
 import { Icon } from '@iconify/react'
 import IconArrowBack from '@iconify/icons-material-symbols/arrow-back-ios-new-rounded'
 import IconCampaign from '@iconify/icons-material-symbols/campaign-rounded'
+import { useTranslation } from 'react-i18next'
+import { Button } from '@wheel-go/ui'
 import { WheelGoWordMark } from './WheelGoWordMark'
 
 interface DialogMenuItemProps {
   to: string
-  label: string
+  label: keyof typeof import('../locales/th.json')['navigation']
   icon?: IconifyIcon
   iconColor?: string
   iconPosition?: 'left' | 'right'
@@ -25,6 +27,8 @@ const DialogMenuItem: FC<DialogMenuItemProps> = ({
   iconColor,
   iconPosition = 'right',
 }) => {
+  const { t } = useTranslation('navigation')
+
   const IconElement = icon ? (
     <Icon icon={icon} className={clsx('inline-block w-6 h-6', iconColor)} />
   ) : null
@@ -33,7 +37,7 @@ const DialogMenuItem: FC<DialogMenuItemProps> = ({
     <div className="flex gap-3 items-center py-3 px-6">
       {iconPosition === 'left' ? IconElement : null}
       <Link to={to} className="font-bold text-gray-900">
-        {label}
+        {t(label)}
       </Link>
       {iconPosition === 'right' ? IconElement : null}
     </div>
@@ -49,6 +53,8 @@ export const SideNavigation: FC<SideNavigationProps> = ({
   isOpen,
   onClose,
 }) => {
+  const { t } = useTranslation('navigation')
+
   return (
     <Transition appear show={isOpen} as={Fragment}>
       <Dialog as="div" className="relative z-[80]" onClose={onClose}>
@@ -104,22 +110,22 @@ export const SideNavigation: FC<SideNavigationProps> = ({
                   <div className="flex flex-col gap-4">
                     <DialogMenuItem
                       to="/announcements"
-                      label="Announcement"
+                      label="announcement"
                       icon={IconCampaign}
                       iconColor="text-error-500"
                     />
-                    <DialogMenuItem to="/settings" label="Settings" />
-                    <DialogMenuItem to="/how-to-use" label="How to Use" />
-                    <DialogMenuItem to="/faq" label="FAQ" />
+                    <DialogMenuItem to="/settings" label="settings" />
+                    <DialogMenuItem to="/how-to-use" label="how_to_use" />
+                    <DialogMenuItem to="/faq" label="faq" />
                   </div>
                 </div>
                 <div className="py-4">
-                  <button
-                    className="w-full rounded-xl border border-gray-300 py-3 px-6 font-bold"
+                  <Button
+                    appearance="secondary"
+                    className="w-full"
                     onClick={() => {}}
-                  >
-                    Sign Out
-                  </button>
+                    label={t('logout')}
+                  />
                 </div>
               </Dialog.Panel>
             </Transition.Child>

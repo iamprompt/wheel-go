@@ -2,5 +2,16 @@
   "common": {
     "app_name": "วีลโก",
     "go_page": "ไปหน้า{{page}}"
+  },
+  "navigation": {
+    "announcement": "ประกาศ",
+    "settings": "ตั้งค่า",
+    "how_to_use": "วิธีใช้งาน",
+    "faq": "คำถามที่พบบ่อย",
+    "help": "ช่วยเหลือ",
+    "logout": "ออกจากระบบ",
+    "explore": "สำรวจ",
+    "records": "บันทึกของฉัน",
+    "profile": "โปรไฟล์"
   }
 }

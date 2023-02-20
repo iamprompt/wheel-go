@@ -2,5 +2,16 @@
   "common": {
     "app_name": "wheel go",
     "go_page": "Go to {{page}}"
+  },
+  "navigation": {
+    "announcement": "Announcement",
+    "settings": "Settings",
+    "how_to_use": "How to use",
+    "faq": "FAQ",
+    "help": "Help",
+    "logout": "Sign out",
+    "explore": "Explore",
+    "records": "Records",
+    "profile": "Profile"
   }
 }

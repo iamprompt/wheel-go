@@ -220,6 +220,7 @@ importers:
       '@wheel-go/tsconfig': workspace:*
       autoprefixer: ^10.4.13
       class-variance-authority: ^0.4.0
+      clsx: ^1.2.1
       eslint: ^8.33.0
       eslint-config-wheel-go: workspace:*
       postcss: ^8.4.21
@@ -232,6 +233,7 @@ importers:
       typescript: ^4.9.5
     dependencies:
       class-variance-authority: 0.4.0_typescript@4.9.5
+      clsx: 1.2.1
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@storybook/addon-essentials': 7.0.0-beta.50_biqbaboplfbrettd7655fr4n2y
