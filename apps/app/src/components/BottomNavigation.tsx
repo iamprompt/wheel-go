@@ -1,17 +1,11 @@
 import type { ComponentProps, FC } from 'react'
 
-// Icons
-import IconFile from '@iconify/icons-ic/insert-drive-file'
-import IconFileOutline from '@iconify/icons-ic/outline-insert-drive-file'
-import IconExplore from '@iconify/icons-material-symbols/explore'
-import IconExploreOutline from '@iconify/icons-material-symbols/explore-outline'
-import IconPerson from '@iconify/icons-material-symbols/person'
-import IconPersonOutline from '@iconify/icons-material-symbols/person-outline'
 import clsx from 'clsx'
 import { Link, useLocation } from 'react-router-dom'
 import type { IconifyIcon } from '@iconify/react'
 import { Icon } from '@iconify/react'
 import { useTranslation } from 'react-i18next'
+import { BottomNavigationItems } from '@/const/BottomNavigation'
 
 interface NavigationItemProps {
   to: string
@@ -54,24 +48,15 @@ export const BottomNavigation: FC<BottomNavigationProps> = ({ ...props }) => {
       {...props}
     >
       <div className="grid grid-cols-3 pt-4">
-        <NavigationItem
-          to="/"
-          icon={IconExploreOutline}
-          selectedIcon={IconExplore}
-          label="explore"
-        />
-        <NavigationItem
-          to="/records"
-          icon={IconFileOutline}
-          selectedIcon={IconFile}
-          label="records"
-        />
-        <NavigationItem
-          to="/profile"
-          icon={IconPersonOutline}
-          selectedIcon={IconPerson}
-          label="profile"
-        />
+        {BottomNavigationItems.map((item) => (
+          <NavigationItem
+            key={`bottom_${item.label}`}
+            to={item.to}
+            icon={item.icon}
+            selectedIcon={item.selectedIcon}
+            label={item.label}
+          />
+        ))}
       </div>
     </div>
   )

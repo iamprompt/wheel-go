@@ -7,10 +7,10 @@ import clsx from 'clsx'
 import type { IconifyIcon } from '@iconify/react'
 import { Icon } from '@iconify/react'
 import IconArrowBack from '@iconify/icons-material-symbols/arrow-back-ios-new-rounded'
-import IconCampaign from '@iconify/icons-material-symbols/campaign-rounded'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@wheel-go/ui'
 import { WheelGoWordMark } from './WheelGoWordMark'
+import { SideNavigationItems } from '@/const/SideNavigation'
 
 interface DialogMenuItemProps {
   to: string
@@ -108,15 +108,16 @@ export const SideNavigation: FC<SideNavigationProps> = ({
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <DialogMenuItem
-                      to="/announcements"
-                      label="announcement"
-                      icon={IconCampaign}
-                      iconColor="text-error-500"
-                    />
-                    <DialogMenuItem to="/settings" label="settings" />
-                    <DialogMenuItem to="/how-to-use" label="how_to_use" />
-                    <DialogMenuItem to="/faq" label="faq" />
+                    {SideNavigationItems.map((item) => (
+                      <DialogMenuItem
+                        key={`side_${item.label}`}
+                        to={item.to}
+                        label={item.label}
+                        icon={item.icon}
+                        iconColor={item.iconColor}
+                        iconPosition={item.iconPosition}
+                      />
+                    ))}
                   </div>
                 </div>
                 <div className="py-4">
