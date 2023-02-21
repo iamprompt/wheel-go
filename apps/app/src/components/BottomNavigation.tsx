@@ -47,7 +47,7 @@ export const BottomNavigation: FC<BottomNavigationProps> = ({ ...props }) => {
       className="fixed bottom-0 left-0 z-50 w-full rounded-t-xl bg-white shadow-medium safe-left safe-right safe-bottom shadow-2"
       {...props}
     >
-      <div className="grid grid-cols-3 pt-4">
+      <div className="grid grid-cols-3 py-2 h-20 items-center">
         {BottomNavigationItems.map((item) => (
           <NavigationItem
             key={`bottom_${item.label}`}

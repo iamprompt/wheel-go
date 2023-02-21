@@ -4,7 +4,7 @@ import { ExploreMap } from '@/components/ExploreMap'
 
 export const ExplorePage: FC = () => {
   return (
-    <HomeLayout>
+    <HomeLayout fullScreen>
       {/* <div>Explore</div>
       <Link to="/page2">Page2</Link> */}
       <ExploreMap className="z-[1] h-screen w-screen" />

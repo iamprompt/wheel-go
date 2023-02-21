@@ -37,7 +37,7 @@ export const Header: FC<HeaderProps> = ({ menu = true, search = true }) => {
           ) : null}
         </div>
         {/* Center Logo */}
-        <div className="shrink-0 p-[1px]">
+        <div className="shrink-0">
           <WheelGoWordMark className="h-6" variant="light" />
         </div>
         {/* Right Side Action Button */}

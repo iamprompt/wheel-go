@@ -4,6 +4,7 @@ import { DeviceProvider } from './contexts/useDevice'
 import { GeolocationProvider } from './contexts/useGeolocation'
 import { ExplorePage } from './pages/explore'
 import { Page2 } from './pages/page2'
+import { NotFound } from './pages/_notFound'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: '/page2',
     element: <Page2 />,
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ])
 

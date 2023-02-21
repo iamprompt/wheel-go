@@ -1,13 +1,7 @@
-import type { FC } from 'react'
+import type { ComponentProps, FC } from 'react'
 
-interface BlankLayoutProps {
-  children: React.ReactNode
-}
+interface BlankLayoutProps extends ComponentProps<'div'> {}
 
-export const BlankLayout: FC<BlankLayoutProps> = ({ children }) => {
-  return (
-    <div>
-      <div>{children}</div>
-    </div>
-  )
+export const BlankLayout: FC<BlankLayoutProps> = ({ children, ...props }) => {
+  return <div {...props}>{children}</div>
 }

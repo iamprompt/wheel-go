@@ -8,8 +8,7 @@ export const Page2 = () => {
   const { t } = useTranslation('common')
 
   return (
-    <HomeLayout>
-      <div className="pt-20">{t('app_name')}</div>
+    <HomeLayout className="py-5">
       <Link to="/">{t('go_page', { page: 'หน้าหลัก' })}</Link>
       <Button
         label={t('change_language')}
@@ -22,6 +21,9 @@ export const Page2 = () => {
           }
         }}
       />
+      {Array.from({ length: 100 }).map((_, i) => (
+        <div key={i}>{t('app_name')}</div>
+      ))}
     </HomeLayout>
   )
 }
