@@ -1,21 +1,21 @@
 import type { ComponentProps, FC } from 'react'
 import clsx from 'clsx'
 import { BlankLayout } from './Blank'
-import { HomeHeader } from '@/components/HomeHeader'
+import { Header } from '@/components/Header'
 import { BottomNavigation } from '@/components/BottomNavigation'
 
-interface HomeLayoutProps extends ComponentProps<'div'> {
+interface ActionTitleLayoutProps extends ComponentProps<'div'> {
   fullScreen?: boolean
 }
 
-export const HomeLayout: FC<HomeLayoutProps> = ({
+export const ActionTitleLayout: FC<ActionTitleLayoutProps> = ({
   children,
   fullScreen,
   ...props
 }) => {
   return (
     <BlankLayout className="safe-top safe-bottom">
-      <HomeHeader />
+      <Header title={'Settings'} />
       <main
         className={clsx(!fullScreen && 'pt-14 pb-20', 'min-h-screen relative')}
       >
