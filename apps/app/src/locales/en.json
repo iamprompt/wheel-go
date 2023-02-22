@@ -2,7 +2,11 @@
   "common": {
     "app_name": "wheel go",
     "go_page": "Go to {{page}}",
-    "change_language": "Change Language"
+    "change_language": "Change Language",
+    "done": "Done",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save"
   },
   "navigation": {
     "announcement": "Announcement",
@@ -14,5 +18,19 @@
     "explore": "Explore",
     "records": "Records",
     "profile": "Profile"
+  },
+  "settings": {
+    "settings_title": "Settings",
+    "general_section": "General",
+    "general_language": "Language/ภาษา",
+    "privacy_section": "Privacy",
+    "privacy_data_allowance": "Your Personal Data Allowance",
+    "privacy_terms_and_policy": "Terms and Privacy Policy",
+    "about_section": "About",
+    "about_version": "Version",
+    "about_copyright": "Copyright",
+    "about_copyright_value": "Mahidol University",
+    "support_section": "Supported Division Organizations",
+    "delete_account": "Delete your account"
   }
 }

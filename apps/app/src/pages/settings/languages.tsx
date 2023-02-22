@@ -4,11 +4,13 @@ import { useState } from 'react'
 import { Icon } from '@iconify/react'
 import IconRadioUnchecked from '@iconify/icons-ic/outline-radio-button-unchecked'
 import IconRadioChecked from '@iconify/icons-ic/outline-radio-button-checked'
+import { useTranslation } from 'react-i18next'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
 import { AvailableLanguages } from '@/const/Languages'
 import { useApp } from '@/contexts/useApp'
 
 export const LanguageSettingsPage = () => {
+  const { t } = useTranslation('common')
   const navigate = useNavigate()
   const { appLanguage, setAppLanguage } = useApp()
   const [selectedLanguage, setSelectedLanguage] = useState(appLanguage)
@@ -31,7 +33,7 @@ export const LanguageSettingsPage = () => {
             className="font-bold"
             onClick={() => handleLanguageChange(selectedLanguage)}
           >
-            Done
+            {t('done')}
           </button>
         ),
       }}

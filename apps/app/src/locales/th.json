@@ -2,7 +2,11 @@
   "common": {
     "app_name": "วีลโก",
     "go_page": "ไปหน้า{{page}}",
-    "change_language": "เปลี่ยนภาษา"
+    "change_language": "เปลี่ยนภาษา",
+    "done": "เสร็จ",
+    "close": "ปิด",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก"
   },
   "navigation": {
     "announcement": "ประกาศ",
@@ -14,5 +18,19 @@
     "explore": "สำรวจ",
     "records": "บันทึกของฉัน",
     "profile": "โปรไฟล์"
+  },
+  "settings": {
+    "settings_title": "ตั้งค่า",
+    "general_section": "ทั่วไป",
+    "general_language": "Language/ภาษา",
+    "privacy_section": "ความเป็นส่วนตัว",
+    "privacy_data_allowance": "การอนุญาตการให้ข้อมูล",
+    "privacy_terms_and_policy": "ข้อกำหนดและเงื่อนไข",
+    "about_section": "เกี่ยวกับ",
+    "about_version": "เวอร์ชัน",
+    "about_copyright": "ลิขสิทธิ์",
+    "about_copyright_value": "มหาวิทยาลัยมหิดล",
+    "support_section": "หน่วยงานที่สนับสนุน",
+    "delete_account": "ลบบัญชี"
   }
 }

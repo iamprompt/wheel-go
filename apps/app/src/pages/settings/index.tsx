@@ -5,12 +5,15 @@ import {
   NativeSettings,
 } from 'capacitor-native-settings'
 import { Button } from '@wheel-go/ui'
+import { useTranslation } from 'react-i18next'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
 import { SettingListItem } from '@/components/SettingListItem'
 import { useApp } from '@/contexts/useApp'
 import { AvailableLanguages } from '@/const/Languages'
 
 export const SettingsPage = () => {
+  const { t } = useTranslation('settings')
+  const { t: tCommon } = useTranslation('common')
   const navigate = useNavigate()
   const { appLanguage } = useApp()
 
@@ -26,7 +29,7 @@ export const SettingsPage = () => {
   return (
     <ActionTitleLayout
       header={{
-        title: 'Settings',
+        title: t('settings_title'),
         left: false,
         right: (
           <button
@@ -36,7 +39,7 @@ export const SettingsPage = () => {
               navigate('/')
             }}
           >
-            Done
+            {tCommon('done')}
           </button>
         ),
       }}
@@ -45,11 +48,11 @@ export const SettingsPage = () => {
         {/* General */}
         <div className="w-full">
           <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
-            General
+            {t('general_section')}
           </div>
           <div className="divide-y divide-soap-100 border-y border-soap-100">
             <SettingListItem
-              label="Language / ภาษา"
+              label={t('general_language')}
               value={
                 AvailableLanguages.find((lang) => lang.code === appLanguage)
                   ?.name || ''
@@ -64,15 +67,15 @@ export const SettingsPage = () => {
         {/* Privacy */}
         <div className="w-full">
           <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
-            Privacy
+            {t('privacy_section')}
           </div>
           <div className="divide-y divide-soap-100 border-y border-soap-100">
             <SettingListItem
-              label="Your Personal Data Allowance"
+              label={t('privacy_data_allowance')}
               onClick={handleOpenNativeSettings}
             />
             <SettingListItem
-              label="Terms and Privacy Policy"
+              label={t('privacy_terms_and_policy')}
               onClick={() => {
                 navigate('/settings/policy')
               }}
@@ -83,13 +86,17 @@ export const SettingsPage = () => {
         {/* Account */}
         <div className="w-full">
           <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
-            About
+            {t('about_section')}
           </div>
           <div className="divide-y divide-soap-100 border-y border-soap-100">
-            <SettingListItem label="Version" value="0.0.1" icon={false} />
             <SettingListItem
-              label="Copyright"
-              value="Mahidol University"
+              label={t('about_version')}
+              value="0.0.1"
+              icon={false}
+            />
+            <SettingListItem
+              label={t('about_copyright')}
+              value={t('about_copyright_value')}
               icon={false}
             />
           </div>
@@ -97,7 +104,7 @@ export const SettingsPage = () => {
 
         <div className="mt-8 w-full">
           <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
-            Supported Division Organizations
+            {t('support_section')}
           </div>
           <div className="divide-y divide-soap-100 border-y border-soap-100">
             <div className="flex flex-row items-center justify-center gap-6 px-4 py-4 font-bold w-full">
@@ -112,7 +119,7 @@ export const SettingsPage = () => {
         <Button
           className="w-full"
           appearance="secondary"
-          label="Delete Account"
+          label={t('delete_account')}
           onClick={() => {
             navigate('/settings/delete-account')
           }}
