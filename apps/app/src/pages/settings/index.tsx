@@ -1,9 +1,115 @@
+import { useNavigate } from 'react-router-dom'
+import {
+  AndroidSettings,
+  IOSSettings,
+  NativeSettings,
+} from 'capacitor-native-settings'
+import { Button } from '@wheel-go/ui'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
+import { SettingListItem } from '@/components/SettingListItem'
 
 export const SettingsPage = () => {
+  const navigate = useNavigate()
+
+  const handleOpenNativeSettings = () => {
+    NativeSettings.open({
+      optionAndroid: AndroidSettings.ApplicationDetails,
+      optionIOS: IOSSettings.App,
+    })
+  }
+
   return (
-    <ActionTitleLayout>
-      <div>Settings</div>
+    <ActionTitleLayout
+      header={{
+        title: 'Settings',
+        left: false,
+        right: (
+          <button
+            className="font-bold"
+            onClick={() => {
+              console.log('done')
+              navigate('/')
+            }}
+          >
+            Done
+          </button>
+        ),
+      }}
+    >
+      <div className="relative flex flex-col items-center space-y-6 pt-6 pb-10">
+        {/* General */}
+        <div className="w-full">
+          <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
+            General
+          </div>
+          <div className="divide-y divide-soap-100 border-y border-soap-100">
+            <SettingListItem
+              label="Language / ภาษา"
+              value="English"
+              onClick={() => {
+                navigate('/settings/languages')
+              }}
+            />
+          </div>
+        </div>
+
+        {/* Privacy */}
+        <div className="w-full">
+          <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
+            Privacy
+          </div>
+          <div className="divide-y divide-soap-100 border-y border-soap-100">
+            <SettingListItem
+              label="Your Personal Data Allowance"
+              onClick={handleOpenNativeSettings}
+            />
+            <SettingListItem
+              label="Terms and Privacy Policy"
+              onClick={() => {
+                navigate('/settings/policy')
+              }}
+            />
+          </div>
+        </div>
+
+        {/* Account */}
+        <div className="w-full">
+          <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
+            About
+          </div>
+          <div className="divide-y divide-soap-100 border-y border-soap-100">
+            <SettingListItem label="Version" value="0.0.1" icon={false} />
+            <SettingListItem
+              label="Copyright"
+              value="Mahidol University"
+              icon={false}
+            />
+          </div>
+        </div>
+
+        <div className="mt-8 w-full">
+          <div className="mb-2 px-4 text-sm font-bold text-french-vanilla-500">
+            Supported Division Organizations
+          </div>
+          <div className="divide-y divide-soap-100 border-y border-soap-100">
+            <div className="flex flex-row items-center justify-center gap-6 px-4 py-4 font-bold w-full">
+              <img src="/images/partner/ict_logo.png" alt="" />
+              <img src="/images/partner/mu_physystem_logo.png" alt="" />
+              <img src="/images/partner/mu_dss_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-14 px-4">
+        <Button
+          className="w-full"
+          appearance="secondary"
+          label="Delete Account"
+          onClick={() => {
+            navigate('/settings/delete-account')
+          }}
+        />
+      </div>
     </ActionTitleLayout>
   )
 }

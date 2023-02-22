@@ -18,6 +18,7 @@ def capacitor_pods
   pod 'CapacitorKeyboard', :path => '../../../../node_modules/.pnpm/@capacitor+keyboard@4.1.1_@capacitor+core@4.6.3/node_modules/@capacitor/keyboard'
   pod 'CapacitorPreferences', :path => '../../../../node_modules/.pnpm/@capacitor+preferences@4.0.2_@capacitor+core@4.6.3/node_modules/@capacitor/preferences'
   pod 'CapacitorStatusBar', :path => '../../../../node_modules/.pnpm/@capacitor+status-bar@4.1.1_@capacitor+core@4.6.3/node_modules/@capacitor/status-bar'
+  pod 'CapacitorNativeSettings', :path => '../../../../node_modules/.pnpm/capacitor-native-settings@4.0.3_@capacitor+core@4.6.3/node_modules/capacitor-native-settings'
 end
 
 target 'App' do

@@ -29,6 +29,7 @@
     "@capacitor/status-bar": "4.1.1",
     "@wheel-go/tsconfig": "workspace:^0.0.0",
     "@wheel-go/ui": "workspace:^0.0.0",
+    "capacitor-native-settings": "^4.0.3",
     "clsx": "^1.2.1",
     "i18next": "^22.4.10",
     "leaflet": "^1.9.3",

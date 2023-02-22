@@ -22,3 +22,6 @@ project(':capacitor-preferences').projectDir = new File('../../../node_modules/.
 
 include ':capacitor-status-bar'
 project(':capacitor-status-bar').projectDir = new File('../../../node_modules/.pnpm/@capacitor+status-bar@4.1.1_@capacitor+core@4.6.3/node_modules/@capacitor/status-bar/android')
+
+include ':capacitor-native-settings'
+project(':capacitor-native-settings').projectDir = new File('../../../node_modules/.pnpm/capacitor-native-settings@4.0.3_@capacitor+core@4.6.3/node_modules/capacitor-native-settings/android')

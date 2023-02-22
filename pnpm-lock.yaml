@@ -77,6 +77,7 @@ importers:
       '@wheel-go/tsconfig': workspace:^0.0.0
       '@wheel-go/ui': workspace:^0.0.0
       autoprefixer: ^10.4.13
+      capacitor-native-settings: ^4.0.3
       clsx: ^1.2.1
       eslint: ^8.34.0
       eslint-config-wheel-go: workspace:^0.0.0
@@ -106,6 +107,7 @@ importers:
       '@capacitor/status-bar': 4.1.1_@capacitor+core@4.6.3
       '@wheel-go/tsconfig': link:../../packages/tsconfig
       '@wheel-go/ui': link:../../packages/ui
+      capacitor-native-settings: 4.0.3_@capacitor+core@4.6.3
       clsx: 1.2.1
       i18next: 22.4.10
       leaflet: 1.9.3
@@ -6174,6 +6176,14 @@ packages:
 
   /caniuse-lite/1.0.30001456:
     resolution: {integrity: sha512-XFHJY5dUgmpMV25UqaD4kVq2LsiaU5rS8fb0f17pCoXQiQslzmFgnfOxfvo1bTpTqf7dwG/N/05CnLCnOEKmzA==}
+
+  /capacitor-native-settings/4.0.3_@capacitor+core@4.6.3:
+    resolution: {integrity: sha512-wxWFwdSySJ1dX8eLFogTYluLYu8fc8biMTL9x0ioI559mHiPDDoCBc//W0nhByUG7a1UxrY4vM4MGDTc/Mf7Bw==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.1
+    dependencies:
+      '@capacitor/core': 4.6.3
+    dev: false
 
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
