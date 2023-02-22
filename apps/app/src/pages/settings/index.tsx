@@ -7,9 +7,12 @@ import {
 import { Button } from '@wheel-go/ui'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
 import { SettingListItem } from '@/components/SettingListItem'
+import { useApp } from '@/contexts/useApp'
+import { AvailableLanguages } from '@/const/Languages'
 
 export const SettingsPage = () => {
   const navigate = useNavigate()
+  const { appLanguage } = useApp()
 
   const handleOpenNativeSettings = () => {
     NativeSettings.open({
@@ -17,6 +20,8 @@ export const SettingsPage = () => {
       optionIOS: IOSSettings.App,
     })
   }
+
+  console.log('appLanguage', appLanguage)
 
   return (
     <ActionTitleLayout
@@ -45,7 +50,10 @@ export const SettingsPage = () => {
           <div className="divide-y divide-soap-100 border-y border-soap-100">
             <SettingListItem
               label="Language / ภาษา"
-              value="English"
+              value={
+                AvailableLanguages.find((lang) => lang.code === appLanguage)
+                  ?.name || ''
+              }
               onClick={() => {
                 navigate('/settings/languages')
               }}
