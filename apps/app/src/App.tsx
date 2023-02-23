@@ -7,6 +7,7 @@ import { ExplorePage } from './pages/explore'
 import { Page2 } from './pages/page2'
 import { SettingsPage } from './pages/settings'
 import { LanguageSettingsPage } from './pages/settings/languages'
+import { PolicySettingsPage } from './pages/settings/policy'
 import { NotFound } from './pages/_notFound'
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'languages',
         element: <LanguageSettingsPage />,
+      },
+      {
+        path: 'policy',
+        element: <PolicySettingsPage />,
       },
     ],
   },
