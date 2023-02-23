@@ -4,6 +4,7 @@ import { AppProvider } from './contexts/useApp'
 import { DeviceProvider } from './contexts/useDevice'
 import { GeolocationProvider } from './contexts/useGeolocation'
 import { ExplorePage } from './pages/explore'
+import { FaqPage } from './pages/faq'
 import { Page2 } from './pages/page2'
 import { SettingsPage } from './pages/settings'
 import { AccountDeletionSettingsPage } from './pages/settings/account-deletion'
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         element: <AccountDeletionSettingsPage />,
       },
     ],
+  },
+  {
+    path: '/faq',
+    element: <FaqPage />,
   },
   {
     path: '*',
