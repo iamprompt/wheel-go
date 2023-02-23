@@ -6,6 +6,7 @@ import { GeolocationProvider } from './contexts/useGeolocation'
 import { ExplorePage } from './pages/explore'
 import { Page2 } from './pages/page2'
 import { SettingsPage } from './pages/settings'
+import { AccountDeletionSettingsPage } from './pages/settings/account-deletion'
 import { LanguageSettingsPage } from './pages/settings/languages'
 import { PolicySettingsPage } from './pages/settings/policy'
 import { NotFound } from './pages/_notFound'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: 'policy',
         element: <PolicySettingsPage />,
+      },
+      {
+        path: 'delete-account',
+        element: <AccountDeletionSettingsPage />,
       },
     ],
   },
