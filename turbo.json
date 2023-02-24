@@ -13,10 +13,12 @@
         "MONGODB_URI",
         "PAYLOAD_PORT",
         "PAYLOAD_PUBLIC_SERVER_URL"
-      ]
+      ],
+      "dependsOn": ["^build"]
     },
     "@wheel-go/app#build": {
-      "env": ["NODE_ENV"]
+      "env": ["NODE_ENV"],
+      "dependsOn": ["^build"]
     },
     "lint": {
       "outputs": []
