@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
-    "build#@wheel-go/payload": {
+    "@wheel-go/payload#build": {
       "env": [
         "PAYLOAD_SECRET",
         "MONGODB_URI",
@@ -14,7 +14,7 @@
         "PAYLOAD_PUBLIC_SERVER_URL"
       ]
     },
-    "build#@wheel-go/app": {
+    "@wheel-go/app#build": {
       "env": ["NODE_ENV"]
     },
     "lint": {

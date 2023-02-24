@@ -12,8 +12,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "prepare": "husky install",
-    "dev:admin": "turbo run dev --filter=admin-dashboard --filter=ui",
-    "dev:app": "turbo run dev --filter=app --filter=ui"
+    "dev:admin": "turbo run dev --filter=admin-dashboard...",
+    "dev:app": "turbo run dev --filter=app..."
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "turbo run lint -- --fix"
