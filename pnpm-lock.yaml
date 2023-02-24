@@ -85,6 +85,7 @@ importers:
       autoprefixer: ^10.4.13
       capacitor-native-settings: ^4.0.3
       clsx: ^1.2.1
+      dayjs: ^1.11.7
       eslint: ^8.34.0
       eslint-config-wheel-go: workspace:^0.0.0
       i18next: ^22.4.10
@@ -115,6 +116,7 @@ importers:
       '@wheel-go/ui': link:../../packages/ui
       capacitor-native-settings: 4.0.3_@capacitor+core@4.6.3
       clsx: 1.2.1
+      dayjs: 1.11.7
       i18next: 22.4.10
       leaflet: 1.9.3
       react: 18.2.0
@@ -6989,6 +6991,10 @@ packages:
 
   /dateformat/4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
+    dev: false
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
     dev: false
 
   /debounce-fn/4.0.0:
