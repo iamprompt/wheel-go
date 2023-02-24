@@ -5,7 +5,6 @@ import { ActionTitleLayout } from '@/layouts/ActionTitle'
 
 export const AccountDeletionSettingsPage = () => {
   const { t } = useTranslation('settings')
-  const { t: tCommon } = useTranslation('common')
   const navigate = useNavigate()
 
   return (

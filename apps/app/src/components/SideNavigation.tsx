@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
 import type { FC } from 'react'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
 import clsx from 'clsx'
 
@@ -13,34 +13,62 @@ import { WheelGoWordMark } from './WheelGoWordMark'
 import { SideNavigationItems } from '@/const/SideNavigation'
 
 interface DialogMenuItemProps {
-  to: string
+  to?: string
   label: keyof typeof import('../locales/th.json')['navigation']
   icon?: IconifyIcon
   iconColor?: string
   iconPosition?: 'left' | 'right'
+  dialog?: FC<{ isOpen: boolean; onClose: () => void }>
 }
 
 const DialogMenuItem: FC<DialogMenuItemProps> = ({
   to,
   label,
+  dialog: DialogComponent,
   icon,
   iconColor,
   iconPosition = 'right',
 }) => {
   const { t } = useTranslation('navigation')
+  const [isOpen, setIsOpen] = useState(false)
 
   const IconElement = icon ? (
     <Icon icon={icon} className={clsx('inline-block w-6 h-6', iconColor)} />
   ) : null
 
   return (
-    <div className="flex gap-3 items-center py-3 px-6">
-      {iconPosition === 'left' ? IconElement : null}
-      <Link to={to} className="font-bold text-gray-900">
-        {t(label)}
-      </Link>
-      {iconPosition === 'right' ? IconElement : null}
-    </div>
+    <>
+      <div className="flex gap-3 items-center py-3 px-6">
+        {iconPosition === 'left' ? IconElement : null}
+        {to ? (
+          <Link to={to} className="font-bold text-gray-900">
+            {t(label)}
+          </Link>
+        ) : (
+          <div
+            className="font-bold text-gray-900 cursor-pointer"
+            {...{
+              ...(DialogComponent
+                ? {
+                    onClick: () => setIsOpen(true),
+                  }
+                : {}),
+            }}
+          >
+            {t(label)}
+          </div>
+        )}
+        {iconPosition === 'right' ? IconElement : null}
+      </div>
+      {DialogComponent ? (
+        <DialogComponent
+          isOpen={isOpen}
+          onClose={() => {
+            setIsOpen(false)
+          }}
+        />
+      ) : null}
+    </>
   )
 }
 
@@ -116,6 +144,7 @@ export const SideNavigation: FC<SideNavigationProps> = ({
                         icon={item.icon}
                         iconColor={item.iconColor}
                         iconPosition={item.iconPosition}
+                        dialog={item.dialog}
                       />
                     ))}
                   </div>

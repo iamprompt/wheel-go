@@ -92,10 +92,14 @@ const buttonVariants = cva(
 )
 
 type ButtonProps = VariantProps<typeof buttonVariants> &
-  Omit<React.ComponentProps<'button'>, 'children'> & {
+  Omit<
+    React.ComponentProps<'button'> & React.ComponentProps<'a'>,
+    'children'
+  > & {
     label: string
     icon?: string
     iconPosition?: 'left' | 'right'
+    as?: React.ElementType
   }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -105,12 +109,13 @@ export const Button: React.FC<ButtonProps> = ({
   className,
   icon,
   iconPosition = 'right',
+  as: AsComponent = 'button',
   ...props
 }) => {
   const IconElement = icon && <Icon icon={icon} className="ui-h-6 ui-w-6" />
 
   return (
-    <button
+    <AsComponent
       className={clsx(
         buttonVariants({
           appearance,
@@ -124,6 +129,6 @@ export const Button: React.FC<ButtonProps> = ({
       {iconPosition === 'left' && IconElement}
       {label}
       {iconPosition === 'right' && IconElement}
-    </button>
+    </AsComponent>
   )
 }

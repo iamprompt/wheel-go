@@ -1,15 +1,18 @@
 import IconCampaign from '@iconify/icons-material-symbols/campaign-rounded'
 import type { IconifyIcon } from '@iconify/react'
+import type { FC } from 'react'
+import { HelpDialog } from '@/components/HelpDialog'
 
 interface SideNavigationItem {
-  to: string
+  to?: string
   label: keyof typeof import('../locales/th.json')['navigation']
   icon?: IconifyIcon
   iconColor?: string
   iconPosition?: 'left' | 'right'
+  dialog?: FC<{ isOpen: boolean; onClose: () => void }>
 }
 
-export const SideNavigationItems = [
+export const SideNavigationItems: Array<SideNavigationItem> = [
   {
     to: '/announcements',
     label: 'announcement',
@@ -29,4 +32,8 @@ export const SideNavigationItems = [
     to: '/faq',
     label: 'faq',
   },
-] satisfies Array<SideNavigationItem>
+  {
+    dialog: HelpDialog,
+    label: 'help',
+  },
+]
