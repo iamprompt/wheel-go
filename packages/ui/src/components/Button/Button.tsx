@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react'
 import type { VariantProps } from 'class-variance-authority'
 import { cva } from 'class-variance-authority'
 import clsx from 'clsx'
@@ -93,6 +94,8 @@ const buttonVariants = cva(
 type ButtonProps = VariantProps<typeof buttonVariants> &
   Omit<React.ComponentProps<'button'>, 'children'> & {
     label: string
+    icon?: string
+    iconPosition?: 'left' | 'right'
   }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -100,8 +103,12 @@ export const Button: React.FC<ButtonProps> = ({
   state,
   label,
   className,
+  icon,
+  iconPosition = 'right',
   ...props
 }) => {
+  const IconElement = icon && <Icon icon={icon} className="ui-h-6 ui-w-6" />
+
   return (
     <button
       className={clsx(
@@ -109,11 +116,14 @@ export const Button: React.FC<ButtonProps> = ({
           appearance,
           state,
         }),
+        'ui-flex ui-items-center ui-justify-center ui-gap-x-2',
         className
       )}
       {...props}
     >
+      {iconPosition === 'left' && IconElement}
       {label}
+      {iconPosition === 'right' && IconElement}
     </button>
   )
 }

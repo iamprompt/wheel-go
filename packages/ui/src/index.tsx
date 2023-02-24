@@ -1,4 +1,6 @@
 import '@/styles/styles.css'
-// import '@/styles/fonts.css'
+import { setupIconify } from './utils'
+
+setupIconify()
 
 export * from './components/Button'

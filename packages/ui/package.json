@@ -43,6 +43,9 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@iconify-json/ic": "^1.1.13",
+    "@iconify-json/material-symbols": "^1.1.32",
+    "@iconify/react": "^4.1.0",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "react-dom": "^18.2.0"

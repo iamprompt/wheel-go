@@ -15,6 +15,21 @@ const meta: Meta<typeof Button> = {
         type: 'radio',
       },
     },
+    label: {
+      control: {
+        type: 'text',
+      },
+    },
+    icon: {
+      control: {
+        type: 'text',
+      },
+    },
+    iconPosition: {
+      control: {
+        type: 'radio',
+      },
+    },
   },
 }
 
@@ -25,5 +40,6 @@ export const Default: Story = {
   args: {
     appearance: 'primary',
     state: 'inactive',
+    label: 'Button',
   },
 }
