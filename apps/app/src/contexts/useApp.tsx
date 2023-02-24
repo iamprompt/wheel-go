@@ -23,19 +23,6 @@ const useAppProvider = (): AppContext => {
     appLanguage: 'th',
   })
 
-  const setAppLanguageFromPreferences = async () => {
-    const { value: appLanguage } = await Preferences.get({
-      key: 'appLanguage',
-    })
-
-    if (appLanguage) {
-      setState((prevState) => ({
-        ...prevState,
-        appLanguage,
-      }))
-    }
-  }
-
   // Change language according to device language
   const setAppLanguage = async (language: string) => {
     console.log('setAppLanguage', language)
@@ -58,6 +45,21 @@ const useAppProvider = (): AppContext => {
       }))
     } else {
       await setAppLanguage('th')
+    }
+  }
+
+  const setAppLanguageFromPreferences = async () => {
+    const { value: appLanguage } = await Preferences.get({
+      key: 'appLanguage',
+    })
+
+    if (appLanguage) {
+      setState((prevState) => ({
+        ...prevState,
+        appLanguage,
+      }))
+
+      setAppLanguage(appLanguage)
     }
   }
 
