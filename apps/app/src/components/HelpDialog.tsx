@@ -3,6 +3,7 @@ import { Icon } from '@iconify/react'
 import { Button } from '@wheel-go/ui'
 import type { FC } from 'react'
 import { Fragment } from 'react'
+import { useTranslation } from 'react-i18next'
 
 interface HelpDialogProps {
   isOpen: boolean
@@ -10,6 +11,9 @@ interface HelpDialogProps {
 }
 
 export const HelpDialog: FC<HelpDialogProps> = ({ isOpen, onClose }) => {
+  const { t: tCommon } = useTranslation('common')
+  const { t: tDialog } = useTranslation('dialog')
+
   return (
     <Transition appear show={isOpen} as={Fragment}>
       <Dialog as="div" className="relative z-[80]" onClose={onClose}>
@@ -42,19 +46,19 @@ export const HelpDialog: FC<HelpDialogProps> = ({ isOpen, onClose }) => {
                     icon="ic:round-warning"
                     className="h-8 w-8 text-warning-400"
                   />
-                  Need a help?
+                  {tDialog('help.title')}
                 </Dialog.Title>
                 <p className="text-french-vanilla-500 text-subtext-l text-center">
-                  You will be redirected to Mahidol Disability Service Support
+                  {tDialog('help.content')}
                 </p>
                 <div className="grid grid-cols-2 gap-3 mt-6">
                   <Button
-                    label="Cancel"
+                    label={tCommon('cancel')}
                     appearance="secondary"
                     onClick={() => onClose()}
                   />
                   <Button
-                    label="Go"
+                    label={tCommon('go')}
                     appearance="primary"
                     as="a"
                     href="https://www.facebook.com/DSS.Mahidol.Page"
