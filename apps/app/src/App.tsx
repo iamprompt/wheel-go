@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { AppProvider } from './contexts/useApp'
 import { DeviceProvider } from './contexts/useDevice'
 import { GeolocationProvider } from './contexts/useGeolocation'
+import { AnnouncementsPage } from './pages/announcements'
 import { ExplorePage } from './pages/explore'
 import { FaqPage } from './pages/faq'
 import { Page2 } from './pages/page2'
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: '/faq',
     element: <FaqPage />,
+  },
+  {
+    path: '/announcements',
+    element: <AnnouncementsPage />,
   },
   {
     path: '*',

@@ -70,6 +70,7 @@ importers:
       '@capacitor/preferences': ^4.0.2
       '@capacitor/status-bar': 4.1.1
       '@headlessui/react': ^1.7.11
+      '@iconify-json/ic': ^1.1.13
       '@iconify/icons-ic': ^1.2.13
       '@iconify/icons-material-symbols': ^1.2.29
       '@iconify/react': ^4.1.0
@@ -124,6 +125,7 @@ importers:
     devDependencies:
       '@capacitor/cli': 4.6.3
       '@headlessui/react': 1.7.11_biqbaboplfbrettd7655fr4n2y
+      '@iconify-json/ic': 1.1.13
       '@iconify/icons-ic': 1.2.13
       '@iconify/icons-material-symbols': 1.2.29
       '@iconify/react': 4.1.0_react@18.2.0
@@ -2763,7 +2765,6 @@ packages:
     resolution: {integrity: sha512-5i5zal/VRwTrs99iMTnG1Zu97bgX9Mkiu9TzR1U1rHBylUnBW+HkOweoQVEPgQITGG024/lNbZxU+3Aa2xuDww==}
     dependencies:
       '@iconify/types': 2.0.0
-    dev: false
 
   /@iconify-json/material-symbols/1.1.32:
     resolution: {integrity: sha512-gC05Wcs/rv3IFWyJ1ugFXR7ENQIZ8dVX1tBruV0/jJc7bpUCvNBY8/dEKO5oq/XkTi8Q4bazCgN3NeKcFPlnMg==}

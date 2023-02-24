@@ -6,6 +6,9 @@ import '@/styles/globals.css'
 import '@wheel-go/ui/styles.css'
 
 import '@/utils/i18n'
+import { setupIconify } from './utils/icons'
+
+setupIconify()
 
 const root = document.getElementById('root') as HTMLElement
 
