@@ -15,7 +15,7 @@ const getFontStyle = (name, size, weight, lineHeight) => {
     [name]: [
       `${size}px`,
       {
-        lineHeight: lineHeight ? `${lineHeight}px` : 'normal',
+        lineHeight: lineHeight ? `${lineHeight}px` : undefined,
         fontWeight: fontWeightMap[weight] || '400',
       },
     ],

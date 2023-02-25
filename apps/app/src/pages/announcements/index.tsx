@@ -2,10 +2,13 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
 import { AnnouncementCard } from '@/components/AnnouncementCard'
+import { MAnnouncements } from '@/utils/mock'
 
 export const AnnouncementsPage = () => {
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language as 'en' | 'th'
+
+  const items = MAnnouncements[currentLanguage]
 
   return (
     <ActionTitleLayout
@@ -13,22 +16,16 @@ export const AnnouncementsPage = () => {
         title: 'Announcements',
       }}
     >
-      <Link to={`/announcements/id1`}>
-        <AnnouncementCard
-          title="The elevators are now renovating"
-          location="Faculty of ICT, Mahidol University"
-          tags={['building', 'incident']}
-          timestamp="2023-01-28T02:00:00.000Z"
-        />
-      </Link>
-      <Link to={`/announcements/id1`}>
-        <AnnouncementCard
-          title="The road beside the library is now constructing"
-          location="Division of Physical System and Environment, Mahidol University"
-          tags={['incident']}
-          timestamp="2023-01-28T02:00:00.000Z"
-        />
-      </Link>
+      {items.map((item) => (
+        <Link to={`/announcements/${item.id}`} key={item.id}>
+          <AnnouncementCard
+            title={item.title}
+            location={item.location}
+            tags={item.tags}
+            timestamp={item.timestamp}
+          />
+        </Link>
+      ))}
     </ActionTitleLayout>
   )
 }
