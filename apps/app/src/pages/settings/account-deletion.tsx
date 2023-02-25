@@ -14,13 +14,13 @@ export const AccountDeletionSettingsPage = () => {
       }}
       className="py-6 px-4"
     >
-      <h1 className="text-title-xl text-magenta-600 mb-3">
+      <h1 className="mb-3 text-title-xl text-magenta-600">
         {t('account_deletion_page.title')}
       </h1>
-      <div className="text-magenta-600 mb-3 text-body-m">
+      <div className="mb-3 text-body-m text-magenta-600">
         {t('account_deletion_page.description')}
       </div>
-      <div className="mb-3 text-french-vanilla-500 text-body-s">
+      <div className="mb-3 text-body-s text-french-vanilla-500">
         {t('account_deletion_page.remark')}
       </div>
       <hr className="my-6 bg-soap-100" />

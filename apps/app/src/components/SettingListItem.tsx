@@ -21,16 +21,16 @@ export const SettingListItem: FC<SettingListItemProps> = ({
   return (
     <div
       className={clsx(
-        'flex flex-row items-center justify-between px-4 py-3 text-sm font-bold w-full',
+        'flex w-full flex-row items-center justify-between px-4 py-3 text-sm font-bold',
         onClick && 'cursor-pointer',
         className
       )}
       onClick={onClick}
       {...props}
     >
-      <div className="text-magenta-600 text-title-xs">{label}</div>
+      <div className="text-title-xs text-magenta-600">{label}</div>
       <div className="flex flex-1 flex-row items-center justify-end gap-3">
-        <div className="text-right text-french-vanilla-500 text-title-xs">
+        <div className="text-right text-title-xs text-french-vanilla-500">
           {value}
         </div>
         {icon !== false ? (

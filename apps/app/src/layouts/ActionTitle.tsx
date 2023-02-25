@@ -17,7 +17,7 @@ export const ActionTitleLayout: FC<ActionTitleLayoutProps> = ({
   return (
     <BlankLayout className="safe-top safe-bottom">
       <Header {...header} />
-      <main className={clsx(!fullScreen && 'pt-14', 'min-h-screen relative')}>
+      <main className={clsx(!fullScreen && 'pt-14', 'relative min-h-screen')}>
         <div {...props}>{children}</div>
       </main>
     </BlankLayout>

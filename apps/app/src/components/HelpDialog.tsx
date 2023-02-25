@@ -40,18 +40,18 @@ export const HelpDialog: FC<HelpDialogProps> = ({ isOpen, onClose }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="flex w-full max-w-md flex-col bg-white px-4 py-6 text-left align-middle shadow-2 rounded-m transition-all">
-                <Dialog.Title className="text-title-l flex flex-row gap-x-3 items-center justify-center mb-3">
+              <Dialog.Panel className="flex w-full max-w-md flex-col rounded-m bg-white px-4 py-6 text-left align-middle shadow-2 transition-all">
+                <Dialog.Title className="mb-3 flex flex-row items-center justify-center gap-x-3 text-title-l">
                   <Icon
                     icon="ic:round-warning"
                     className="h-8 w-8 text-warning-400"
                   />
                   {tDialog('help.title')}
                 </Dialog.Title>
-                <p className="text-french-vanilla-500 text-subtext-l text-center">
+                <p className="text-center text-subtext-l text-french-vanilla-500">
                   {tDialog('help.content')}
                 </p>
-                <div className="grid grid-cols-2 gap-3 mt-6">
+                <div className="mt-6 grid grid-cols-2 gap-3">
                   <Button
                     label={tCommon('cancel')}
                     appearance="secondary"

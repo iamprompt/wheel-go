@@ -107,7 +107,7 @@ export const SettingsPage = () => {
             {t('support_section')}
           </div>
           <div className="divide-y divide-soap-100 border-y border-soap-100">
-            <div className="flex flex-row items-center justify-center gap-6 px-4 py-4 font-bold w-full">
+            <div className="flex w-full flex-row items-center justify-center gap-6 p-4 font-bold">
               <img src="/images/partner/ict_logo.png" alt="" />
               <img src="/images/partner/mu_physystem_logo.png" alt="" />
               <img src="/images/partner/mu_dss_logo.png" alt="" />

@@ -33,12 +33,12 @@ const DialogMenuItem: FC<DialogMenuItemProps> = ({
   const [isOpen, setIsOpen] = useState(false)
 
   const IconElement = icon ? (
-    <Icon icon={icon} className={clsx('inline-block w-6 h-6', iconColor)} />
+    <Icon icon={icon} className={clsx('inline-block h-6 w-6', iconColor)} />
   ) : null
 
   return (
     <>
-      <div className="flex gap-3 items-center py-3 px-6">
+      <div className="flex items-center gap-3 py-3 px-6">
         {iconPosition === 'left' ? IconElement : null}
         {to ? (
           <Link to={to} className="font-bold text-gray-900">
@@ -46,7 +46,7 @@ const DialogMenuItem: FC<DialogMenuItemProps> = ({
           </Link>
         ) : (
           <div
-            className="font-bold text-gray-900 cursor-pointer"
+            className="cursor-pointer font-bold text-gray-900"
             {...{
               ...(DialogComponent
                 ? {

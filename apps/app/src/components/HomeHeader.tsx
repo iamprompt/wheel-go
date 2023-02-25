@@ -22,8 +22,8 @@ export const HomeHeader: FC<HomeHeaderProps> = ({
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
 
   return (
-    <div className="fixed top-0 left-0 z-50 w-full safe-top bg-white shadow-2 rounded-b-m">
-      <header className="flex flex-row w-full justify-between items-center px-5 py-4">
+    <div className="fixed top-0 left-0 z-50 w-full rounded-b-m bg-white shadow-2 safe-top">
+      <header className="flex w-full flex-row items-center justify-between px-5 py-4">
         {/* Left Side Hamburger Menu */}
         <div className="h-6 w-6">
           {menu ? (

@@ -47,7 +47,7 @@ export const LanguageSettingsPage = () => {
           <RadioGroup.Option
             key={language.code}
             value={language.code}
-            className="flex flex-row items-center justify-between px-4 py-3 text-sm font-bold w-full cursor-pointer"
+            className="flex w-full cursor-pointer flex-row items-center justify-between px-4 py-3 text-sm font-bold"
           >
             {({ checked }) => (
               <>
@@ -55,7 +55,7 @@ export const LanguageSettingsPage = () => {
                 <span>
                   <Icon
                     icon={checked ? IconRadioChecked : IconRadioUnchecked}
-                    className="w-6 h-6 text-magenta-500"
+                    className="h-6 w-6 text-magenta-500"
                   />
                 </span>
               </>

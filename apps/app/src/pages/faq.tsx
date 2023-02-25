@@ -44,7 +44,7 @@ export const FaqPage = () => {
             </Disclosure>
           ))}
         </div>
-        <div className="mt-3 text-xs text-theme-description">
+        <div className="text-theme-description mt-3 text-xs">
           Can&apos;t find an answer to your questions? Feel free to contact us
           at{' '}
           <a

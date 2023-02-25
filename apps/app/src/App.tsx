@@ -4,6 +4,7 @@ import { AppProvider } from './contexts/useApp'
 import { DeviceProvider } from './contexts/useDevice'
 import { GeolocationProvider } from './contexts/useGeolocation'
 import { AnnouncementsPage } from './pages/announcements'
+import { DetailAnnouncementPage } from './pages/announcements/details'
 import { ExplorePage } from './pages/explore'
 import { FaqPage } from './pages/faq'
 import { Page2 } from './pages/page2'
@@ -49,7 +50,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/announcements',
-    element: <AnnouncementsPage />,
+    children: [
+      {
+        index: true,
+        element: <AnnouncementsPage />,
+      },
+      {
+        path: ':id',
+        element: <DetailAnnouncementPage />,
+      },
+    ],
   },
   {
     path: '*',
