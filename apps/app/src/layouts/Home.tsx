@@ -11,15 +11,19 @@ interface HomeLayoutProps extends ComponentProps<'div'> {
 export const HomeLayout: FC<HomeLayoutProps> = ({
   children,
   fullScreen,
+  className,
   ...props
 }) => {
   return (
-    <BlankLayout className="safe-top safe-bottom">
+    <BlankLayout>
       <HomeHeader />
-      <main
-        className={clsx(!fullScreen && 'pt-14 pb-20', 'relative min-h-screen')}
-      >
-        <div {...props}>{children}</div>
+      <main className={clsx(!fullScreen && 'safe-top safe-bottom', 'relative')}>
+        <div
+          className={clsx(!fullScreen && 'pt-14 pb-20', className)}
+          {...props}
+        >
+          {children}
+        </div>
       </main>
       <BottomNavigation />
     </BlankLayout>

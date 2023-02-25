@@ -11,14 +11,17 @@ interface ActionTitleLayoutProps extends ComponentProps<'div'> {
 export const ActionTitleLayout: FC<ActionTitleLayoutProps> = ({
   children,
   fullScreen,
+  className,
   header,
   ...props
 }) => {
   return (
-    <BlankLayout className="safe-top safe-bottom">
+    <BlankLayout>
       <Header {...header} />
-      <main className={clsx(!fullScreen && 'pt-14', 'relative')}>
-        <div {...props}>{children}</div>
+      <main className={clsx(!fullScreen && 'safe-top safe-bottom', 'relative')}>
+        <div className={clsx(!fullScreen && 'pt-14', className)} {...props}>
+          {children}
+        </div>
       </main>
     </BlankLayout>
   )

@@ -18,15 +18,16 @@ export const PolicySettingsPage = () => {
           </button>
         ),
       }}
-      className="py-6 px-4"
     >
-      <h1 className="text-title-xl text-magenta-600">
-        {t('policy_page.title')}
-      </h1>
-      <p className="text-title-s text-magenta-500">
-        {t('policy_page.effective_date')}
-      </p>
-      <div className="my-3 text-magenta-600">{t('policy_page.content')}</div>
+      <div className="py-6 px-4">
+        <h1 className="text-title-xl text-magenta-600">
+          {t('policy_page.title')}
+        </h1>
+        <p className="text-title-s text-magenta-500">
+          {t('policy_page.effective_date')}
+        </p>
+        <div className="my-3 text-magenta-600">{t('policy_page.content')}</div>
+      </div>
     </ActionTitleLayout>
   )
 }

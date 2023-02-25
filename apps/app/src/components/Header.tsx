@@ -7,7 +7,7 @@ import clsx from 'clsx'
 interface HeaderProps {
   left?: JSX.Element | false
   right?: JSX.Element | false
-  title?: JSX.Element | string
+  title?: JSX.Element | string | null
   transparent?: boolean
 }
 
