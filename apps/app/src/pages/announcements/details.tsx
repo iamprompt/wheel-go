@@ -29,7 +29,7 @@ export const DetailAnnouncementPage = () => {
     >
       <div className="relative aspect-[2/1] w-full max-h-40">
         <img
-          src="https://mahidol.ac.th/temp/2018/09/009-2-1.jpg"
+          src={item.images[0]}
           className="w-full object-cover object-center h-full"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent" />
@@ -58,7 +58,16 @@ export const DetailAnnouncementPage = () => {
         <section className="py-6">
           <div className="text-title-s mb-3">รายละเอียด</div>
           <div className="text-body-s">{item.details}</div>
-          <div></div>
+          <div className="flex flex-row gap-3 mt-3">
+            {item.images.map((image) => (
+              <div
+                key={image}
+                className="w-full rounded-s overflow-hidden border border-french-vanilla-300"
+              >
+                <img src={image} className="w-full h-full object-cover" />
+              </div>
+            ))}
+          </div>
         </section>
         <section className="py-6">
           <div className="text-title-s mb-3">ข้อมูลการติดต่อ</div>
