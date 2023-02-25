@@ -5,14 +5,14 @@ import type { FC } from 'react'
 interface AnnouncementItemProps {
   title: string
   location: string
-  type: string
+  tags: string[]
   timestamp: string
 }
 
-export const AnnouncementItem: FC<AnnouncementItemProps> = ({
+export const AnnouncementCard: FC<AnnouncementItemProps> = ({
   title,
   location,
-  type,
+  tags,
   timestamp,
 }) => {
   const date = dayjs(timestamp)
@@ -28,6 +28,16 @@ export const AnnouncementItem: FC<AnnouncementItemProps> = ({
         <div className="flex flex-row divide-x divide-soap-100 text-french-vanilla-500 text-subtext-s">
           <div className="pr-2">{date.format('DD MMMM YYYY')}</div>
           <div className="pl-2">{date.format('HH:mm')}</div>
+        </div>
+        <div className="mt-2 flex flex-row gap-3">
+          {tags.map((item) => (
+            <div
+              key={item}
+              className="px-2 py-1 text-body-s text-center text-french-vanilla-500 bg-french-vanilla-300 rounded-full"
+            >
+              {item}
+            </div>
+          ))}
         </div>
       </div>
       <div className="w-6 shrink-0">
