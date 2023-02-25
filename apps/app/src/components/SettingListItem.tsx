@@ -6,7 +6,7 @@ import IconArrowForward from '@iconify/icons-material-symbols/arrow-forward-ios-
 
 interface SettingListItemProps extends ComponentProps<'div'> {
   label: string
-  value?: string
+  value?: string | null
   icon?: IconifyIcon | false
 }
 

@@ -17,7 +17,7 @@ export const HomeLayout: FC<HomeLayoutProps> = ({
   return (
     <BlankLayout>
       <HomeHeader />
-      <main className={clsx(!fullScreen && 'safe-top safe-bottom', 'relative')}>
+      <main className={clsx(!fullScreen && 'safe-top safe-bottom')}>
         <div
           className={clsx(!fullScreen && 'pt-14 pb-20', className)}
           {...props}
