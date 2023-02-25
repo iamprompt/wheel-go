@@ -61,5 +61,14 @@
     "toilet": "ห้องน้ำ",
     "park": "สวน",
     "incident": "เหตุการณ์"
+  },
+  "announcements": {
+    "details": "รายละเอียด",
+    "contact": "ข้อมูลการติดต่อ",
+    "contact_channel": {
+      "email": "อีเมล",
+      "phone": "โทรศัพท์",
+      "line": "LINE"
+    }
   }
 }

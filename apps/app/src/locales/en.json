@@ -61,5 +61,14 @@
     "toilet": "Toilet",
     "park": "Park",
     "incident": "Incident"
+  },
+  "announcements": {
+    "details": "Details",
+    "contact": "Contact",
+    "contact_channel": {
+      "email": "Email",
+      "phone": "Phone",
+      "line": "LINE"
+    }
   }
 }

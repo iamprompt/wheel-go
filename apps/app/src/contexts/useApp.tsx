@@ -1,4 +1,5 @@
 import { Preferences } from '@capacitor/preferences'
+import dayjs from 'dayjs'
 import type { FC, ReactNode } from 'react'
 import { createContext, useContext, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -39,6 +40,7 @@ const useAppProvider = (): AppContext => {
       })
 
       i18n.changeLanguage(isSupportedLanguage ? language : 'th')
+      dayjs.locale(isSupportedLanguage ? language : 'th')
       setState((prevState) => ({
         ...prevState,
         appLanguage: isSupportedLanguage ? language : 'th',

@@ -6,6 +6,7 @@ import '@/styles/globals.css'
 import '@wheel-go/ui/styles.css'
 
 import '@/utils/i18n'
+import '@/utils/dayjs'
 import { setupIconify } from './utils/icons'
 
 setupIconify()

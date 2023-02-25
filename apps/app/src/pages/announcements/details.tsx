@@ -64,7 +64,7 @@ export const DetailAnnouncementPage = () => {
           </div>
         </section>
         <section className="py-6">
-          <div className="text-title-s mb-3">รายละเอียด</div>
+          <div className="text-title-s mb-3">{t('announcements:details')}</div>
           <div className="text-body-s">{item.details}</div>
           <div className="flex flex-row gap-3 mt-3">
             {item.images.map((image) => (
@@ -78,15 +78,15 @@ export const DetailAnnouncementPage = () => {
           </div>
         </section>
         <section className="py-6">
-          <div className="text-title-s mb-3">ข้อมูลการติดต่อ</div>
+          <div className="text-title-s mb-3">{t('announcements:contact')}</div>
           <ul>
             {Object.entries(item.contact).map(([key, value]) => (
               <li
                 key={key}
-                className="py-2 flex flex-row justify-between items-baseline"
+                className="py-1 flex flex-row justify-between items-baseline"
               >
                 <div className="text-title-xs text-french-vanilla-500">
-                  {key}
+                  {t(`announcements:contact_channel.${key}`)}
                 </div>
                 <div className="text-body-m text-magenta-500">{value}</div>
               </li>
