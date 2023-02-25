@@ -1,6 +1,9 @@
 import { Icon } from '@iconify/react'
+import { Tag } from '@wheel-go/ui'
 import dayjs from 'dayjs'
 import type { FC } from 'react'
+import { useTranslation } from 'react-i18next'
+import { Categories } from '@/const/Category'
 
 interface AnnouncementItemProps {
   title: string
@@ -15,6 +18,7 @@ export const AnnouncementCard: FC<AnnouncementItemProps> = ({
   tags,
   timestamp,
 }) => {
+  const { t } = useTranslation('category')
   const date = dayjs(timestamp)
 
   return (
@@ -30,14 +34,20 @@ export const AnnouncementCard: FC<AnnouncementItemProps> = ({
           <div className="pl-2">{date.format('HH:mm')}</div>
         </div>
         <div className="mt-2 flex flex-row gap-3">
-          {tags.map((item) => (
-            <div
-              key={item}
-              className="rounded-full bg-french-vanilla-300 px-2 py-1 text-center text-body-s text-french-vanilla-500"
-            >
-              {item}
-            </div>
-          ))}
+          {tags.map((item) => {
+            const tag = Categories[item as keyof typeof Categories]
+
+            return (
+              <Tag
+                key={item}
+                label={t(tag.label)}
+                color={tag.color as Parameters<typeof Tag>[0]['color']}
+                state="available"
+                icon={tag.icon}
+                compact
+              />
+            )
+          })}
         </div>
       </div>
       <div className="w-6 shrink-0">

@@ -52,5 +52,14 @@
       "title": "Need a help?",
       "content": "You will be redirected to Mahidol Disability Service Support"
     }
+  },
+  "category": {
+    "building": "Building",
+    "transport": "Transport",
+    "cafe": "Cafe",
+    "food": "Food",
+    "toilet": "Toilet",
+    "park": "Park",
+    "incident": "Incident"
   }
 }

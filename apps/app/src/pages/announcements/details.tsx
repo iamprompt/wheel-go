@@ -2,12 +2,14 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useMemo } from 'react'
 import dayjs from 'dayjs'
+import { Tag } from '@wheel-go/ui'
 import { ActionTitleLayout } from '@/layouts/ActionTitle'
 import { MAnnouncements } from '@/utils/mock'
+import { Categories } from '@/const/Category'
 
 export const DetailAnnouncementPage = () => {
   const { id } = useParams<{ id: string }>()
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const currentLanguage = i18n.language as 'en' | 'th'
 
   const item = MAnnouncements[currentLanguage].find(
@@ -45,14 +47,20 @@ export const DetailAnnouncementPage = () => {
             <div className="pl-2">{date.format('HH:mm')}</div>
           </div>
           <div className="mt-2 flex flex-row gap-3">
-            {item.tags.map((item) => (
-              <div
-                key={item}
-                className="rounded-full bg-french-vanilla-300 px-2 py-1 text-center text-body-s text-french-vanilla-500"
-              >
-                {item}
-              </div>
-            ))}
+            {item.tags.map((item) => {
+              const tag = Categories[item as keyof typeof Categories]
+
+              return (
+                <Tag
+                  key={item}
+                  label={t(`category:${tag.label}`)}
+                  color={tag.color as Parameters<typeof Tag>[0]['color']}
+                  state="available"
+                  icon={tag.icon}
+                  compact
+                />
+              )
+            })}
           </div>
         </section>
         <section className="py-6">
