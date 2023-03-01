@@ -1,7 +1,10 @@
 import { Button } from '@wheel-go/ui'
 import type { ComponentProps, FC } from 'react'
+import type { TRACE_STATUS } from '@/const/TracingStatus'
 
-interface BottomTracingActionsProps extends ComponentProps<'div'> {}
+interface BottomTracingActionsProps extends ComponentProps<'div'> {
+  status: TRACE_STATUS
+}
 
 export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
   ...props

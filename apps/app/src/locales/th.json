@@ -70,5 +70,13 @@
       "phone": "โทรศัพท์",
       "line": "LINE"
     }
+  },
+  "trace": {
+    "status": {
+      "tracing_prepare": "กำลังเตรียมการบันทึก",
+      "tracing": "กำลังบันทึกการเดินทาง",
+      "tracing_pause": "พักการเดินทาง",
+      "tracing_saved": "การเดินทางถูกบันทึกแล้ว"
+    }
   }
 }

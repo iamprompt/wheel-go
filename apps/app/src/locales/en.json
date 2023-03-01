@@ -70,5 +70,13 @@
       "phone": "Phone",
       "line": "LINE"
     }
+  },
+  "trace": {
+    "status": {
+      "tracing_prepare": "Prepare to trace",
+      "tracing": "Your journey is now recording",
+      "tracing_pause": "Your journey is pausing",
+      "tracing_saved": "Your journey is saved"
+    }
   }
 }
