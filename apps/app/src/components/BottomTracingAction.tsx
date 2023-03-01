@@ -7,6 +7,7 @@ interface BottomTracingActionsProps extends ComponentProps<'div'> {
 }
 
 export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
+  status,
   ...props
 }) => {
   return (
@@ -15,18 +16,49 @@ export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
       {...props}
     >
       <div className="flex flex-row items-center py-6 px-4 gap-5">
-        <Button
-          appearance="secondary"
-          label="Pause"
-          icon="ic:pause"
-          className="w-full"
-        />
-        <Button
-          appearance="primary"
-          label="Stop"
-          icon="ic:stop"
-          className="w-full"
-        />
+        {status === 'PREPARE' ? (
+          <>
+            <Button
+              appearance="primary"
+              label="Start Tracing"
+              className="w-full"
+            />
+          </>
+        ) : status === 'TRACING' ? (
+          <>
+            <Button
+              appearance="secondary"
+              label="Pause"
+              icon="ic:pause"
+              className="w-full"
+            />
+            <Button
+              appearance="primary"
+              label="Stop"
+              icon="ic:stop"
+              className="w-full"
+            />
+          </>
+        ) : status === 'PAUSE' ? (
+          <>
+            <Button
+              appearance="secondary"
+              label="Continue"
+              icon="ic:play-arrow"
+              className="w-full"
+            />
+            <Button
+              appearance="primary"
+              label="Stop"
+              icon="ic:stop"
+              className="w-full"
+            />
+          </>
+        ) : status === 'SAVED' ? (
+          <>
+            <Button appearance="primary" label="Save" className="w-full" />
+          </>
+        ) : null}
       </div>
     </div>
   )
