@@ -1,9 +1,12 @@
 import type { FC } from 'react'
 import { Icon } from '@iconify/react'
+import { useNavigate } from 'react-router-dom'
 import { HomeLayout } from '@/layouts/Home'
 import { ExploreMap } from '@/components/ExploreMap'
 
 export const ExplorePage: FC = () => {
+  const navigate = useNavigate()
+
   return (
     <HomeLayout fullScreen>
       {/* <div>Explore</div>
@@ -21,7 +24,12 @@ export const ExplorePage: FC = () => {
               </button>
             </div>
             <div className="flex flex-col rounded-m overflow-hidden divide-y divide-soap-100 shadow-2">
-              <button className="bg-white w-11 h-11 flex items-center justify-center">
+              <button
+                onClick={() => {
+                  navigate('/trace')
+                }}
+                className="bg-white w-11 h-11 flex items-center justify-center"
+              >
                 <Icon icon="ic:round-draw" className="w-5 h-5" />
               </button>
             </div>

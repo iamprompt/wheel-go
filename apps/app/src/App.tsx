@@ -12,6 +12,7 @@ import { SettingsPage } from './pages/settings'
 import { AccountDeletionSettingsPage } from './pages/settings/account-deletion'
 import { LanguageSettingsPage } from './pages/settings/languages'
 import { PolicySettingsPage } from './pages/settings/policy'
+import { TracePage } from './pages/trace'
 import { NotFound } from './pages/_notFound'
 
 const router = createBrowserRouter([
@@ -58,6 +59,15 @@ const router = createBrowserRouter([
       {
         path: ':id',
         element: <DetailAnnouncementPage />,
+      },
+    ],
+  },
+  {
+    path: '/trace',
+    children: [
+      {
+        index: true,
+        element: <TracePage />,
       },
     ],
   },

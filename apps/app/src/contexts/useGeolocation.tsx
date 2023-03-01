@@ -50,6 +50,8 @@ const useGeolocationProvider = (): GeolocationContext => {
   let watchId: string
 
   const onPositionChange = (position: Position | null) => {
+    console.log('position', position)
+
     if (position) {
       setState({
         accuracy: position.coords.accuracy,
@@ -89,6 +91,8 @@ export const GeolocationProvider: FC<GeolocationProviderProps> = ({
   children,
 }) => {
   const context = useGeolocationProvider()
+
+  console.log('context', context)
 
   return (
     <geolocationContext.Provider value={context}>
