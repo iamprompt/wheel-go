@@ -3,7 +3,7 @@ import type { FC } from 'react'
 import type { MapContainerProps } from 'react-leaflet'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 
-import 'leaflet/dist/leaflet.css'
+import '@/styles/leaflet.css'
 import { CurrentLocationMarker } from '@/utils/Map/CurrentLocationMarker'
 
 interface ExploreMapProps extends MapContainerProps {}

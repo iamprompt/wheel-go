@@ -47,7 +47,7 @@ const useGeolocationProvider = (): GeolocationContext => {
     timestamp: Date.now(),
   })
 
-  let watchId: string
+  const [watchId, setWatchId] = useState<string | null>(null)
 
   const onPositionChange = (position: Position | null) => {
     console.log('position', position)
@@ -67,15 +67,20 @@ const useGeolocationProvider = (): GeolocationContext => {
   }
 
   const initWatchPosition = async () => {
-    watchId = await Geolocation.watchPosition(
+    const watchIdLocal = await Geolocation.watchPosition(
       GeolocationOptions,
       onPositionChange
     )
+
+    setWatchId(watchIdLocal)
   }
 
   useEffect(() => {
     initWatchPosition()
     return () => {
+      if (watchId === null) {
+        return
+      }
       Geolocation.clearWatch({ id: watchId })
     }
   }, [])
