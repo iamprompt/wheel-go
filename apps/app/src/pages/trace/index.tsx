@@ -42,7 +42,14 @@ export const TracePage: FC = () => {
           </div>
         </div>
       </div>
-      <BottomTracingActions status={status} />
+      <BottomTracingActions
+        status={status}
+        onStart={() => setStatus(TRACE_STATUS.TRACING)}
+        onPause={() => setStatus(TRACE_STATUS.PAUSE)}
+        onContinue={() => setStatus(TRACE_STATUS.TRACING)}
+        onStop={() => setStatus(TRACE_STATUS.SAVED)}
+        onSave={() => setStatus(TRACE_STATUS.PREPARE)}
+      />
     </HeaderLayout>
   )
 }

@@ -4,10 +4,20 @@ import type { TRACE_STATUS } from '@/const/TracingStatus'
 
 interface BottomTracingActionsProps extends ComponentProps<'div'> {
   status: TRACE_STATUS
+  onStart: () => void
+  onPause: () => void
+  onContinue: () => void
+  onStop: () => void
+  onSave: () => void
 }
 
 export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
   status,
+  onStart,
+  onPause,
+  onContinue,
+  onStop,
+  onSave,
   ...props
 }) => {
   return (
@@ -22,6 +32,7 @@ export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
               appearance="primary"
               label="Start Tracing"
               className="w-full"
+              onClick={onStart}
             />
           </>
         ) : status === 'TRACING' ? (
@@ -31,12 +42,14 @@ export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
               label="Pause"
               icon="ic:pause"
               className="w-full"
+              onClick={onPause}
             />
             <Button
               appearance="primary"
               label="Stop"
               icon="ic:stop"
               className="w-full"
+              onClick={onStop}
             />
           </>
         ) : status === 'PAUSE' ? (
@@ -46,17 +59,24 @@ export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
               label="Continue"
               icon="ic:play-arrow"
               className="w-full"
+              onClick={onContinue}
             />
             <Button
               appearance="primary"
               label="Stop"
               icon="ic:stop"
               className="w-full"
+              onClick={onStop}
             />
           </>
         ) : status === 'SAVED' ? (
           <>
-            <Button appearance="primary" label="Save" className="w-full" />
+            <Button
+              appearance="primary"
+              label="Save"
+              className="w-full"
+              onClick={onSave}
+            />
           </>
         ) : null}
       </div>
