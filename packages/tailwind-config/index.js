@@ -253,6 +253,14 @@ module.exports = {
           'mu-shield': '#A6853E',
         },
       },
+      backgroundImage: {
+        'gradient-1':
+          'linear-gradient(101.11deg, #6A11B1 -11.34%, #78CCDD 106.27%);',
+        'gradient-2':
+          'linear-gradient(101.11deg, #1B052F -11.34%, #3CB5C9 106.27%);',
+        'gradient-3':
+          'linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 92.2%);',
+      },
       borderRadius: {
         zero: '0',
         s: '6px',
