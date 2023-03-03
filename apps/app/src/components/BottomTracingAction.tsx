@@ -2,13 +2,28 @@ import { Button } from '@wheel-go/ui'
 import type { ComponentProps, FC } from 'react'
 import { Fragment } from 'react'
 import { Icon } from '@iconify/react'
-import { Transition } from '@headlessui/react'
+import { Dialog, Transition } from '@headlessui/react'
 import type { TRACE_STATUS } from '@/const/TracingStatus'
 
 const PausePopup: FC<{ status: boolean }> = ({ status }) => {
   return (
-    <Transition show={status}>
-      <div className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10">
+    <Transition appear show={status}>
+      <Dialog
+        as="div"
+        onClose={() => {}}
+        className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10"
+      >
+        <Transition.Child
+          as={Fragment}
+          enter="ease-out duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="ease-in duration-200"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="fixed inset-0 bg-magenta-600/60" />
+        </Transition.Child>
         <Transition.Child
           enter="transition ease-in-out duration-300 transform"
           enterFrom="translate-y-full"
@@ -18,7 +33,7 @@ const PausePopup: FC<{ status: boolean }> = ({ status }) => {
           leaveTo="translate-y-full"
           as={Fragment}
         >
-          <div className="z-40 shadow-medium bottom-0 max-w-screen-md mx-auto w-full rounded-t-xl bg-white shadow-2 safe-bottom">
+          <Dialog.Panel className="z-40 shadow-medium bottom-0 max-w-screen-md mx-auto w-full rounded-t-xl bg-white shadow-2 safe-bottom">
             <div className="pb-24">
               <div className="p-4 flex items-center flex-col space-y-3">
                 <Icon icon="ic:round-accessible" className="w-20 h-20" />
@@ -32,17 +47,32 @@ const PausePopup: FC<{ status: boolean }> = ({ status }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </Dialog.Panel>
         </Transition.Child>
-      </div>
+      </Dialog>
     </Transition>
   )
 }
 
 const DonePopup: FC<{ status: boolean }> = ({ status }) => {
   return (
-    <Transition show={status}>
-      <div className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10">
+    <Transition appear show={status}>
+      <Dialog
+        as="div"
+        onClose={() => {}}
+        className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10"
+      >
+        <Transition.Child
+          as={Fragment}
+          enter="ease-out duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="ease-in duration-200"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="fixed inset-0 bg-magenta-600/60" />
+        </Transition.Child>
         <Transition.Child
           enter="transition ease-in-out duration-300 transform"
           enterFrom="translate-y-full"
@@ -82,7 +112,7 @@ const DonePopup: FC<{ status: boolean }> = ({ status }) => {
             </div>
           </div>
         </Transition.Child>
-      </div>
+      </Dialog>
     </Transition>
   )
 }

@@ -5,6 +5,7 @@ import { TracingStatusLabel } from '@wheel-go/ui'
 import { useTranslation } from 'react-i18next'
 import { Polyline, useMap } from 'react-leaflet'
 import L from 'leaflet'
+import { useNavigate } from 'react-router-dom'
 import { TraceMap } from '@/components/TraceMap'
 import { HeaderLayout } from '@/layouts/Header'
 import { BottomTracingActions } from '@/components/BottomTracingAction'
@@ -41,6 +42,7 @@ interface TraceData {
 }
 
 export const TracePage: FC = () => {
+  const navigate = useNavigate()
   const { t } = useTranslation('trace')
   const [status, setStatus] = useState<TRACE_STATUS>(TRACE_STATUS.PREPARE)
 
@@ -48,7 +50,6 @@ export const TracePage: FC = () => {
 
   const { latitude, longitude } = useGeolocation()
   const [traceData, setTraceData] = useState<TraceData[]>([])
-  const [watchId, setWatchId] = useState<string | null>(null)
 
   const onTraceStart = async () => {
     if (latitude === null || longitude === null) {
@@ -75,6 +76,7 @@ export const TracePage: FC = () => {
   const onTraceSave = () => {
     setTraceData([])
     setStatus(TRACE_STATUS.PREPARE)
+    navigate('/')
   }
 
   useEffect(() => {
