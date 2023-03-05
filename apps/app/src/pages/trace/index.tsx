@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import { Polyline, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import { useNavigate } from 'react-router-dom'
+import { Geolocation } from '@capacitor/geolocation'
 import { TraceMap } from '@/components/TraceMap'
 import { HeaderLayout } from '@/layouts/Header'
 import { BottomTracingActions } from '@/components/BottomTracingAction'
@@ -18,6 +19,17 @@ const GoToCurrentLocationButton = () => {
 
   const goToCurrentLocation = () => {
     if (latitude === null || longitude === null) {
+      Geolocation.requestPermissions().then((res) => {
+        if (res.location === 'granted') {
+          Geolocation.getCurrentPosition().then((res) => {
+            const latlng = new L.LatLng(
+              res.coords.latitude,
+              res.coords.longitude
+            )
+            map.flyTo(latlng, 18)
+          })
+        }
+      })
       return
     }
 
