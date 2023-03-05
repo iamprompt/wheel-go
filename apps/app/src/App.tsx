@@ -8,6 +8,9 @@ import { DetailAnnouncementPage } from './pages/announcements/details'
 import { ExplorePage } from './pages/explore'
 import { FaqPage } from './pages/faq'
 import { Page2 } from './pages/page2'
+import { RecordPage } from './pages/record'
+import { FavoritePlacesPage } from './pages/record/favorites'
+import { ReviewPlacesPage } from './pages/record/reviews'
 import { SettingsPage } from './pages/settings'
 import { AccountDeletionSettingsPage } from './pages/settings/account-deletion'
 import { LanguageSettingsPage } from './pages/settings/languages'
@@ -68,6 +71,33 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <TracePage />,
+      },
+    ],
+  },
+  {
+    path: '/records',
+    children: [
+      {
+        index: true,
+        element: <RecordPage />,
+      },
+      {
+        path: 'favorites',
+        children: [
+          {
+            index: true,
+            element: <FavoritePlacesPage />,
+          },
+        ],
+      },
+      {
+        path: 'reviews',
+        children: [
+          {
+            index: true,
+            element: <ReviewPlacesPage />,
+          },
+        ],
       },
     ],
   },

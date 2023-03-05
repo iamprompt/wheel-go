@@ -13,7 +13,7 @@ import { BottomTracingActions } from '@/components/BottomTracingAction'
 import { TRACE_STATUS, TRACE_STATUS_LABEL } from '@/const/TracingStatus'
 import { useGeolocation } from '@/contexts/useGeolocation'
 
-const GoToCurrentLocationButton = () => {
+export const GoToCurrentLocationButton = () => {
   const map = useMap()
   const { latitude, longitude } = useGeolocation()
 

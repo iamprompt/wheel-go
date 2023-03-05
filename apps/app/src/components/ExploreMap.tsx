@@ -8,7 +8,7 @@ import { CurrentLocationMarker } from '@/utils/Map/CurrentLocationMarker'
 
 interface ExploreMapProps extends MapContainerProps {}
 
-export const ExploreMap: FC<ExploreMapProps> = ({ ...props }) => {
+export const ExploreMap: FC<ExploreMapProps> = ({ children, ...props }) => {
   const geo = [13.7952296, 100.3229328] as LatLngTuple
 
   return (
@@ -32,6 +32,7 @@ export const ExploreMap: FC<ExploreMapProps> = ({ ...props }) => {
         pathOptions={{ color: 'black', opacity: 0.2 }}
       /> */}
       <CurrentLocationMarker />
+      {children}
     </MapContainer>
   )
 }
