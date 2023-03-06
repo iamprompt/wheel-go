@@ -35,7 +35,7 @@ export const TracingStatusLabel: FC<TracingStatusLabelProps> = ({
 }) => {
   const IconElement = icon ? (
     typeof icon === 'string' ? (
-      <Icon icon={icon} className="ui-w-6 ui-h-6" />
+      <Icon icon={icon} className="ui-h-6 ui-w-6" />
     ) : (
       icon
     )
