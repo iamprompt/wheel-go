@@ -11,7 +11,7 @@ const PausePopup: FC<{ status: boolean }> = ({ status }) => {
       <Dialog
         as="div"
         onClose={() => {}}
-        className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10"
+        className="absolute inset-x-0 bottom-0 z-10 flex justify-center px-4"
       >
         <Transition.Child
           as={Fragment}
@@ -33,10 +33,10 @@ const PausePopup: FC<{ status: boolean }> = ({ status }) => {
           leaveTo="translate-y-full"
           as={Fragment}
         >
-          <Dialog.Panel className="z-40 shadow-medium bottom-0 max-w-screen-md mx-auto w-full rounded-t-xl bg-white shadow-2 safe-bottom">
+          <Dialog.Panel className="bottom-0 z-40 mx-auto w-full max-w-screen-md rounded-t-xl bg-white shadow-2 safe-bottom">
             <div className="pb-24">
-              <div className="p-4 flex items-center flex-col space-y-3">
-                <Icon icon="ic:round-accessible" className="w-20 h-20" />
+              <div className="flex flex-col items-center space-y-3 p-4">
+                <Icon icon="ic:round-accessible" className="h-20 w-20" />
                 <div className="space-y-3">
                   <div className="text-title-xxl text-magenta-500">
                     Take a break
@@ -60,7 +60,7 @@ const DonePopup: FC<{ status: boolean }> = ({ status }) => {
       <Dialog
         as="div"
         onClose={() => {}}
-        className="absolute bottom-0 inset-x-0 flex justify-center px-4 z-10"
+        className="absolute inset-x-0 bottom-0 z-10 flex justify-center px-4"
       >
         <Transition.Child
           as={Fragment}
@@ -82,11 +82,11 @@ const DonePopup: FC<{ status: boolean }> = ({ status }) => {
           leaveTo="translate-y-full"
           as={Fragment}
         >
-          <div className="z-40 shadow-medium bottom-0 max-w-screen-md mx-auto w-full rounded-t-xl bg-white shadow-2 safe-bottom">
+          <div className="bottom-0 z-40 mx-auto w-full max-w-screen-md rounded-t-xl bg-white shadow-2 safe-bottom">
             <div className="pb-24">
-              <div className="p-4 divide-y divide-french-vanilla-300">
-                <div className="flex items-center flex-col space-y-3 pb-6">
-                  <Icon icon="ic:round-celebration" className="w-20 h-20" />
+              <div className="divide-y divide-french-vanilla-300 p-4">
+                <div className="flex flex-col items-center space-y-3 pb-6">
+                  <Icon icon="ic:round-celebration" className="h-20 w-20" />
                   <div className="space-y-3 text-center">
                     <div className="text-title-xxl text-magenta-500">Done!</div>
                     <div className="text-body-l text-french-vanilla-500">
@@ -94,7 +94,7 @@ const DonePopup: FC<{ status: boolean }> = ({ status }) => {
                     </div>
                   </div>
                 </div>
-                <div className="pt-6 flex flex-row justify-between">
+                <div className="flex flex-row justify-between pt-6">
                   <div>
                     <div className="text-title-xs text-french-vanilla-500">
                       Total Time
@@ -138,10 +138,10 @@ export const BottomTracingActions: FC<BottomTracingActionsProps> = ({
   return (
     <>
       <div
-        className="shadow-medium fixed bottom-0 left-0 z-50 w-full rounded-t-xl bg-white shadow-2 safe-left safe-right safe-bottom"
+        className="fixed bottom-0 left-0 z-50 w-full rounded-t-xl bg-white shadow-2 safe-left safe-right safe-bottom"
         {...props}
       >
-        <div className="flex flex-row items-center py-6 px-4 gap-5">
+        <div className="flex flex-row items-center gap-5 py-6 px-4">
           {status === 'PREPARE' ? (
             <>
               <Button

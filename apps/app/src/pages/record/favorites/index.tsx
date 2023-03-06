@@ -9,14 +9,14 @@ export const FavoritePlacesPage = () => {
         transparent: true,
       }}
     >
-      <div className="flex flex-col items-center gap-3 mb-6">
-        <div className=" bg-pomegranate-300 border-2 border-french-vanilla-100 inline-flex items-center justify-center h-16 w-16 shadow-2 rounded-full">
-          <Icon icon="ic:baseline-favorite" className="w-10 h-10 text-white" />
+      <div className="mb-6 flex flex-col items-center gap-3">
+        <div className=" inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-french-vanilla-100 bg-pomegranate-300 shadow-2">
+          <Icon icon="ic:baseline-favorite" className="h-10 w-10 text-white" />
         </div>
         <div className="text-title-l text-pomegranate-300">Favorite Places</div>
         <div className="text-subtext-l text-french-vanilla-500">3 places</div>
       </div>
-      <div className="border-y border-soap-100 divide-y divide-soap-100">
+      <div className="divide-y divide-soap-100 border-y border-soap-100">
         {Array.from({ length: 3 }).map((_, index) => (
           <PlaceItemWithRating
             key={index}

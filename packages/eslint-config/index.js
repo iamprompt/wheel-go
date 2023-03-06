@@ -3,6 +3,7 @@ module.exports = {
     '@antfu',
     'turbo',
     'plugin:storybook/recommended',
+    'plugin:tailwindcss/recommended',
     'plugin:prettier/recommended',
   ],
   // Override for next/babel issue - https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821

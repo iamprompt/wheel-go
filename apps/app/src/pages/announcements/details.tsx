@@ -29,17 +29,17 @@ export const DetailAnnouncementPage = () => {
       }}
       fullScreen
     >
-      <div className="relative aspect-[2/1] w-full max-h-40">
+      <div className="relative aspect-[2/1] max-h-40 w-full">
         <img
           src={item.images[0]}
-          className="w-full object-cover object-center h-full"
+          className="h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent" />
       </div>
-      <div className="px-4 divide-y divide-soap-100">
+      <div className="divide-y divide-soap-100 px-4">
         <section className="py-6">
           <div className="mb-2">
-            <div className="text-title-l mb-2">{item.title}</div>
+            <div className="mb-2 text-title-l">{item.title}</div>
             <div className="text-body-m">{item.location}</div>
           </div>
           <div className="flex flex-row divide-x divide-soap-100 text-body-s text-french-vanilla-500">
@@ -64,26 +64,26 @@ export const DetailAnnouncementPage = () => {
           </div>
         </section>
         <section className="py-6">
-          <div className="text-title-s mb-3">{t('announcements:details')}</div>
+          <div className="mb-3 text-title-s">{t('announcements:details')}</div>
           <div className="text-body-s">{item.details}</div>
-          <div className="flex flex-row gap-3 mt-3">
+          <div className="mt-3 flex flex-row gap-3">
             {item.images.map((image) => (
               <div
                 key={image}
-                className="w-full rounded-s overflow-hidden border border-french-vanilla-300"
+                className="w-full overflow-hidden rounded-s border border-french-vanilla-300"
               >
-                <img src={image} className="w-full h-full object-cover" />
+                <img src={image} className="h-full w-full object-cover" />
               </div>
             ))}
           </div>
         </section>
         <section className="py-6">
-          <div className="text-title-s mb-3">{t('announcements:contact')}</div>
+          <div className="mb-3 text-title-s">{t('announcements:contact')}</div>
           <ul>
             {Object.entries(item.contact).map(([key, value]) => (
               <li
                 key={key}
-                className="py-1 flex flex-row justify-between items-baseline"
+                className="flex flex-row items-baseline justify-between py-1"
               >
                 <div className="text-title-xs text-french-vanilla-500">
                   {t(`announcements:contact_channel.${key}`)}

@@ -39,10 +39,10 @@ export const GoToCurrentLocationButton = () => {
 
   return (
     <button
-      className="bg-white w-11 h-11 flex items-center justify-center"
+      className="flex h-11 w-11 items-center justify-center bg-white"
       onClick={goToCurrentLocation}
     >
-      <Icon icon="ic:round-near-me" className="w-5 h-5" />
+      <Icon icon="ic:round-near-me" className="h-5 w-5" />
     </button>
   )
 }
@@ -116,9 +116,9 @@ export const TracePage: FC = () => {
           positions={traceData.map((data) => [data.latitude, data.longitude])}
           pathOptions={{ color: 'black', opacity: 1 }}
         />
-        <div className="safe-top safe-bottom absolute inset-0">
+        <div className="absolute inset-0 safe-top safe-bottom">
           <div className="relative h-full pt-14 pb-20">
-            <div className="w-full relative py-6 px-4 z-[450]">
+            <div className="relative z-[450] w-full py-6 px-4">
               <TracingStatusLabel
                 label={t(`status.${StatusLabel.label}`)}
                 color={
@@ -129,10 +129,10 @@ export const TracePage: FC = () => {
                 icon={StatusLabel.icon}
               />
             </div>
-            <div className="right-0 absolute p-4 space-y-2 z-[450]">
-              <div className="flex flex-col rounded-m overflow-hidden divide-y divide-soap-100 shadow-2">
-                <button className="bg-white w-11 h-11 flex items-center justify-center">
-                  <Icon icon="ic:round-route" className="w-5 h-5" />
+            <div className="absolute right-0 z-[450] space-y-2 p-4">
+              <div className="flex flex-col divide-y divide-soap-100 overflow-hidden rounded-m shadow-2">
+                <button className="flex h-11 w-11 items-center justify-center bg-white">
+                  <Icon icon="ic:round-route" className="h-5 w-5" />
                 </button>
                 <GoToCurrentLocationButton />
               </div>

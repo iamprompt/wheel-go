@@ -44,12 +44,12 @@ export const FaqPage = () => {
             </Disclosure>
           ))}
         </div>
-        <div className="text-theme-description mt-3 text-xs">
+        <div className="mt-3 text-xs text-french-vanilla-500">
           Can&apos;t find an answer to your questions? Feel free to contact us
           at{' '}
           <a
             href="mailto:wheelgo.muict@gmail.com"
-            className="text-theme-magenta underline"
+            className="text-magenta-500 underline"
           >
             wheelgo.muict@gmail.com
           </a>

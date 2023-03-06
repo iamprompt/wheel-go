@@ -13,17 +13,17 @@ export const RecordPage = () => {
       bottomNav={true}
     >
       <div className="px-4 py-6 text-title-s">Your lists</div>
-      <ul className="border border-t border-soap-100 divide-y divide-soap-100">
+      <ul className="divide-y divide-soap-100 border border-soap-100">
         <li
-          className="py-3 px-4 flex flex-row justify-between items-center"
+          className="flex flex-row items-center justify-between py-3 px-4"
           onClick={() => {
             navigate('/records/favorites')
           }}
         >
-          <div className="flex flex-row gap-3 items-center">
+          <div className="flex flex-row items-center gap-3">
             <Icon
               icon="ic:baseline-favorite-border"
-              className="w-6 h-6 text-pomegranate-300"
+              className="h-6 w-6 text-pomegranate-300"
             />
             <div>
               <div className="text-title-xs">Favorite Places</div>
@@ -35,20 +35,20 @@ export const RecordPage = () => {
           <div>
             <Icon
               icon="ic:baseline-chevron-right"
-              className="w-6 h-6 text-french-vanilla-300"
+              className="h-6 w-6 text-french-vanilla-300"
             />
           </div>
         </li>
         <li
-          className="py-3 px-4 flex flex-row justify-between items-center"
+          className="flex flex-row items-center justify-between py-3 px-4"
           onClick={() => {
             navigate('/records/reviews')
           }}
         >
-          <div className="flex flex-row gap-3 items-center">
+          <div className="flex flex-row items-center gap-3">
             <Icon
               icon="ic:baseline-star-outline"
-              className="w-6 h-6 text-warning-400"
+              className="h-6 w-6 text-warning-400"
             />
             <div>
               <div className="text-title-xs">Place Reviews</div>
@@ -60,15 +60,15 @@ export const RecordPage = () => {
           <div>
             <Icon
               icon="ic:baseline-chevron-right"
-              className="w-6 h-6 text-french-vanilla-300"
+              className="h-6 w-6 text-french-vanilla-300"
             />
           </div>
         </li>
-        <li className="py-3 px-4 flex flex-row justify-between items-center">
-          <div className="flex flex-row gap-3 items-center">
+        <li className="flex flex-row items-center justify-between py-3 px-4">
+          <div className="flex flex-row items-center gap-3">
             <Icon
               icon="ic:baseline-route"
-              className="w-6 h-6 text-success-400"
+              className="h-6 w-6 text-success-400"
             />
             <div>
               <div className="text-title-xs">Contributed Routes</div>
@@ -80,7 +80,7 @@ export const RecordPage = () => {
           <div>
             <Icon
               icon="ic:baseline-chevron-right"
-              className="w-6 h-6 text-french-vanilla-300"
+              className="h-6 w-6 text-french-vanilla-300"
             />
           </div>
         </li>

@@ -32,8 +32,8 @@ export const Header: FC<HeaderProps> = ({
   return (
     <div
       className={clsx(
-        'safe-top fixed top-0 left-0 z-50 w-full',
-        transparent ? 'bg-transparent' : 'border-soap-100 border-b bg-white'
+        'fixed top-0 left-0 z-50 w-full safe-top',
+        transparent ? 'bg-transparent' : 'border-b border-soap-100 bg-white'
       )}
     >
       <header className="flex w-full flex-row items-center justify-between px-5 py-4">
