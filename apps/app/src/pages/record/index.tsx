@@ -64,7 +64,12 @@ export const RecordPage = () => {
             />
           </div>
         </li>
-        <li className="flex flex-row items-center justify-between py-3 px-4">
+        <li
+          className="flex flex-row items-center justify-between py-3 px-4"
+          onClick={() => {
+            navigate('/records/routes')
+          }}
+        >
           <div className="flex flex-row items-center gap-3">
             <Icon
               icon="ic:baseline-route"

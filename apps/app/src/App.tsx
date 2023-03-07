@@ -11,6 +11,7 @@ import { Page2 } from './pages/page2'
 import { RecordPage } from './pages/record'
 import { FavoritePlacesPage } from './pages/record/favorites'
 import { ReviewPlacesPage } from './pages/record/reviews'
+import { ContributedRoutesPage } from './pages/record/routes'
 import { SettingsPage } from './pages/settings'
 import { AccountDeletionSettingsPage } from './pages/settings/account-deletion'
 import { LanguageSettingsPage } from './pages/settings/languages'
@@ -96,6 +97,15 @@ const router = createBrowserRouter([
           {
             index: true,
             element: <ReviewPlacesPage />,
+          },
+        ],
+      },
+      {
+        path: 'routes',
+        children: [
+          {
+            index: true,
+            element: <ContributedRoutesPage />,
           },
         ],
       },
