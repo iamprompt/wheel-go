@@ -20,6 +20,16 @@
     "records": "Records",
     "profile": "Profile"
   },
+  "records": {
+    "title": "Records",
+    "my-lists": "My Lists",
+    "favorite-places": "Favorite Places",
+    "place-reviews": "Place Reviews",
+    "contributed-routes": "Contributed Routes",
+    "places": "places",
+    "reviews": "reviews",
+    "routes": "routes"
+  },
   "settings": {
     "settings_title": "Settings",
     "general_section": "General",

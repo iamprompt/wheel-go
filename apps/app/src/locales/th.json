@@ -20,6 +20,16 @@
     "records": "บันทึกของฉัน",
     "profile": "โปรไฟล์"
   },
+  "records": {
+    "title": "บันทึกของฉัน",
+    "my-lists": "ลิสต์ของฉัน",
+    "favorite-places": "สถานที่ที่ชื่นชอบ",
+    "place-reviews": "รีวิวของฉัน",
+    "contributed-routes": "เส้นทางของฉัน",
+    "places": "แห่ง",
+    "reviews": "รีวิว",
+    "routes": "เส้นทาง"
+  },
   "settings": {
     "settings_title": "ตั้งค่า",
     "general_section": "ทั่วไป",
