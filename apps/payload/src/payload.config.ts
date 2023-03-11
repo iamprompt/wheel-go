@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'node:path'
 import { buildConfig } from 'payload/config'
 // import Examples from './collections/Examples';
 import dotenv from 'dotenv'
