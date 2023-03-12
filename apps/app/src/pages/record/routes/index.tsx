@@ -18,7 +18,17 @@ export const ContributedRoutesPage = () => {
       </div>
       <div className="divide-y divide-soap-100 border-y border-soap-100">
         {Array.from({ length: 3 }).map((_, index) => (
-          <RouteItem key={index} />
+          <RouteItem
+            key={index}
+            from={{
+              type: 'building',
+              name: 'Faculty of Engineering and Technology Building',
+            }}
+            to={{
+              type: 'cafe',
+              name: 'Amazon for Chances',
+            }}
+          />
         ))}
       </div>
     </ActionTitleLayout>

@@ -75,6 +75,7 @@ importers:
       '@iconify/icons-material-symbols': ^1.2.32
       '@iconify/react': ^4.1.0
       '@ionic/cli': ^6.20.8
+      '@tailwindcss/line-clamp': ^0.4.2
       '@types/leaflet': ^1.9.1
       '@types/react': ^18.0.28
       '@types/react-dom': ^18.0.11
@@ -132,6 +133,7 @@ importers:
       '@iconify/icons-material-symbols': 1.2.32
       '@iconify/react': 4.1.0_react@18.2.0
       '@ionic/cli': 6.20.8
+      '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.2.7
       '@types/leaflet': 1.9.1
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -4447,6 +4449,14 @@ packages:
       pirates: 4.0.5
       source-map-support: 0.5.21
     dev: false
+
+  /@tailwindcss/line-clamp/0.4.2_tailwindcss@3.2.7:
+    resolution: {integrity: sha512-HFzAQuqYCjyy/SX9sLGB1lroPzmcnWv1FHkIpmypte10hptf4oPUfucryMKovZh2u0uiS9U5Ty3GghWfEJGwVw==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: 3.2.7_postcss@8.4.21
+    dev: true
 
   /@testing-library/dom/8.20.0:
     resolution: {integrity: sha512-d9ULIT+a4EXLX3UU8FBjauG9NnsZHkHztXoIcTsOKoOw030fyjheN9svkTULjJxtYag9DZz5Jz5qkWZDPxTFwA==}
