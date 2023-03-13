@@ -8,6 +8,7 @@ import { DetailAnnouncementPage } from './pages/announcements/details'
 import { ExplorePage } from './pages/explore'
 import { FaqPage } from './pages/faq'
 import { Page2 } from './pages/page2'
+import { DetailPlacesPage } from './pages/places/details'
 import { RecordPage } from './pages/record'
 import { FavoritePlacesPage } from './pages/record/favorites'
 import { ReviewPlacesPage } from './pages/record/reviews'
@@ -108,6 +109,15 @@ const router = createBrowserRouter([
             element: <ContributedRoutesPage />,
           },
         ],
+      },
+    ],
+  },
+  {
+    path: '/places',
+    children: [
+      {
+        path: ':id',
+        element: <DetailPlacesPage />,
       },
     ],
   },

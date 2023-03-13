@@ -79,3 +79,25 @@ export const MAnnouncements = {
     },
   ],
 }
+
+export const MPlacesDetails = {
+  th: [
+    {
+      id: 'place1',
+      type: 'building',
+      title: 'อาคารคณะวิทยาศาสตร์',
+      address: 'ถนนพหลโยธิน ตำบลคลองหลวง อำเภอคลองหลวง จังหวัดปทุมธานี 12120',
+      image: 'https://mahidol.ac.th/temp/2018/03/3.jpg',
+    },
+  ],
+  en: [
+    {
+      id: 'place1',
+      type: 'building',
+      title: 'Faculty of Science Building',
+      address:
+        'Phahonyothin Road, Khlong Luang, Khlong Luang, Pathum Thani 12120',
+      image: 'https://mahidol.ac.th/temp/2018/03/3.jpg',
+    },
+  ],
+}
