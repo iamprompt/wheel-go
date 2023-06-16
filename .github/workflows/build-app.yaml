@@ -1,0 +1,73 @@
+name: Build App for iOS
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-13
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: 🏗 Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          expo-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 8.1.0
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: 📦 Install dependencies
+        run: pnpm install
+
+      - name: Restore Credentials Files
+        run: echo "${{ secrets.CREDENTIALS_JSON_BASE64 }}" | base64 -d > credentials.json
+
+      - name: Create Folder for Provisioning Profiles and Distribution Certificates
+        run: mkdir -p ./ios/certs
+
+      - name: Restore Provisioning Profiles
+        run: echo "${{ secrets.IOS_PV_PROFILE_BASE64 }}" | base64 -d > ./ios/certs/profile.mobileprovision
+
+      - name: Restore Distribution Certificates
+        run: echo "${{ secrets.IOS_DIST_CERT_BASE64 }}" | base64 -d > ./ios/certs/dist.p12
+
+      - name: Build Wheel Go iOS App
+        run: pnpm run build:ios --non-interactive --output=./app-build
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          WHEELGO_API: ${{ secrets.WHEELGO_API }}
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-ios
+          path: app-build
