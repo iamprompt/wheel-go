@@ -1,0 +1,4 @@
+export enum ROUTE_TYPES {
+  PRE_DEFINED = 'PRE_DEFINED',
+  TRACED = 'TRACED',
+}

@@ -1,0 +1,238 @@
+{
+  "data": [
+    {
+      "id": "641dcd52be6468d6f10cf950",
+      "createdAt": "2023-03-24T16:18:26.811Z",
+      "updatedAt": "2023-03-24T16:18:26.811Z",
+      "nameTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "nameEN": "Faculty of Information and Communication Technology",
+      "category": "building",
+      "placeAddressTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Faculty of Information and Communication Technology, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "024410909",
+      "website": "https://www.ict.mahidol.ac.th/",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "geolocation": [13.79441894220838, 100.32472494259375],
+      "placeCode": "ICT",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6e9c1ec7369daab8d1",
+      "createdAt": "2023-03-24T16:18:54.163Z",
+      "updatedAt": "2023-03-24T16:18:54.163Z",
+      "nameTH": "หอประชุมณัฐ ภมรประวัติ",
+      "nameEN": "Natth Bhamarapravati Auditorium",
+      "category": "building",
+      "placeAddressTH": "สถาบันพัฒนาสุขภาพอาเซียน มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "ASEAN Institute for Health Development, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "024419040",
+      "website": "https://aihd.mahidol.ac.th/main/AIHD_TH/Room_mainhall.php",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/natth_bhamarapravati_auditorium-1.jpg"
+      },
+      "geolocation": [13.79155, 100.32505],
+      "placeCode": "NAHD",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8c7",
+      "createdAt": "2023-03-24T16:18:53.655Z",
+      "updatedAt": "2023-03-24T16:18:53.655Z",
+      "nameTH": "At That Time Cafe & Bakery",
+      "nameEN": "At That Time Cafe & Bakery",
+      "category": "cafe",
+      "placeAddressTH": "ศูนย์ MRI ชั้น 1 ศูนย์การแพทย์กาญจนาภิเษก 888 หมู่ 6 ตำบลศาลายา อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "MRI Center, 1st floor, Golden Jubilee Medical Center, 888 Borommaratchachonnani Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "0814395907",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/at_that_time_cafe_bakery-2.jpg"
+      },
+      "geolocation": [13.786967208811136, 100.31992504123272],
+      "placeCode": "",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8c5",
+      "createdAt": "2023-03-24T16:18:53.647Z",
+      "updatedAt": "2023-03-24T16:18:53.647Z",
+      "nameTH": "วิทยาลัยราชสุดา",
+      "nameEN": "Ratchasuda College",
+      "category": "building",
+      "placeAddressTH": "วิทยาลัยราชสุดา 111 หมู่ 6 ถ.พุทธมณฑล สาย 4 ศาลายา นครปฐม 73170",
+      "placeAddressEN": "Ratchasuda College, 111 Moo 6, Phuttamonthon 4 Road,\nSalaya, Nakhonpathom 73170, Thailand",
+      "phone": "028895315",
+      "website": "https://rs.mahidol.ac.th",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/ratchasuda_college-3.jpg"
+      },
+      "geolocation": [13.786832571529557, 100.32560091426424],
+      "placeCode": "RS",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8c3",
+      "createdAt": "2023-03-24T16:18:53.641Z",
+      "updatedAt": "2023-03-24T16:18:53.641Z",
+      "nameTH": "หอพักนักศึกษาพยาบาลรามาธิบดี",
+      "nameEN": "Ramathibodi Nursing Student Dormitory",
+      "category": "residence",
+      "placeAddressTH": "หอพักนักศึกษาพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Ramathibodi Nursing Student Dormitory, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/ramathibodi_nursing_student_dormitory-3.jpg"
+      },
+      "geolocation": [13.798728067441196, 100.321157527219],
+      "placeCode": "RNSD",
+      "status": "draft"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8be",
+      "createdAt": "2023-03-24T16:18:53.624Z",
+      "updatedAt": "2023-03-24T16:18:53.624Z",
+      "nameTH": "คาเฟ่ อะเมซอน สาขาศูนย์การแพทย์กาญจนาภิเษก",
+      "nameEN": "Café Amazon, Golden Jubilee Medical Center",
+      "category": "cafe",
+      "placeAddressTH": "ศูนย์การแพทย์กาญจนาภิเษก 888 หมู่ 6 ตำบลศาลายา อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "Golden Jubilee Medical Center, 888 Borommaratchachonnani Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/caf_amazon_golden_jubilee_medical_center-3.jpg"
+      },
+      "geolocation": [13.78652643868785, 100.32122738443925],
+      "placeCode": "",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8bc",
+      "createdAt": "2023-03-24T16:18:53.619Z",
+      "updatedAt": "2023-03-24T16:18:53.619Z",
+      "nameTH": "อินทนิลคอฟฟี่ สาขาศูนย์การแพทย์กาญจนาภิเษก",
+      "nameEN": "Inthanin Coffee, Golden Jubilee Medical Center",
+      "category": "cafe",
+      "placeAddressTH": "ศูนย์การแพทย์กาญจนาภิเษก 888 หมู่ 6 ตำบลศาลายา อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "Golden Jubilee Medical Center, 888 Borommaratchachonnani Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "0816489199",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/inthanin_coffee_golden_jubilee_medical_center-3.jpg"
+      },
+      "geolocation": [13.786956825741006, 100.32150926061036],
+      "placeCode": "",
+      "status": "unpublished"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8ba",
+      "createdAt": "2023-03-24T16:18:53.614Z",
+      "updatedAt": "2023-03-24T16:18:53.614Z",
+      "nameTH": "สถาบันชีววิทยาศาสตร์โมเลกุล",
+      "nameEN": "Institute of Molecular Biosciences",
+      "category": "building",
+      "placeAddressTH": "สถาบันชีววิทยาศาสตร์โมเลกุล มหาวิทยาลัยมหิดล 25/25 หมู่ 5 ถนนพุทธมณฑลสาย 4 ตำบลศาลายา  อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "Institute of Molecular Biosciences, Mahidol University, 25/25 Phutthamonthon Sai 4 Road Salaya, Phutthamonthon Nakhonpathom, Thailand 73170",
+      "phone": "024419003",
+      "website": "https://mb.mahidol.ac.th/",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/institute_of_molecular_biosciences-2.jpg"
+      },
+      "geolocation": [13.797426838479051, 100.3259499277499],
+      "placeCode": "IMB",
+      "status": "draft"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8b8",
+      "createdAt": "2023-03-24T16:18:53.607Z",
+      "updatedAt": "2023-03-24T16:18:53.607Z",
+      "nameTH": "ศูนย์การแพทย์กาญจนาภิเษก",
+      "nameEN": "Golden Jubilee Medical Center",
+      "category": "building",
+      "placeAddressTH": "ศูนย์การแพทย์กาญจนาภิเษก 888 หมู่ 6 ตำบลศาลายา อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "Golden Jubilee Medical Center, 888 Borommaratchachonnani Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "028496600",
+      "website": "https://www.gj.mahidol.ac.th/",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/golden_jubilee_medical_center-2.jpg"
+      },
+      "geolocation": [13.786798871447893, 100.32148214031483],
+      "placeCode": "GJ",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8a6",
+      "createdAt": "2023-03-24T16:18:53.484Z",
+      "updatedAt": "2023-03-24T16:18:53.484Z",
+      "nameTH": "อาคารดุสิตา (อาคาร D)",
+      "nameEN": "Condominium Dusita (D Building)",
+      "category": "residence",
+      "placeAddressTH": "อาคารดุสิตา (อาคาร D)",
+      "placeAddressEN": "Condominium Dusita (D Building)",
+      "phone": "",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/condominium_dusita_d_building-2.jpg"
+      },
+      "geolocation": [13.799790940578532, 100.32258216575704],
+      "placeCode": "",
+      "status": "published"
+    },
+    {
+      "id": "641dcd6d9c1ec7369daab8a4",
+      "createdAt": "2023-03-24T16:18:53.465Z",
+      "updatedAt": "2023-03-24T16:18:53.465Z",
+      "nameTH": "โกปี้สยามและอาหารจานด่วน",
+      "nameEN": "Gopi Siam and Fast Food",
+      "category": "food",
+      "placeAddressTH": "โกปี้สยามและอาหารจานด่วน",
+      "placeAddressEN": "Gopi Siam and Fast Food",
+      "phone": "0964783957",
+      "website": "",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/gopi_siam_and_fast_food-3.jpg"
+      },
+      "geolocation": [13.797953449385297, 100.32370821727936],
+      "placeCode": "",
+      "status": "published"
+    },
+    {
+      "id": "6451dcd6d9c1ec7369daab8a4",
+      "createdAt": "2023-04-03T16:18:53.465Z",
+      "updatedAt": "2023-04-03T16:18:53.465Z",
+      "nameTH": "หอสมุดและคลังความรู้ มหาวิทยาลัยมหิดล (อาคารใหม่)",
+      "nameEN": "Mahidol University Library and Knowledge Center (New Building)",
+      "category": "building",
+      "placeAddressTH": "25/25 หมู่ 5 ถนนพุทธมณฑลสาย 4 ตำบลศาลายา อำเภอพุทธมณฑล จังหวัดนครปฐม 73170",
+      "placeAddressEN": "25 25 Phutthamonthon Sai 4 Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "028002680",
+      "website": "https://www.li.mahidol.ac.th/",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/gopi_siam_and_fast_food-3.jpg"
+      },
+      "geolocation": [13.796103863690709, 100.31905695302117],
+      "placeCode": "",
+      "status": "published"
+    },
+    {
+      "id": "6451dcd6d9c1ec7369daab8a40",
+      "createdAt": "2023-04-03T16:18:53.465Z",
+      "updatedAt": "2023-04-03T16:18:53.465Z",
+      "nameTH": "Transport",
+      "nameEN": "Transport",
+      "category": "transport",
+      "status": "published"
+    },
+    {
+      "id": "6451dcd6d9c1ec7369daab8a41",
+      "createdAt": "2023-04-03T16:18:53.465Z",
+      "updatedAt": "2023-04-03T16:18:53.465Z",
+      "nameTH": "Curbcut",
+      "nameEN": "Curbcut",
+      "category": "curbcut",
+      "status": "published"
+    }
+  ]
+}

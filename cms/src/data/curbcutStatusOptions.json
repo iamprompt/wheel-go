@@ -1,0 +1,14 @@
+{
+  "data": {
+    "en": [
+      { "value": "BROKEN", "label": "Broken" },
+      { "value": "NEED_ASSISTANCE", "label": "Assistance Required" },
+      { "value": "NORMAL", "label": "Normal" }
+    ],
+    "th": [
+      { "value": "BROKEN", "label": "ชำรุด" },
+      { "value": "NEED_ASSISTANCE", "label": "ต้องการความช่วยเหลือ" },
+      { "value": "NORMAL", "label": "ปกติ" }
+    ]
+  }
+}

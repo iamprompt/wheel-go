@@ -1,0 +1,262 @@
+﻿place_en,facility_en,rise,length,facility_lat_lng,detail_en,detail_th
+Faculty of Information and Communication Technology,Toilet,,,,"1st Floor, near the laboratory",ชั้น 1 ฝั่งห้องปฏิบัติการ
+Faculty of Information and Communication Technology,Toilet,,,,"2nd Floor, near the first-aid room",ชั้น 2 ฝั่งห้องปฐมพยาบาล
+Faculty of Information and Communication Technology,Toilet,,,,"3rd Floor, at both ends of the hallway",ชั้น 3 ฝั่งซ้ายสุดและขวาสุดของชั้น
+Faculty of Information and Communication Technology,Toilet,,,,"4th Floor, near the Bit and Byte Hall and ICT Grand Auditorium",ชั้น 4 ฝั่งห้องประชุม Bit and Byte และห้องประชุม Grand Auditorium
+Faculty of Information and Communication Technology,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Faculty of Information and Communication Technology,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Information and Communication Technology,Ramp,100.0,1410.0,"13.794781563587577, 100.32479573099108",At the building entrance,ทางขึ้นคณะ
+Faculty of Information and Communication Technology,Ramp,10.0,210.0,"13.794003617193068, 100.32481239752353",At the connecting pathway from the Office of the President,ทางเชื่อมเข้าคณะจากสำนักงานอธิการบดี
+Faculty of Information and Communication Technology,Ramp,850.0,1595.0,"13.795124010020528, 100.3248219954286",At the connecting pathway from the road near the Faculty of Engineering Building 1,ทางเชื่อมเข้าคณะจากถนนฝั่งอาคารวิศวะ 1
+Faculty of Information and Communication Technology,Ramp,25.0,565.0,"13.795120281600736, 100.3247452121881",At the connecting pathway from Mahidol University Library and Knowledge Center,ทางเชื่อมเข้าคณะจากหอสมุดและคลังความรู้
+Mahidol University Library and Knowledge Center,Toilet,,,,"1st Floor, near the Co-MU Space",ชั้น 1 บริเวณ Co-MU Space
+Mahidol University Library and Knowledge Center,Toilet,,,,"2nd Floor, near the Book Collection room",ชั้น 2 บริเวณห้อง Book Collection
+Mahidol University Library and Knowledge Center,Toilet,,,,"3rd Floor, near the Thesis, Journal, Special Collection room","ชั้น 3 บริเวณห้อง Thesis, Journal, Special Collection"
+Mahidol University Library and Knowledge Center,Elevator,,,,Left most of the building next to the Co-MU Space,ฝั่งซ้ายสุดติดกับ Co-MU Space
+Mahidol University Library and Knowledge Center,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Mahidol University Library and Knowledge Center,Assistance,,,,Staffs at the entrance counter ,เจ้าหน้าที่ประชาสัมพันธ์ ติดต่อจากเคาท์เตอร์บริเวณทางเข้าอาคาร
+Mahidol University Library and Knowledge Center,Ramp,104.0,1000.0,"13.795114264272186, 100.32394957862287",On the left side of the building entrance (next to road),"ทางเข้าห้องสมุดฝั่งซ้ายมือ (ติดถนน)"
+Mahidol University Library and Knowledge Center,Ramp,150.0,1500.0,"13.794971319035861, 100.32395562756696",On the left side of the building entrance,ทางเข้าห้องสมุดฝั่งซ้ายมือ
+Mahidol University Library and Knowledge Center,Ramp,112.0,440.0,"13.794607018775443, 100.32391462248323",On the right side of the building entrance (next to the cover way),ทางเข้าห้องสมุดฝั่งขวามือ (จาก cover way)
+Mahidol University Library and Knowledge Center,Ramp,100.0,1091.0,,At the Co-MU Space entrance,ทางเข้า Co-MU Space
+Mahidol University Library and Knowledge Center,Surface,,,,Rough and broken ramp surface on the left side of the building entrance (next to road),"ทางขึ้นทางลาดบริเวณห้องสมุดฝั่งซ้ายมือ (ติดถนน) ขรุขระ และมีการชำรุด"
+Mahidol University Library and Knowledge Center,Surface,,,,Smooth and slippery ramp surface at the Co-MU Space entrance,ทางเข้า Co-MU Space มีลักษณะเรียบลื่น
+Lecture Theater 2,Toilet,,,,"1st Floor, near the Pathumma 102 room",ชั้น 1 บริเวณหน้าห้องปทุมมา 102
+Lecture Theater 2,Elevator,,,,"Inclined Wheelchair Platform Stair Lifts near the L2-001 (upstairs direction), Sritrang 101 room (downstairs direction)",ลิฟท์บันไดสำหรับวีลแชร์ ฝั่งห้อง L2-001 (ขาขึ้น) ฝั่งห้องศรีตรัง 101 (ขาลง) 
+Lecture Theater 2,Ramp,,,"13.793530187579124, 100.3232652905274",Next to the cover way from the Faculty of Science Building 1-2,ติดกับ cover way จาก อาคารคณะวิทยาศาสตร์ 1-2
+Lecture Theater 1,Toilet,,,,"1st Floor, near the Ruangpueng 101 room",ชั้น 1 บริเวณหน้าห้องรวงผึ้ง 101
+Lecture Theater 1,Elevator,,,,"Inclined Wheelchair Platform Stair Lifts near the L1-001 (upstairs direction) , Ruangpueng 101 room (downstairs direction)",ลิฟท์บันไดสำหรับวีลแชร์ ฝั่งห้อง L1-001 (ขาขึ้น) ฝั่งห้องรวงผึ้ง 101 (ขาลง)
+Lecture Theater 1,Ramp,,,"13.793523416157152, 100.3248377101997",Next to the cover way from the Faculty of Social Sciences and Humanities,ติดกับ cover way จาก อาคารคณะสังคมศาสตร์และมนุษยศาสตร์
+Faculty of Science Building 1-2,Toilet,,,,"1st Floor, opposite of SC2-109 room",ชั้น 1 ตรงข้ามห้อง SC2-109
+Faculty of Science Building 1-2,Toilet,,,,"1st Floor, opposite of SC1-107 room",ชั้น 1 ตรงข้ามห้อง SC1-107
+Faculty of Science Building 1-2,Elevator,,,,"1st Floor, SC-2 building at the left end of the hallway",ชั้น 1 ฝั่งซ้ายสุดของตึก SC-2
+Faculty of Science Building 1-2,Assistance,,,,Security Officer at the building entrance next to the cover way,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้า ติด cover way
+Faculty of Science Building 1-2,Assistance,,,,Security Officer at the building entrance next to the road,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้า ติดถนน
+Faculty of Science Building 1-2,Parking,,,,The parking space of the Faculty of Science Building,ที่จอดรถรวมอาคารคณะวิทยาศาสตร์
+Faculty of Science Building 1-2,Ramp,75.0,316.0,"13.792105844558609, 100.32361263731065",In front of the building,ทางเข้าหน้าอาคาร
+Faculty of Social Sciences and Humanities,Toilet,,,,"1st Floor, SH-1 building (near the Lecture Theater 1)",ชั้น 1 อาคาร SH-1 (ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Toilet,,,,"1st Floor, SH-3 building (near the front of the building)",ชั้น 1 อาคาร SH-3 (ฝั่งหน้าคณะ)
+Faculty of Social Sciences and Humanities,Toilet,,,,"1st Floor, SH-4 building (next to the elevator near the Lecture Theater 1)",ชั้น 1 อาคาร SH-4 (บริเวณทางขึ้นลิฟต์ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Toilet,,,,"2nd Floor, SH-4 building (next to the elevator near the Lecture Theater 1)",ชั้น 2 อาคาร SH-4 (บริเวณทางขึ้นลิฟต์ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Toilet,,,,"3rd Floor, SH-4 building (next to the elevator near the Lecture Theater 1)",ชั้น 3 อาคาร SH-4 (บริเวณทางขึ้นลิฟต์ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Toilet,,,,"4th Floor, SH-4 building (next to the elevator near the Lecture Theater 1)",ชั้น 4 อาคาร SH-4 (บริเวณทางขึ้นลิฟต์ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Toilet,,,,"5th Floor, SH-4 building (next to the elevator near the Lecture Theater 1)",ชั้น 5 อาคาร SH-4 (บริเวณทางขึ้นลิฟต์ฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Elevator,,,,SH-4 building (near the Lecture Theater 1),อาคาร SH-4 (บริเวณฝั่งอาคารบรรยายรวม 1)
+Faculty of Social Sciences and Humanities,Elevator,,,,SH-4 building (near the Mahidol University International College),อาคาร SH-4 (บริเวณฝั่งวิทยาลัยนานาชาติ)
+Faculty of Social Sciences and Humanities,Assistance,,,,"Contact the Office of the Dean, SH-3 building",ติดต่อที่สำนักงานคณบดี อาคาร SH-3
+Faculty of Social Sciences and Humanities,Ramp,60.0,506.0,"13.792085698489, 100.3248359827935",In front of the building entrance,หน้าคณะสังคมศาสตร์และมนุษยศาสตร์
+Faculty of Social Sciences and Humanities,Ramp,60.0,1050.0,"13.793190205749827, 100.32548883244282",SH-4 building (near the Mahidol University International College),อาคาร SH-4 (บริเวณฝั่งวิทยาลัยนานาชาติ)
+Faculty of Social Sciences and Humanities,Ramp,70.0,700.0,"13.793061844090674, 100.32526440904611",SH-4 building (near the connecting pathway to the SH-3 building),อาคาร SH-4 (ทางเชื่อมไปอาคาร SH-3)
+Faculty of Social Sciences and Humanities,Ramp,76.0,240.0,"13.793361083851623, 100.32513349446009",SH-4 building (near the connecting pathway to the Lecture Theater 1),อาคาร SH-4 (ทางเชื่อมไปอาคารบรรยายรวม 1)
+Mahidol University International College,Toilet,,,,"1st Floor, near the lobby at the building entrance",ชั้น 1 บริเวณ lobby ทางเข้าหน้าอาคาร
+Mahidol University International College,Toilet,,,,"2nd Floor, near the canteen and fire exit",ชั้น 2 ฝั่งโรงอาหาร บริเวณทางหนีไฟ
+Mahidol University International College,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Mahidol University International College,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Mahidol University International College,Assistance,,,,Staffs in the lobby,เจ้าหน้าที่แผนกต้อนรับบริเวณ lobby
+Mahidol University International College,Parking,,,,In front of the building (contact the staffs in the lobby or the security officer),บริเวณหน้าอาคารคณะ (ติดต่อเจ้าหน้าที่แผนกต้อนรับ หรือ เจ้าหน้าที่รักษาความปลอดภัยก่อน)
+Mahidol University International College,Ramp,52.0,430.0,"13.792654347136851, 100.32646883871219",At the building entrance near the lobby ,ชั้น 1 บริเวณทางเข้าหน้าอาคารไปยัง lobby
+Office of the President,Toilet,,,,"1st Floor, next to the Professor Dr. Kasan Chatikavanij Auditorium (near Faculty of Engineering Building 3)",ชั้น 1 ฝั่งห้องบรรยาย ศ.นพ.กษาน จาติกวนิช (ฝั่งตึกวิศวะ 3)
+Office of the President,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Office of the President,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Office of the President,Parking,,,,In front of the building,บริเวณหน้าอาคาร
+Office of the President,Ramp,126.0,1460.0,"13.794524431484348, 100.32605676407226",In front of the building,ทางเข้าหน้าอาคาร
+Office of the President,Ramp,65.0,714.0,,"1st Floor, next to the Professor Dr. Kasan Chatikavanij Lecture Room (near Faculty of Engineering Building 3)",ชั้น 1 ฝั่งห้องบรรยาย ศ.นพ.กษาน จาติกวนิช (ฝั่งตึกวิศวะ 3)
+Office of the President,Ramp,65.0,714.0,,"1st Floor, next to the Professor Dr. Chatchawan Osathanon Lecture Room (near Cafe Amazon)",ชั้น 1 ฝั่งห้องบรรยาย ศ.นพ.ชัชวาล โอสถานนท์ (ฝั่งคาเฟ่ อเมซอน)
+Faculty of Engineering Building 3,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Faculty of Engineering Building 3,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Engineering Building 3,Ramp,177.0,730.0,"13.795291123925962, 100.32562120151212",At the connecting pathway from the road to the Innogineer studio,ทางเชื่อมจากถนนเข้า Innogineer studio
+Faculty of Engineering Building 3,Ramp,83.0,810.0,"13.795633303981225, 100.32622811827984",In front of the building,ทางเข้าหน้าอาคาร
+Faculty of Engineering Building 3,Ramp,174.0,696.0,"13.796230384847293, 100.32563670332614",At the connecting pathway from the road to 7-11,ทางเชื่อมจากถนนเข้า 7-11
+Faculty of Engineering Building 3,Surface,,,,Rough and broken ramp surface (next to road),ทางขึ้นทางลาดบริเวณติดถนน ขรุขระ และมีการชำรุด
+Faculty of Engineering Building 1,Toilet,,,,"1st Floor, near the  women's toilet",ชั้น 1 ฝั่งห้องน้ำสตรี
+Faculty of Engineering Building 1,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Faculty of Engineering Building 1,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Engineering Building 1,Ramp,50.0,430.0,"13.796243496969543, 100.32488054029753",In front of the building,ทางเข้าหน้าอาคาร
+Faculty of Engineering Building 1,Ramp,60.0,472.0,,At the entrance to R-114 room (near the women's toilet),ทางเข้าห้อง R-114 บริเวณห้องน้ำสตรี
+Faculty of Engineering Building 2,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Faculty of Engineering Building 2,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Engineering Building 2,Ramp,142.0,86.0,"13.796184647851899, 100.32371352091579",In front of the building,ทางเข้าหน้าอาคาร
+Faculty of Engineering Building 2,Surface,,,,Step at the connecting pathway from the road to the ramp (unable to enter the building without assistance),ทางเชื่อมจากถนนไปสุ่ทางลาดเป็นพื้นที่ต่างระดับ จึงไม่สามารถเข้าสู่อาคารได้ด้วยตนเอง
+Faculty of Science Building 3-4,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Science Building 3-4,Assistance,,,,Security Officer near the parking space of the Faculty of Science Building,เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถรวมอาคารคณะวิทยาศาสตร์
+Faculty of Science Building 3-4,Parking,,,,The parking space of the Faculty of Science Building,ที่จอดรถรวมอาคารคณะวิทยาศาสตร์
+Faculty of Science Building 3-4,Ramp,,,"13.79209533561327, 100.32220637112563",In front of the building,ทางเข้าหน้าอาคาร
+Faculty of Graduate Studies,Toilet,,,,"1st Floor, near the International Affairs and Corporate Communications and Special Mission Section (must contact the staffs before use)",ชั้น 1 ใกล้ห้องงานวิเทศสัมพันธ์ สื่อสารองค์กรและภารกิจพิเศษ (ต้องติดต่อเจ้าหน้าที่ก่อนใช้งาน)
+Faculty of Graduate Studies,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Faculty of Graduate Studies,Assistance,,,,Security Officer inside of the building near the parking space,เจ้าหน้าที่รักษาความปลอดภัยในอาคาร ใกล้ที่จอดรถ
+Faculty of Graduate Studies,Ramp,,,"13.793841956671018, 100.32221210180387",At the connecting pathway from the cover way near the Faculty of Environment and Resource Studies,ทางเชื่อมจาก cover way ฝั่งคณะสิ่งแวดล้อมและทรัพยากรศาสตร์
+Faculty of Graduate Studies,Ramp,13.0,25.0,"13.793713946008669, 100.32213116345028",At the building entrance from the parking space,ทางเข้าอาคารจากที่จอดรถ
+Faculty of Graduate Studies,Ramp,22.0,117.0,"13.793685149640718, 100.32218472745461",At the International Affairs and Corporate Communications and Special Mission Section entrance from the parking space,ทางเข้าห้องงานวิเทศสัมพันธ์ สื่อสารองค์กรและภารกิจพิเศษ จากที่จอดรถ
+Faculty of Graduate Studies,Ramp,,,"13.79354488341055, 100.32236646246929",Near the Inthanin Coffee,ใกล้ Inthanin Coffee
+Faculty of Graduate Studies,Surface,,,,Rough surface (in front of the building entrance),ทางขึ้นทางลาดบริเวณหน้าอาคาร ขรุขระ
+Faculty of Graduate Studies,Surface,,,,"Water drain on the ground, Trees at the turning corner, and slight step at the ramp of the building entrance from the parking space","ทางลาดบริเวณทางเข้าอาคารจากที่จอดรถมีท่อระบายน้ำอยู่ที่พิ้น, มีต้นไม้บริเวณมุมเลี้ยววีลแชร์, และมีความต่างระดับเล็กน้อย"
+Faculty of Graduate Studies,Surface,,,,Slight step at the ramp of the International Affairs and Corporate Communications and Special Mission Section entrance from the parking space,ทางลาดบริเวณทางเข้าห้องงานวิเทศสัมพันธ์ สื่อสารองค์กรและภารกิจพิเศษ มีความต่างระดับเล็กน้อย
+Faculty of Environment and Resource Studies,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Environment and Resource Studies,Assistance,,,,Security Officer in front of the Information System building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคารสารสนเทศฯ
+Faculty of Environment and Resource Studies,Toilet,,,,"1st Floor, Information System building",ชั้น 1 อาคารสารสนเทศฯ
+Faculty of Environment and Resource Studies,Parking,,,,Next to the Information System building,บริเวณข้างอาคารสารสนเทศฯ
+Faculty of Environment and Resource Studies,Ramp,22.0,86.0,"13.795182270057529, 100.32260935326323",In front of the Information System building,ทางเข้าหน้าอาคารสารสนเทศฯ
+Badhanatala Environment Building,Toilet,,,,"1st Floor, near the cover way",ชั้น 1 ฝั่ง cover way
+Badhanatala Environment Building,Toilet,,,,"2nd Floor, near the cover way",ชั้น 2 ฝั่ง cover way
+Badhanatala Environment Building,Toilet,,,,"4th Floor, near the cover way",ชั้น 4 ฝั่ง cover way
+Badhanatala Environment Building,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Badhanatala Environment Building,Assistance,,,,Security Officer at the building entrance near the cover way,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าจาก cover way
+Badhanatala Environment Building,Ramp,26.0,150.0,"13.795062738983916, 100.32174819258181",At the building entrance from the parking space (near Cafe Amazon),ทางเข้าอาคารจากที่จอดรถ (ใกล้คาเฟ่ อเมซอน)
+Badhanatala Environment Building,Ramp,,,"13.794746595383101, 100.32083029060031",At the building entrance near Sri Trang Dorm (Dorm 11),ทางเข้าอาคารฝั่งหอพักบ้านศรีตรัง (หอพักนักศึกษา 11)
+Badhanatala Environment Building,Ramp,,,"13.794827174428308, 100.32169677349415",At the building entrance near the cover way,ทางเข้าอาคารฝั่ง cover way
+College of Sports Science and Technology,Toilet,,,,1st Floor (must contact the staffs before use),ชั้น 1 (ติดต่อเจ้าหน้าที่ก่อน)
+College of Sports Science and Technology,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+College of Sports Science and Technology,Assistance,,,,Security Officer in front of the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+College of Sports Science and Technology,Ramp,40.0,358.0,"13.795603073042518, 100.32098344952038",At the building entrance from the parking space,ทางเข้าอาคารจากที่จอดรถ
+Institute of Nutrition,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Institute of Nutrition,Assistance,,,,Security Officer at the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Institute of Nutrition,Parking,,,,In front of the building,บริเวณทางเข้าหน้าอาคาร
+Institute of Nutrition,Ramp,,,"13.796265795756177, 100.32233481796676",At the building entrance from the parking space,ทางเข้าหน้าอาคารจากที่จอดรถ 
+Institute of Nutrition,Surface,,,,Expanded Metal Mesh ramp,ทางลาดมีลักษณะเป็นตะแกรงเหล็ก
+Mahidol Learning Center (MLC),Toilet,,,,"1st Floor, next to the main elevator near the men's toilet",ชั้น 1 ข้างลิฟต์กลาง ฝั่งห้องน้ำชาย
+Mahidol Learning Center (MLC),Toilet,,,,"2nd Floor, next to the main elevator near the men's toilet",ชั้น 2 ข้างลิฟต์กลาง ฝั่งห้องน้ำชาย
+Mahidol Learning Center (MLC),Toilet,,,,"3rd Floor, next to the main elevator near the men's toilet",ชั้น 3 ข้างลิฟต์กลาง ฝั่งห้องน้ำชาย
+Mahidol Learning Center (MLC),Toilet,,,,"4th Floor, next to the main elevator near the men's toilet",ชั้น 4 ข้างลิฟต์กลาง ฝั่งห้องน้ำชาย
+Mahidol Learning Center (MLC),Toilet,,,,"1st Floor, near 
+Bellinee's Bake & Brew/ MU Art Gallery",ชั้น 1 บริเวณ Bellinee's Bake & Brew สาขา MU Art Gallery
+Mahidol Learning Center (MLC),Toilet,,,,"1st Floor, near the canteen's elevator",ชั้น 1 ฝั่งลิฟต์โรงอาหาร
+Mahidol Learning Center (MLC),Toilet,,,,"2nd Floor, near the canteen's elevator",ชั้น 2 ฝั่งลิฟต์โรงอาหาร
+Mahidol Learning Center (MLC),Toilet,,,,"3rd Floor, near the canteen's elevator",ชั้น 3 ฝั่งลิฟต์โรงอาหาร
+Mahidol Learning Center (MLC),Toilet,,,,"3rd Floor, near MU Friends",ชั้น 3 ใกล้ MU Friends
+Mahidol Learning Center (MLC),Elevator,,,,"Near the Leelawadee Dorm (Dorm 10), Accessible elevator, reachable buttons","ฝั่งบ้านลีลาวดี (หอ 10), รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย"
+Mahidol Learning Center (MLC),Elevator,,,,"Near MU Health, Accessible elevator, reachable buttons","ฝั่ง MU Health, รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย"
+Mahidol Learning Center (MLC),Elevator,,,,"Near the canteen section, Accessible elevator, reachable buttons","ฝั่งโรงอาหาร, รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย"
+Mahidol Learning Center (MLC),Elevator,,,,"Main Elevator, Accessible elevator, reachable buttons","ลิฟต์กลาง, รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย"
+Mahidol Learning Center (MLC),Assistance,,,,Security Officer at the parking space next to the road,เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถติดถนน
+Mahidol Learning Center (MLC),Assistance,,,,Security Officer at the parking space near the cover way,เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถฝั่ง cover way
+Mahidol Learning Center (MLC),Assistance,,,,Disability Support Services Mahidol University (DSS Mahidol),หน่วยบริการสนับสนุนสำหรับนักศึกษาพิการ กองกิจการนักศึกษา มหาวิทยาลัยมหิดล (DSS Mahidol)
+Mahidol Learning Center (MLC),Parking,,,,Next to the cover way,บริเวณทางเข้าฝั่ง cover way
+Mahidol Learning Center (MLC),Ramp,120.0,1680.0,,At the building entrance near the Leelawadee Dorm (Dorm 10),บริเวณทางเข้าอาคารฝั่งบ้านลีลาวดี (หอ 10)
+Mahidol Learning Center (MLC),Ramp,128.0,1050.0,,At the building entrance near the Badhanatala Environment Building,บริเวณทางเข้าอาคารฝั่งอาคารสิ่งแวดล้อมพัฒนดล
+Mahidol Learning Center (MLC),Ramp,122.0,1600.0,,At the building entrance near the canteen,บริเวณทางเข้าอาคารฝั่ง cover way
+Mahidol Learning Center (MLC),Surface,,,,Rough surface at the building entrance near the canteen,ทางลาดบริเวณทางเข้าอาคารฝั่ง cover way มีลักษณะขรุขระ
+Faculty of Physical Therapy,Toilet,,,,"1st Floor, near the building's front entrance",ชั้น 1 บริเวณทางเข้าหน้าอาคาร
+Faculty of Physical Therapy,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Faculty of Physical Therapy,Assistance,,,,Security Officer at the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าอาคาร
+Faculty of Physical Therapy,Assistance,,,,PT Staffs (must contact the staffs before use),เจ้าหน้าที่คณะกายภาพบำบัด (ติดต่อก่อน)
+Faculty of Physical Therapy,Parking,,,,Near the building entrance,บริเวณทางเข้าหน้าอาคาร
+Faculty of Physical Therapy,Parking,,,,Near the building entrance,บริเวณทางเข้าหน้าอาคาร
+Faculty of Physical Therapy,Ramp,67.0,913.0,,At the building entrance from the parking space in front of the building,ทางเข้าหน้าอาคารจากที่จอดรถหน้าคณะ
+Faculty of Physical Therapy,Ramp,88.0,759.0,,At the building entrance from the parking space 3,ทางเข้าอาคารจากลานจอดรถ 3
+Tram Station,Toilet,,,,Near the Bus Terminal area (must contact the staffs before use),บริเวณจุดนั่งรอ Bus Terminal (ต้องติดต่อเจ้าหน้าที่ก่อนใช้งาน)
+Tram Station,Assistance,,,,Security Officer at the station entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าสถานีรถราง
+Tram Station,Assistance,,,,Security Officer at the Bus Terminal entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้า Bus Terminal
+Tram Station,Ramp,,,,At the connecting pathway from Sri Trang Dorm (Dorm 11),ทางเชื่อมจากฝั่งหอพักบ้านศรีตรัง (หอพักนักศึกษา 11)
+Tram Station,Ramp,,,"13.795107527854865, 100.31884441790997",At the connecting pathway from the road to the Bus Terminal,ทางเชื่อมจากถนนสู่ Bus Terminal
+Tram Station,Ramp,,,"13.794672406066601, 100.31885611800116",At the connecting pathway from the road to the Tram Station,ทางเชื่อมจากถนนสู่ Tram Station
+Tram Station,Surface,,,,Broken ramp surface at the connecting pathway from Sri Trang Dorm (Dorm 11),ทางขึ้นทางลาดจากฝั่งหอพักบ้านศรีตรัง (หอพักนักศึกษา 11) มีการชำรุด
+Bann Sri Trang (Dorm 11),Ramp,20.0,185.0,"13.794756919864005, 100.31987603357517",At the building entrance,ทางเข้าหน้าอาคาร
+Bann Sri Trang (Dorm 11),Surface,,,,Broken ramp surface at the building entrance,ทางขึ้นทางลาดหน้าอาคาร มีการชำรุด
+Prasu-Arthorn Animal Hospital,Toilet,,,,Near the building entrance,บริเวณทางเข้าหน้าอาคาร
+Prasu-Arthorn Animal Hospital,Assistance,,,,Security Officer near the building's parking space,เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถโรงพยาบาลสัตว์ประศุอาทร
+Prasu-Arthorn Animal Hospital,Ramp,110.0,555.0,"13.798305949426, 100.31800584842696",At the building entrance,บริเวณทางเข้าหน้าอาคาร
+Faculty of Veterinary Science,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Faculty of Veterinary Science,Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร
+Faculty of Veterinary Science,Assistance,,,,Security Officer near the building's parking space,เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถคณะสัตวแพทยศาสตร์
+College of Religious Studies,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+College of Religious Studies,Assistance,,,,Security Officer/ Staffs (must contact the staffs before enter),เจ้าหน้าที่รักษาความปลอดภัยประจำอาคาร หรือเจ้าหน้าที่ในคณะ (ติดต่อเจ้าหน้าที่ก่อน)
+College of Religious Studies,Surface,,,,Step at the building entrance,ทางเข้าอาคารมีความต่างระดับ
+National Institute for Child and Family Development,Toilet,,,,"1st Floor, at both ends of the hallway",ชั้น 1 ฝั่งซ้ายสุดและขวาสุดของชั้น
+National Institute for Child and Family Development,Elevator,,,,"Accessible elevator, reachable buttons (G Floor)",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย (ชั้น G)
+National Institute for Child and Family Development,Assistance,,,,"Security Officer near the parking space, G Floor",เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถชั้น G
+National Institute for Child and Family Development,Parking,,,,G Floor,ชั้น G
+National Institute for Child and Family Development,Ramp,,,"13.798371231421042, 100.31923311781847",At the Sikkha Wattana building entrance,ทางเข้าอาคารสิกขาวัฒนา 
+Parking 1,Assistance,,,,Security Officer at the parking space,เจ้าหน้าที่รักษาความปลอดภัยประจำที่จอดรถ
+Faculty of Liberal Arts,Toilet,,,,"1st Floor, near the first-aid room",ชั้น 1 ฝั่งห้องปฐมพยาบาล
+Faculty of Liberal Arts,Toilet,,,,"2nd Floor, near the auditorium",ชั้น 2 ฝั่งห้องประชุม
+Faculty of Liberal Arts,Elevator,,,,"Accessible elevator, reachable buttons (near the Security Officer's table)",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย (อยู่ใกล้โต๊ะเจ้าหน้าที่รักษาความปลอดภัย)
+Faculty of Liberal Arts,Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร
+Faculty of Liberal Arts,Assistance,,,,Security Officer near the elevator,เจ้าหน้าที่รักษาความปลอดภัยบริเวณลิฟต์
+Faculty of Liberal Arts,Ramp,,,"13.796806655591768, 100.32107385443818",In front of the building entrance,บริเวณทางเข้าหน้าอาคาร
+Faculty of Liberal Arts,Ramp,,,"13.79736449380824, 100.32149427258821","At the building entrance, near the Faculty of Physical Therapy",บริเวณทางเข้าอาคารฝั่งคณะกายภาพบำบัด
+Parking 3,Assistance,,,,Security Officer at the parking space,เจ้าหน้าที่รักษาความปลอดภัยประจำที่จอดรถ
+Division of Physical Systems and Environment,Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร
+Division of Physical Systems and Environment,Ramp,,,"13.798244126311083, 100.32167345921323",Near the building entrance,บริเวณทางเข้าหน้าอาคาร
+Division of Physical Systems and Environment,Surface,,,,Step at the building entrance,ทางเข้าอาคารมีความต่างระดับ
+Faculty of Medical Technology,Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Faculty of Medical Technology,Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร
+Faculty of Medical Technology,Parking,,,,Near the building entrance (faded sign),บริเวณทางเข้าหน้าอาคาร (สัญลักษณ์จาง)
+Faculty of Medical Technology,Ramp,58.0,580.0,"13.797551149265091, 100.32178237334362",At the building entrance from the parking space in front of the building,ทางเข้าหน้าอาคารจากที่จอดรถหน้าคณะ
+Faculty of Medical Technology,Surface,,,,"Broken surface, bicycle and light pole around the ramp area",บริเวณทางลาดเชื่อมเข้าคณะมีการชำรุด มีจักรยานและเสาไฟอยู่ระหว่างทาง
+Aditayathorn Building (MUIC),Toilet,,,,"1st Floor, at 4 corners of the building",ชั้น 1 ทั้ง 4 มุมตึก
+Aditayathorn Building (MUIC),Toilet,,,,"2nd Floor, at 4 corners of the building",ชั้น 2 ทั้ง 4 มุมตึก
+Aditayathorn Building (MUIC),Toilet,,,,"3rd Floor, at 4 corners of the building",ชั้น 3 ทั้ง 4 มุมตึก
+Aditayathorn Building (MUIC),Toilet,,,,"4th Floor, at 4 corners of the building",ชั้น 4 ทั้ง 4 มุมตึก
+Aditayathorn Building (MUIC),Toilet,,,,"5th Floor, at 4 corners of the building",ชั้น 5 ทั้ง 4 มุมตึก
+Aditayathorn Building (MUIC),Elevator,,,,Regular Elevator,ลิฟต์โดยสารปกติ
+Aditayathorn Building (MUIC),Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร
+Aditayathorn Building (MUIC),Assistance,,,,Security Officer near the parking space (B1 Floor),เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถชั้น B1
+Aditayathorn Building (MUIC),Parking,,,,B1 Floor,ชั้น B1
+Aditayathorn Building (MUIC),Parking,,,,B1 Floor,ชั้น B1
+Aditayathorn Building (MUIC),Ramp,133.0,1040.0,"13.790415465440395, 100.32686921890773",In front of the building entrance,บริเวณทางเข้าหน้าอาคาร
+Aditayathorn Building (MUIC),Ramp,133.0,1040.0,"13.790590340486622, 100.32691052808727",In front of the building entrance,บริเวณทางเข้าหน้าอาคาร
+Aditayathorn Building (MUIC),Surface,,,,Broken ramp surface at the building entrance,ทางขึ้นทางลาดหน้าอาคาร มีการชำรุด
+Faculty of Nursing,Toilet,,,,"1st Floor, near the elevator",ชั้น 1 บริเวณลิฟต์โดยสาร
+Faculty of Nursing,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Faculty of Nursing,Assistance,,,,Security Officer near the parking space (G Floor),เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถชั้น G
+Faculty of Nursing,Parking,,,,Near the elevator,บริเวณลิฟต์โดยสาร
+Parking 2 (Mahidol University Parking),Ramp,238.0,1559.0,"13.791416428569624, 100.32239041463153",Near the road opposite of the Research Institute for Languages and Cultures of Asia (RILCA),ติดถนนบริเวณฝั่งตรงข้ามสถาบันวิจัยภาษาและวัฒนธรรมเอเชีย
+Parking 2 (Mahidol University Parking),Ramp,238.0,1559.0,"13.790387521364943, 100.32240750251613",Near the road opposite of the South East Asian Music Museum,ติดถนนบริเวณฝั่งตรงข้ามพิพิธภัณฑ์ดนตรีอุษาคเนย์
+Parking 2 (Mahidol University Parking),Ramp,,,,At the connecting pathway from the Prince Mahidol Hall area,ทางเชื่อมจากฝั่งมหิดลสิทธาคาร
+Parking 2 (Mahidol University Parking),Ramp,,,,At the connecting pathway from the Prince Mahidol Hall area,ทางเชื่อมจากฝั่งมหิดลสิทธาคาร
+Parking 2 (Mahidol University Parking),Toilet,,,,"G Floor, near the Prince Mahidol Hall Office",ชั้น G บริเวณฝั่งสำนักงานมหิดลสิทธาคาร
+Parking 2 (Mahidol University Parking),Toilet,,,,"G Floor, near the restaurants section",ชั้น G บริเวณฝั่งร้านอาหาร
+Parking 2 (Mahidol University Parking),Parking,,,,"G Floor, near the Parking control room",ชั้น G บริเวณห้องควบคุมอาคารจอดรถ
+Parking 2 (Mahidol University Parking),Parking,,,,"G Floor, near the Parking control room",ชั้น G บริเวณห้องควบคุมอาคารจอดรถ
+Parking 2 (Mahidol University Parking),Parking,,,,"G Floor, near the Parking control room",ชั้น G บริเวณห้องควบคุมอาคารจอดรถ
+Parking 2 (Mahidol University Parking),Assistance,,,,Security Officer near the entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้า
+Prince Mahidol Hall,Ramp,,,,At the connecting pathway from the Parking 2 area,ทางเชื่อมจากฝั่งที่จอดรถ
+Prince Mahidol Hall,Ramp,,,,At the connecting pathway from the Parking 2 area,ทางเชื่อมจากฝั่งที่จอดรถ
+Prince Mahidol Hall,Ramp,,,"13.78958231088807, 100.32161966522128",At the (shuttle bus) drop off area,จุด drop off/ จุดจอดรถ Shuttle Bus
+Prince Mahidol Hall,Ramp,,,"13.791560068129625, 100.32077562637951",At the connecting pathway from the Sireeruckhachati Nature Learning Park,ทางเชื่อมจากฝั่งอุทยานธรรมชาติวิทยาสิรีรุกขชาติ
+Prince Mahidol Hall,Ramp,,,"13.790866463536034, 100.32075080144716",At the connecting pathway from the Sireeruckhachati Nature Learning Park,ทางเชื่อมจากฝั่งอุทยานธรรมชาติวิทยาสิรีรุกขชาติ
+Prince Mahidol Hall,Parking,,,,"B1 Floor, near the A entrance",ชั้น B1 บริเวณทางเข้า A
+Prince Mahidol Hall,Elevator,,,,"Accessible elevator, reachable buttons (A area)",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย (ฝั่ง A)
+Prince Mahidol Hall,Elevator,,,,"Accessible elevator, reachable buttons (B area)",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย (ฝั่ง B)
+Prince Mahidol Hall,Toilet,,,,Near the 1A area,บริเวณ 1A
+Prince Mahidol Hall,Toilet,,,,Near the 1B area,บริเวณ 1B
+Prince Mahidol Hall,Toilet,,,,Near the BA area,บริเวณ BA
+Prince Mahidol Hall,Toilet,,,,Near the BB area,บริเวณ BB
+Prince Mahidol Hall,Assistance,,,,Security Officer near the A entrance (B1 Floor Parking Space),เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถชั้น B1 ใกล้ทางเข้า A
+Prince Mahidol Hall,Assistance,,,,Security Officer near the B entrance (B1 Floor Parking Space),เจ้าหน้าที่รักษาความปลอดภัยบริเวณที่จอดรถชั้น B1 ใกล้ทางเข้า B
+Prince Mahidol Hall,Assistance,,,,Security Officer at the (shuttle bus) drop off area,เจ้าหน้าที่รักษาความปลอดภัยบริเวณจุด drop off/ จุดจอดรถ Shuttle Bus
+Sireeruckhachati Nature Learning Park,Parking,,,,Near the park's main entrance,บริเวณทางเข้าหลักหน้าอุทยาน
+Sireeruckhachati Nature Learning Park,Ramp,111.0,1422.0,"13.79149108292781, 100.32014431005224",At the connecting pathway from the main entrance to the Administration and Exhibition building (1B),ทางเชื่อมจากทางเข้าหลักสู่อาคารใบไม้สามใบ (1B)
+Sireeruckhachati Nature Learning Park,Ramp,111.0,1422.0,"13.791465467428194, 100.32031047837498",At the connecting pathway from the main entrance to the Administration and Exhibition building (1B),ทางเชื่อมจากทางเข้าหลักสู่อาคารใบไม้สามใบ (1B)
+Sireeruckhachati Nature Learning Park,Ramp,150.0,1412.0,"13.791231058688501, 100.32020326261059",At the pathway to the toilet within the Administration and Exhibition building (1B),ทางลงไปสู่ห้องน้ำในอาคารใบไม้สามใบ (1B) 
+Sireeruckhachati Nature Learning Park,Ramp,140.0,1051.0,"13.79118392708901, 100.3200581123903",At the pathway to the park from the Administration and Exhibition building (1B),ทางเชื่อมไปสู่อุทยานจากอาคารใบไม้สามใบ (1B)
+Sireeruckhachati Nature Learning Park,Ramp,,,"13.790689955900122, 100.31979656426657",At the Applied Thai Traditional Pavilion entrance,ทางเข้าบ้านหมอยา
+Sireeruckhachati Nature Learning Park,Ramp,,,"13.79183320931559, 100.31894331807557",At the Research and Herbarium building entrance,ทางเข้าอาคารวิจัยและพิพิธภัณฑ์พืช
+Sireeruckhachati Nature Learning Park,Toilet,,,,"At the Administration and Exhibition building (1B), near the men's toilet",บริเวณห้องน้ำชายภายในอาคารใบไม้สามใบ (1B) (อ้อมจากทางห้องประชุม)
+Sireeruckhachati Nature Learning Park,Toilet,,,,At the Workshop building (5B),บริเวณอาคารใบไม้ใบเดียว (5B)
+Sireeruckhachati Nature Learning Park,Assistance,,,,Security Officer near the park entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหลักหน้าอุทยาน
+Sireeruckhachati Nature Learning Park,Assistance,,,,Information at the Administration and Exhibition building (1B),เจ้าหน้าที่ประชาสัมพันธ์ประจำอาคารใบไม้สามใบ (1B)
+Parking 5,Parking,,,,Near the bicycle parking area,บริเวณที่จอดจักรยาน
+Parking 5,Assistance,,,,Security Officer at the parking space,เจ้าหน้าที่รักษาความปลอดภัยประจำที่จอดรถ
+Parking 4,Parking,,,,Near the parking space entrance,บริเวณทางเข้าที่จอดรถ
+Parking 4,Assistance,,,,Security Officer at the parking space,เจ้าหน้าที่รักษาความปลอดภัยประจำที่จอดรถ
+Ratchasuda College,Ramp,,,"13.78680364831775, 100.32463769320695",In front of the building entrance,บริเวณทางเข้าหน้าอาคาร
+Ratchasuda College,Ramp,,,"13.78681600573136, 100.32485188058672",In front of the building entrance,บริเวณทางเข้าหน้าอาคาร
+Ratchasuda College,Surface,,,,2 broken ramp surfaces at the building entrance,ทางขึ้นทางลาดบริเวณทางเข้าหน้าอาคาร (2 จุด) มีการชำรุด
+Golden Jubilee Medical Center,Parking,,,,Near the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,บริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew
+Golden Jubilee Medical Center,Parking,,,,Near the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,บริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew
+Golden Jubilee Medical Center,Parking,,,,Near the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,บริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew
+Golden Jubilee Medical Center,Parking,,,,Near the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,บริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew
+Golden Jubilee Medical Center,Parking,,,,Near the Vacc. Thru,บริเวณจุดบริการวัคซีน Vacc. Thru
+Golden Jubilee Medical Center,Parking,,,,Near the Vacc. Thru,บริเวณจุดบริการวัคซีน Vacc. Thru
+Golden Jubilee Medical Center,Parking,,,,Near the Vacc. Thru,บริเวณจุดบริการวัคซีน Vacc. Thru
+Golden Jubilee Medical Center,Assistance,,,,Security Officer near the Maha Chakri Sirindhorn Dental Hospital building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร
+Golden Jubilee Medical Center,Assistance,,,,Security Officer near the Vacc. Thru,เจ้าหน้าที่รักษาความปลอดภัยบริเวณจุดบริการวัคซีน Vacc. Thru
+Golden Jubilee Medical Center,Assistance,,,,Hospital staffs,เจ้าหน้าที่โรงพยาบาล
+Golden Jubilee Medical Center,Ramp,80.0,412.0,"13.786989009453457, 100.32251490536517",Near the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,บริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew
+Golden Jubilee Medical Center,Ramp,,,"13.787170251310421, 100.32140579645812",Near the road opposite of Prince Mahidol Hall,ติดถนนบริเวณฝั่งตรงข้ามมหิดลสิทธาคาร
+Golden Jubilee Medical Center,Surface,,,,Broken ramp surface at  the Maha Chakri Sirindhorn Dental Hospital building entrance/ Bellinee's Bake & Brew,ทางขึ้นทางลาดบริเวณทางเข้าหน้าโรงพยาบาลทันตกรรมมหาจักรีสิรินธร/ Bellinee's Bake & Brew มีการชำรุด
+Golden Jubilee Medical Center,Elevator,,,,"Accessible elevator, reachable buttons",รองรับผู้ใช้วีลแชร์ในระดับที่เอื้อมถึงได้ง่าย
+Golden Jubilee Medical Center,Toilet,,,,Accessible toilets,รองรับผู้ใช้วีลแชร์
+Ratchasuda College,Toilet,,,,Accessible toilets,รองรับผู้ใช้วีลแชร์
+Ratchasuda College,Assistance,,,,Security Officer near the building entrance,เจ้าหน้าที่รักษาความปลอดภัยบริเวณทางเข้าอาคาร

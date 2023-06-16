@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "641dcd52be6468d6f10cf950",
+      "createdAt": "2023-01-19T10:08:49z",
+      "updatedAt": "2023-01-19T10:08:49z",
+      "place": {
+        "nameTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+        "nameEN": "Faculty of Information and Communication Technology"
+      },
+      "user": {
+        "username": "ullamco"
+      },
+      "comment": "การให้การบริการพอใช้ แต่ต้องมีการปรับปรุงให้ดีขึ้น",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "rating": {
+        "overall": 4,
+        "ramp": 3,
+        "assistance": 5,
+        "elevator": 5,
+        "parking": 4,
+        "surface": 4,
+        "toilet": 5,
+        "isFlagged": false,
+        "additionalComment": "ขอบคุณค่ะ ทางเราจะทำการปรับปรุงโดยเร่งด่วนค่ะ"
+      }
+    },
+    {
+      "id": "641dcd52be6468d6f10cf951",
+      "createdAt": "2023-01-19T10:08:49z",
+      "updatedAt": "2023-02-19T10:08:49z",
+      "place": {
+        "nameTH": "สถาบันชีววิทยาศาสตร์โมเลกุล",
+        "nameEN": "Institute of Molecular Biosciencesy"
+      },
+      "user": {
+        "username": "ennvv"
+      },
+      "comment": "ห่วย",
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "rating": {
+        "overall": 1,
+        "facility": ["cleanliness", "safety"],
+        "isFlagged": true,
+        "additionalComment": ""
+      }
+    }
+  ]
+}

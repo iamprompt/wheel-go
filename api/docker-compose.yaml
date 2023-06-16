@@ -1,0 +1,30 @@
+services:
+  wheel-go-api:
+    image: wheel-go-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      - PORT=3000
+      - MONGO_URI=mongodb://root:root@wheel-go-api-db:27017/wheel-go?authSource=admin
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET}
+    volumes:
+      - wheel-go-assets:/app/uploads
+    depends_on:
+      - wheel-go-api-db
+
+  wheel-go-api-db:
+    image: mongo:4.4.20
+    volumes:
+      - wheel-go-db:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: wheel-go
+
+volumes:
+  wheel-go-db:
+  wheel-go-assets:

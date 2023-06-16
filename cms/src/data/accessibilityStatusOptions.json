@@ -1,0 +1,12 @@
+{
+  "data": {
+    "en": [
+      { "value": "ACCESSIBLE", "label": "Accessible" },
+      { "value": "INACCESSIBLE", "label": "Inaccessible" }
+    ],
+    "th": [
+      { "value": "ACCESSIBLE", "label": "เข้าถึงได้" },
+      { "value": "INACCESSIBLE", "label": "ไม่สามารถเข้าถึงได้" }
+    ]
+  }
+}

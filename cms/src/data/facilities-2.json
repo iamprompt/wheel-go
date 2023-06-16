@@ -1,0 +1,20 @@
+{
+  "data": {
+    "Facilities": {
+      "docs": [
+        {
+          "id": "641dcd6e9c1ec7369daab8dc",
+          "createdAt": "2023-03-24T16:18:54.402Z",
+          "updatedAt": "2023-03-24T16:18:54.402Z",
+          "geolocation": [100.3248219954286, 13.795124010020528],
+          "rise": 850,
+          "length": 1595,
+          "status": "accessible",
+          "busLines": ["515/2", "22/1"],
+          "tramLines": ["red", "green"],
+          "isWarning": true
+        }
+      ]
+    }
+  }
+}

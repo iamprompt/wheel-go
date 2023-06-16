@@ -1,0 +1,16 @@
+{
+  "data": {
+    "en": [
+      { "value": "Red", "label": "Red" },
+      { "value": "Yellow", "label": "Yellow" },
+      { "value": "Blue", "label": "Blue" },
+      { "value": "Green", "label": "Green" }
+    ],
+    "th": [
+      { "value": "Red", "label": "สีแดง" },
+      { "value": "Yellow", "label": "สีเหลือง" },
+      { "value": "Blue", "label": "สีน้ำเงิน" },
+      { "value": "Green", "label": "สีเขียว" }
+    ]
+  }
+}

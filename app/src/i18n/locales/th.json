@@ -1,0 +1,337 @@
+{
+  "accessibility_level": {
+    "level_0": "ไม่สามารถเข้าถึงได้เลย",
+    "level_1": "เข้าถึงยากแม้จะมีความช่วยเหลือ",
+    "level_2": "ต้องอาศัยความเหลือจากผู้อื่นและอุปกรณ์",
+    "level_3": "ต้องอาศัยความเหลือจากผู้อื่น",
+    "level_4": "ต้องอาศัยความเหลือจากผู้อื่น หรือ อุปกรณ์ในการช่วยเหลือ",
+    "level_5": "ต้องอาศัยอุปกรณ์ในการช่วยเหลือ",
+    "level_6": "ต้องอาศัยอุปกรณ์ในการช่วยเหลือ หรือ สามารถเข้าถึงง่ายด้วยตนเอง",
+    "level_7": "เข้าถึงง่ายด้วยตนเอง",
+    "title": "ระดับการเข้าถึง"
+  },
+  "announcements": {
+    "contact": {
+      "email": "อีเมล",
+      "line": "LINE Official Account",
+      "phone": "โทรศัพท์",
+      "title": "ติดต่อ"
+    },
+    "details": "รายละเอียด"
+  },
+  "auth": {
+    "dont_have_account": "ยังไม่มีบัญชี?",
+    "email": "อีเมล",
+    "email_placeholder": "อีเมลของคุณ",
+    "login": "ลงชื่อเข้าใช้",
+    "login_description": "เพื่อสร้างสิ่งแวดล้อมเพื่อคนทุกคนร่วมกัน",
+    "login_title": "ลงชื่อเข้าใช้",
+    "login_to_wheelgo": "ลงชื่อเข้าสู่ วีลโก",
+    "logout": "ออกจากระบบ",
+    "page_not_signed_in": "คุณยังไม่ได้ลงชื่อเข้าใช้",
+    "password": "รหัสผ่าน",
+    "password_placeholder": "********",
+    "register": {
+      "confirm_password": "ยืนยันรหัสผ่าน",
+      "confirm_password_placeholder": "********",
+      "consent": "ข้อกำหนดและเงื่อนไข",
+      "consent_predescription": "โดยการลงทะเบียน คุณยินยอมที่จะปฏิบัติตาม",
+      "email": "อีเมล",
+      "email_placeholder": "อีเมลของคุณ",
+      "equipment": "อุปกรณ์ช่วยเหลือ",
+      "equipment_placeholder": "อุปกรณ์ช่วยเหลือที่คุณใช้",
+      "firstname": "ชื่อ",
+      "firstname_placeholder": "ชื่อของคุณ",
+      "impairment_level": "ระดับความบกพร่อง",
+      "impairment_level_placeholder": "ระดับความบกพร่องของคุณ",
+      "lastname": "นามสกุล",
+      "lastname_placeholder": "นามสกุลของคุณ",
+      "password": "รหัสผ่าน",
+      "password_placeholder": "********",
+      "register_button": "ลงทะเบียน",
+      "register_description": "เพื่อสร้างสิ่งแวดล้อมเพื่อคนทุกคนร่วมกัน",
+      "register_title": "ลงทะเบียน",
+      "username": "ชื่อผู้ใช้",
+      "username_placeholder": "ชื่อผู้ใช้ของคุณ"
+    },
+    "register_cta": "ลงทะเบียน",
+    "sign_in": "ลงชื่อเข้าใช้"
+  },
+  "badges": {
+    "coming_soon": "เร็ว ๆ นี้",
+    "master_navigator": "เจ้าแห่งการนำทาง",
+    "master_reviewer": "เจ้าแห่งการรีวิว",
+    "navigator_description": "รางวัลสำหรับการมีส่วนร่วมของคุณในการบันทึกเส้นทางที่เข้าถึงได้",
+    "novice_navigator": "นักนำทางมือใหม่",
+    "novice_reviewer": "นักรีวิวมือใหม่",
+    "reviewer_description": "รางวัลสำหรับการมีส่วนร่วมของคุณในการรีวิวสถานที่",
+    "reviews_mission": "รีวิว",
+    "reviews_mission_description": "รีวิวไปทั้งหมด {{count}} รีวิว",
+    "routes_mission": "เส้นทาง",
+    "routes_mission_description": "บันทึกไปทั้งหมด {{count}} เส้นทางที่เข้าถึงได้",
+    "skillful_navigator": "สุดยอดนักนำทาง",
+    "skillful_reviewer": "สุดยอดนักรีวิว"
+  },
+  "button": {
+    "cancel": "ยกเลิก",
+    "close": "ปิด",
+    "confirm": "ยืนยัน",
+    "done": "เสร็จสิ้น",
+    "go": "ไป",
+    "ok": "ตกลง",
+    "save": "บันทึก",
+    "sign_in": "ลงชื่อเข้าใช้",
+    "skip": "ข้าม",
+    "stop": "หยุด"
+  },
+  "categories": {
+    "BUILDING": "อาคาร",
+    "CAFE": "คาเฟ่",
+    "CURBCUT": "ทางลาดขนาดย่อม",
+    "FOOD": "อาหาร",
+    "INCIDENT": "เหตุฉุกเฉิน",
+    "PARK": "สวนสาธารณะ",
+    "PARKING": "ที่จอดรถ",
+    "RAMP": "ทางลาด",
+    "RESIDENCE": "ที่พักอาศัย",
+    "ROUTE": "เส้นทาง",
+    "SPORT": "กีฬา",
+    "TOILET": "ห้องน้ำ",
+    "TRANSPORT": "การขนส่ง"
+  },
+  "equipment": {
+    "electric_wheelchair": "รถเข็นไฟฟ้า",
+    "manual_wheelchair": "รถเข็น",
+    "none": "ไม่มี"
+  },
+  "explore": {
+    "curbcut_modal": {
+      "accessible_label": "ทางลาดขนาดย่อมนี้สามารถเข้าถึงได้อย่างง่ายดาย",
+      "broken_label": "ทางลาดขนาดย่อมนี้ชำรุดโปรดระมัดระวังในการใช้งาน",
+      "need_assistance_label": "ต้องอาศัยความช่วยเหลือเพื่อที่จะใช้ทางลาดขนาดย่อมนี้"
+    },
+    "search_route_placeholder": "ค้นหาเส้นทางแนะนำ ?",
+    "trace_cta_button": "บันทึกการเดินทาง",
+    "transport_modal": {
+      "accessible_label": "จุดรอรถนี้สามารถเข้าถึงได้",
+      "bus_lines": {
+        "title": "สายรถโดยสารประจำทาง"
+      },
+      "inaccessible_label": "จุดรอรถนี้ไม่สามารถเข้าถึงได้",
+      "tram_lines": {
+        "blue": "สีน้ำเงิน",
+        "green": "สีเขียว",
+        "red": "สีแดง",
+        "title": "สายรถราง",
+        "yellow": "สีเหลือง"
+      }
+    }
+  },
+  "facilities": {
+    "assistance": "ผู้ช่วย",
+    "elevator": "ลิฟต์โดยสาร",
+    "parking": "ที่จอดรถ",
+    "ramp": "ทางลาด",
+    "spot_no": "จุดที่ {{number}}:",
+    "surface": "พื้นผิว",
+    "toilet": "ห้องน้ำ"
+  },
+  "faq": {
+    "contact_us": "ถ้าไม่เจอคำตอบสำหรับคำถามของคุณ? สามารถติดต่อผู้ดูแลได้ที่",
+    "contact_us_email": "wheelgo.ict.mahidol@gmail.com"
+  },
+  "helpModal": {
+    "description": "คุณจะถูกนำไปที่หน่วยบริการสนับสนุนสำหรับนักศึกษาพิการ",
+    "title": "ต้องการความช่วยเหลือ?"
+  },
+  "impairment_level": {
+    "dependent": "4 - ไม่สามารถช่วยเหลือตัวเองได้",
+    "independent": "0 - สามารถช่วยเหลือตัวเองได้",
+    "require_assistance": "2 - ต้องการความช่วยเหลือจากผู้อื่น",
+    "require_equipment": "1 - ต้องอาศัยอุปกรณ์ในการช่วยเหลือ",
+    "require_equipment_and_assistance": "3 - ต้องการความช่วยเหลือจากผู้อื่น/อุปกรณ์"
+  },
+  "map_prefs_modal": {
+    "conditions": "วัตถุแวดล้อม",
+    "description": "เปิด/ปิด โดยกดที่ชื่อตัวเลือก",
+    "places": "สถานที่",
+    "show_all": "แสดงทั้งหมด",
+    "title": "การตั้งค่าการแสดงผลแผนที่"
+  },
+  "non_user_trace_modal": {
+    "description": "This trace feature is available for the member only.\nPlease sign in to Wheel Go.",
+    "title": "Want to trace?"
+  },
+  "page": {
+    "announcements": "ประกาศ",
+    "explore": "สำรวจ",
+    "faq": "คำถามที่พบบ่อย",
+    "faq_short": "คำถามที่พบบ่อย",
+    "help": "ช่วยเหลือ",
+    "how_to_use": "วิธีใช้",
+    "privacy_policy": "ข้อกำหนดและเงื่อนไข",
+    "profile": "โปรไฟล์",
+    "records": "บันทึกของฉัน",
+    "settings": "การตั้งค่า"
+  },
+  "places": {
+    "accessibility_rating_title": "ระดับความเข้าถึง",
+    "address": "ที่อยู่",
+    "all_reviews": "รีวิวทั้งหมด",
+    "contact": "ติดต่อ",
+    "facilities_details": "ข้อมูลสิ่งอำนวยความสะดวก",
+    "facilities_title": "สิ่งอำนวยความสะดวก",
+    "nearby_places": "สถานที่ใกล้เคียง",
+    "review_here": "ให้คะแนนที่นี่",
+    "review_text": "รีวิว",
+    "see_more_details": "ดูข้อมูลเพิ่มเติม",
+    "see_place_details": "ดูข้อมูลสถานที่",
+    "see_reviews": "ดูรีวิว",
+    "share": "แชร์",
+    "show_on_map": "โชว์บนแผนที่",
+    "website": "เว็บไซต์"
+  },
+  "profile": {
+    "edit": {
+      "account": "บัญชี",
+      "basic_info": "ข้อมูลพื้นฐาน",
+      "birthdate": "วันเกิด",
+      "email": "อีเมล",
+      "equipment": "อุปกรณ์ช่วยเหลือ",
+      "firstname": "ชื่อ",
+      "impairment_level": "ระดับความบกพร่อง",
+      "lastname": "นามสกุล",
+      "success": "แก้ไขโปรไฟล์สำเร็จ",
+      "title": "แก้ไขโปรไฟล์",
+      "username": "ชื่อผู้ใช้"
+    },
+    "edit_profile": "แก้ไขโปรไฟล์",
+    "my_summary": "ภาพรวมของฉัน",
+    "summary_details": {
+      "joined_at": "เข้าร่วมเมื่อ",
+      "total_distance": "เดินทางไปแล้ว",
+      "total_places": "ไปเยี่ยมชมมาแล้ว",
+      "total_reviews": "รีวิวมาแล้ว",
+      "total_routes": "บันทึกการเดินทาง"
+    }
+  },
+  "records": {
+    "contributed_routes": "เส้นทางของฉัน",
+    "date": "วันที่",
+    "distance": "ระยะทาง",
+    "elapsed_time": "เวลาที่ใช้",
+    "favorite_places": "สถานที่ของฉัน",
+    "my_lists": "ลิสต์ของฉัน",
+    "places_reviews": "รีวิวของฉัน",
+    "reviews": {
+      "my_review": "รีวิวของฉัน"
+    },
+    "time": "เวลา"
+  },
+  "reviews": {
+    "accessibility_rating": {
+      "criteria_title": "เกณฑ์การให้คะแนนระดับความเข้าถึง",
+      "description": "ระดับความเข้าถึง",
+      "rating_0": "ไม่สามารถเข้าถึงได้เลย",
+      "rating_1": "เข้าถึงยากแม้จะมีความช่วยเหลือ",
+      "rating_2": "ต้องอาศัยความเหลือจากผู้อื่นและอุปกรณ์",
+      "rating_3": "ต้องอาศัยความเหลือจากผู้อื่น",
+      "rating_4": "ต้องอาศัยอุปกรณ์ในการช่วยเหลือ",
+      "rating_5": "เข้าถึงง่ายด้วยตนเอง"
+    },
+    "add_more_images": "เพิ่มรูปภาพ",
+    "additional_official_comment": "ข้อมูลเพิ่มเติมจากเจ้าหน้าที่",
+    "details": "รายละเอียด",
+    "details_placeholder": "คิดอย่างไรกับสถานที่แห่งนี้ เจอปัญหาการเข้าถึงบ้างหรือไม่?",
+    "facility": "สิ่งอำนวยความสะดวก",
+    "facility_tags": {
+      "cleanliness": "ถูกสุขลักษณะ",
+      "good_service": "บริการดี",
+      "nice_facilities": "สิ่งอำนวยความสะดวกดี",
+      "safety": "ปลอดภัย"
+    },
+    "images": "รูปภาพ",
+    "images_limit_description": "สามารถอัพโหลดได้มากที่สุด 3 ภาพ",
+    "no_reviews": "ยังไม่มีรีวิว",
+    "rate_this_place": "ให้คะแนนที่นี่",
+    "see_all_reviews": "ดูรีวิวทั้งหมด",
+    "submit_review": "ส่งรีวิว",
+    "upload_images": "อัปโหลดรูปภาพ"
+  },
+  "routes": {
+    "route_title": "เส้นทาง {{id}}",
+    "search": {
+      "placeholder": "ค้นหาสถานที่"
+    }
+  },
+  "routes_search": {
+    "from": "จาก",
+    "from_placeholder": "จุดเริ่มต้นของคุณ",
+    "title": "เส้นทางที่แนะนำ",
+    "to": "ถึง",
+    "to_placeholder": "สถานที่ที่คุณกำลังจะไป?"
+  },
+  "search": {
+    "categories": "ประเภทสถานที่",
+    "near_me": "สถานที่ใกล้ฉัน",
+    "placeholder": "หาสถานที่ใหม่ ๆ"
+  },
+  "settings": {
+    "about": "เกี่ยวกับ",
+    "copyright": "ลิขสิทธิ์",
+    "data_allowance": "การอนุญาตการให้ข้อมูล",
+    "delete_account_cta": "ลบบัญชี",
+    "general": "ทั่วไป",
+    "language": "Languages/ภาษา",
+    "mahidol_university": "มหาวิทยาลัยมหิดล",
+    "privacy": "ความเป็นส่วนตัว",
+    "privacy_policy": "ข้อกำหนดและเงื่อนไข",
+    "support_division": "หน่วยงานที่สนับสนุน",
+    "version": "เวอร์ชัน"
+  },
+  "trace": {
+    "finish_popup": {
+      "description": "คุณต้องการบันทึกการเดินทางหรือไม่?",
+      "overall_distance": "ระยะทางทั้งหมด",
+      "overall_time": "เวลาทั้งหมด",
+      "title": "เสร็จสิ้นการเดินทาง"
+    },
+    "pause": "พัก",
+    "pause_popup": {
+      "description": "บันทึกต่อเมื่อคุณพร้อม",
+      "title": "หยุดพัก"
+    },
+    "resume": "เดินทางต่อ",
+    "save": "บันทึกการเดินทาง",
+    "save_modal": {
+      "description": "คุณต้องการบันทึกการเดินทางหรือไม่?",
+      "title": "บันทึกการเดินทาง"
+    },
+    "start": "เริ่มการเดินทาง",
+    "status": {
+      "finished": "เสร็จสิ้นการเดินทาง",
+      "paused": "พักการเดินทาง",
+      "ready": "พร้อมสำหรับการบันทึก",
+      "recording": "กำลังบันทึกการเดินทาง",
+      "saved": "การเดินทางถูกบันทึกแล้ว"
+    },
+    "stop": "หยุด",
+    "stop_modal": {
+      "description": "คุณต้องการหยุดการบันทึกการเดินทางหรือไม่?",
+      "title": "หยุดการเดินทาง"
+    }
+  },
+  "units": {
+    "hours": "ชั่วโมง",
+    "kilometers": "กิโลเมตร",
+    "meters": "เมตร",
+    "minutes": "นาที",
+    "place": "ที่",
+    "places": "ที่",
+    "review": "รีวิว",
+    "reviews": "รีวิว",
+    "route": "เส้นทาง",
+    "routes": "เส้นทาง",
+    "seconds": "วินาที"
+  }
+}

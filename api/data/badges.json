@@ -1,0 +1,170 @@
+[
+  {
+    "name": {
+      "en": "Novice Navigator",
+      "th": "นักนำทางมือใหม่"
+    },
+    "description": {
+      "en": "Award for your contribution on accessible route tracing",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการบันทึกเส้นทางที่เข้าถึงได้"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "TRACE_ROUTE",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 3 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 3 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 3,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Skillful Navigator",
+      "th": "สุดยอดนักนำทาง"
+    },
+    "description": {
+      "en": "Award for your contribution on accessible route tracing",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการบันทึกเส้นทางที่เข้าถึงได้"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "TRACE_ROUTE",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 15 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 15 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 15,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Master Navigator",
+      "th": "เจ้าแห่งการนำทาง"
+    },
+    "description": {
+      "en": "Award for your contribution on accessible route tracing",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการบันทึกเส้นทางที่เข้าถึงได้"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "TRACE_ROUTE",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 45 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 45 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 45,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Novice Reviewer",
+      "th": "นักรีวิวมือใหม่"
+    },
+    "description": {
+      "en": "Award for your contribution on reviewing the place",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการรีวิวสถานที่"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "WRITE_REVIEW",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 3 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 3 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 3,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Skillful Reviewer",
+      "th": "สุดยอดนักรีวิว"
+    },
+    "description": {
+      "en": "Award for your contribution on reviewing the place",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการรีวิวสถานที่"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "WRITE_REVIEW",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 15 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 15 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 15,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Master Reviewer",
+      "th": "เจ้าแห่งการรีวิว"
+    },
+    "description": {
+      "en": "Award for your contribution on reviewing the place",
+      "th": "รางวัลสำหรับการมีส่วนร่วมของคุณในการรีวิวสถานที่"
+    },
+    "icon": "navigation",
+    "color": "#77BC1F",
+    "conditions": [
+      {
+        "type": "WRITE_REVIEW",
+        "name": {
+          "en": "Routes",
+          "th": "เส้นทาง"
+        },
+        "description": {
+          "en": "Contribute 45 accessible routes tracing",
+          "th": "บันทึกไปทั้งหมด 45 เส้นทางที่เข้าถึงได้"
+        },
+        "color": "#6A11B1",
+        "requiredCount": 45,
+        "icon": "draw"
+      }
+    ]
+  }
+]

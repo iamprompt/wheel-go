@@ -1,0 +1,64 @@
+﻿place_en,place_th,lat_lng,status,accessible_bus_line,accessible_tram
+Mahidol University Salaya (Gate 2),ม.มหิดล ศาลายา (ประตู 2),"13.792379734789272, 100.3273097061812",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Mahidol University Salaya (Gate 2),ตรงข้ามม.มหิดล ศาลายา (ประตู 2),"13.79293651235469, 100.32760443547531",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Mahidol University Salaya (Gate 4),ม.มหิดล ศาลายา (ประตู 4),"13.797039057437285, 100.32714593741208",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Mahidol University Salaya (Gate 4),ตรงข้ามม.มหิดล ศาลายา (ประตู 4),"13.796427674737881, 100.32746957749639",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Salaya Clock Tower,หอนาฬิกาศาลายา,"13.800147869878261, 100.32698497152126",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Salaya Clock Tower,ตรงข้ามหอนาฬิกาศาลายา,"13.799990705906866, 100.32728166997575",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Salaya Station,ตรงข้ามสถานีศาลายา,"13.80110781957348, 100.32482994339551",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Salaya Station,สถานีศาลายา,"13.801296993652663, 100.32413629765985",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Phuttamonthon District Office,ตรงข้ามที่ว่าการอำเภอพุทธมณฑล,"13.801202776800992, 100.322461449716",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Phuttamonthon District Office,ที่ว่าการอำเภอพุทธมณฑล,"13.801464388561273, 100.32203318721992",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Mahidol Wittayanusorn School,โรงเรียนมหิดล วิทยานุสรณ์,"13.801436070139538, 100.31765709457376",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Opposite Mahidol Wittayanusorn School,ตรงข้ามโรงเรียนมหิดล วิทยานุสรณ์,"13.801558249837388, 100.3181839734886",Accessible,"124/45-1,547,515/4-61,163/4-55,4-67",
+Salaya Link Station,ท่ารถศาลายาลิงค์,"13.788062156587515, 100.3249188900617",Accessible,Salaya Link,
+Mahidol University (College of Music),ม.มหิดล (วิทยาลัยดุริยางคศิลป์),"13.78793883722893, 100.32456329102752",Inaccessible,,
+Prince Mahidol Hall,มหิดลสิทธาคาร,"13.787703616877062, 100.32128350828496",Inaccessible,,
+Ratchasuda College,วิทยาลัยราชสุดา,"13.787409591103456, 100.32460365758381",Inaccessible,,
+Entrance Golden Jubilee Medical Center,ทางเข้าศูนย์การแพทย์กาญจนาภิเษก,"13.78734098503633, 100.32293853711131",Inaccessible,,
+Golden Jubilee Medical Center (Stop 1),ศูนย์การแพทย์กาญจนาภิเษก (จุดที่ 1),"13.787223374586388, 100.32193946483488",Inaccessible,,
+Golden Jubilee Medical Center (Stop 2),ศูนย์การแพทย์กาญจนาภิเษก (จุดที่ 2),"13.787105764076621, 100.32059727682368",Inaccessible,,
+Exit Golden Jubilee Medical Center,ทางออกศูนย์การแพทย์กาญจนาภิเษก,"13.787233175446783, 100.31957802126637",Inaccessible,,
+Parking 2 (Line 3),ลานจอดรถ 2 (สาย 3),"13.790394975343542, 100.32248957863966",Inaccessible,,"Red,Yellow"
+National Institute for Child (Line 2),สถาบันแห่งชาติเพื่อการพัฒนาเด็กและครอบครัว (สาย 2),"13.798841418418993, 100.319404704469",Inaccessible,,Blue
+Faculty of Science Building 3-4,อาคารคณะวิทยาศาสตร์ 3-4,"13.791954928468819, 100.32193003924809",Inaccessible,,"Red,Yellow,Green"
+National Institute for Child (Line 3),สถาบันแห่งชาติเพื่อการพัฒนาเด็กและครอบครัว (สาย 3),"13.798746616689106, 100.3194001140364",Inaccessible,,Red
+Tram Station,สถานีรถราง,"13.794766134584826, 100.31886846644623",Inaccessible,,"Red,Blue,Green"
+Ramathibodhi School of Nursing (Line 2),โรงเรียนพยาบาลรามาธิบดี (สาย 2),"13.799199109854317, 100.32109572114638",Inaccessible,,Blue
+Institute of Molecular Bio,สถาบันชีวโมเลกุล,"13.796744694392611, 100.32618820553546",Inaccessible,,Blue
+Dorm 8-9,หอ 8-9,"13.792056755329824, 100.31962509177029",Inaccessible,,"Red,Green"
+Parking 2 (Line 2),ลานจอดรถ 2 (สาย 2),"13.791837465314126, 100.32236605796624",Inaccessible,,"Yellow,Blue"
+Condominium,อาคารชุดพักอาศัย,"13.800268366060648, 100.32032923160322",Inaccessible,,"Red,Blue"
+Gate 4,ประตู 4,"13.796431696957967, 100.32657361218267",Inaccessible,,"Red,Green"
+Faculty of Engineering Building 2,อาคารคณะวิศวกรรมศาสตร์ 2,"13.79661308120779, 100.32474969620183",Inaccessible,,Red
+College of Music,วิทยาลัยดุริยางคศิลป์,"13.78828911471571, 100.32436618238123",Inaccessible,,"Red,Yellow"
+Faculty of Veterinary Science,คณะสัตวแพทยศาสตร์,"13.798254163777406, 100.31817225511159",Inaccessible,,Blue
+College of Sports Science,วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา,"13.796671831063925, 100.32145430486997",Inaccessible,,Green
+Office of the President,สำนักงานอธิการบดี,"13.794422570683516, 100.32604255207403",Inaccessible,,"Red,Yellow,Blue,Green"
+Faculty of Social Science,คณะวิทยาศาสตร์,"13.791942689015293, 100.32472947096763",Inaccessible,,"Red,Yellow,Green"
+Gate 3,ประตู 3,"13.795139469346436, 100.32677609207452",Inaccessible,,Blue
+Thai House,เรือนไทย,"13.791804512039244, 100.32493141557075",Inaccessible,,"Yellow,Blue"
+Library,หอสมุดและความรู้,"13.795170791670573, 100.32444232216498",Inaccessible,,Green
+Parking 4,ลาดจอดรถ 4,"13.796132961896838, 100.31772363617019",Inaccessible,,Blue
+Faculty of Science Building 1-2,อาคารคณะวิทยาศาสตร์ 1-2,"13.79194903370097, 100.32330521203507",Inaccessible,,"Red,Yellow,Green"
+Faculty of Environment and Resource,คณะสิ่งแวดล้อมและทรัพยากรศาสตร์,"13.795384922092532, 100.32285072851587",Inaccessible,,Green
+Ramathibodhi School of Nursing (Line 3),โรงเรียนพยาบาลรามาธิบดี (สาย 3),"13.799114091010505, 100.32112140119084",Inaccessible,,Red
+Sport Building,อาคารอเนกประสงค์,"13.79658574835573, 100.3196951185971",Inaccessible,,"Red,Green"
+Aditayathorn Building,อาคารอทิตยาทร,"13.790735626032, 100.32697907921117",Inaccessible,,Yellow
+Ramathibodhi Dorm,หอพักนักศึกษาพยาบาลรามาธิบดี,"13.799102755161597, 100.32078289151595",Inaccessible,,Red
+Faculty of Engineering Building 3,อาคารคณะวิศวกรรมศาสตร์ 3,"13.796617058103914, 100.32580196743501",Inaccessible,,"Red,Green"
+Institute of Language,สถาบันภาษา,"13.791823229384036, 100.32349452516442",Inaccessible,,"Yellow,Blue"
+Faculty of Medical Technology,คณะเทคนิคการแพทย์,"13.798853548146758, 100.32386679557312",Inaccessible,,Blue
+Institute for Pop. and Soc. Research,สถาบันวิจัยประชากรและสังคม,"13.796725088564985, 100.32490392322207",Inaccessible,,Blue
+College of Religious Studies,วิทยาลัยศาสนศึกษา,"13.798316700998935, 100.31825479151215",Inaccessible,,Red
+Petanque Field,สนามเปตอง,"13.796788966414292, 100.3196436623335",Inaccessible,,Red
+Artist's House,เรือนศิลปิน,"13.789968735731795, 100.3227218530372",Inaccessible,,"Red,Yellow"
+Siri Rukhachati Nature Park,อุทยานธรรมชาติสิรีรุกขชาติ,"13.791839175539458, 100.3198561025611",Inaccessible,,Blue
+Parking 5,ลาดจอดรถ 5,"13.792148684916386, 100.3181889992536",Inaccessible,,
+MU Lake,MU Lake,"13.793266148585078, 100.31741270941961",Inaccessible,,Blue
+Sport Field,สนามกีฬา,"13.798417053448567, 100.32029342162313",Inaccessible,,Blue
+Faculty of Liberal Arts,คณะศิลปศาสตร์,"13.796760145335696, 100.3209890193833",Inaccessible,,Blue
+ASEAN Institute for Health,สถาบันพัฒนาสุขภาพอาเซียน,"13.791820306146011, 100.32613111295093",Inaccessible,,"Yellow,Blue"
+Faculty of Physical Therapy,คณะกายภาพบำบัด,"13.797933953949581, 100.321537449626",Inaccessible,,Blue
+Organic Farm,ฟาร์มผักปลอดสารพิษ,"13.798423335040933, 100.32374591308894",Inaccessible,,Red
+International College,วิทยาลัยนานาชาติ,"13.79225955698648, 100.3267133029961",Inaccessible,,"Red,Yellow,Green"

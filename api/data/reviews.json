@@ -1,0 +1,629 @@
+[
+  {
+    "id": "6433807167dd1c8c0aceacc5",
+    "place": {
+      "id": "641dcd53be6468d6f10cf9a6",
+      "nameTH": "มหิดลสิทธาคาร",
+      "nameEN": "Prince Mahidol Hall",
+      "category": "building",
+      "placeAddressTH": "มหิดลสิทธาคาร มหาวิทยาลัยมหิดล ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Prince Mahidol Hall, Mahidol University, Phutthamonthon Sai 4 Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+      "phone": "0869971587",
+      "website": "https://www.mahidol.ac.th/princemahidolhall/",
+      "image": {
+        "id": "641dcd52be6468d6f10cf93a",
+        "filename": "prince_mahidol_hall.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 23374,
+        "width": 408,
+        "height": 305,
+        "sizes": {
+          "thumbnail": {
+            "width": 400,
+            "height": 300,
+            "mimeType": "image/jpeg",
+            "filesize": 22157,
+            "filename": "prince_mahidol_hall-400x300.jpg",
+            "url": "https://cms.wheelgo.iamprompt.me/media/prince_mahidol_hall-400x300.jpg"
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "tablet": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        },
+        "createdAt": "2023-03-24T16:18:26.689Z",
+        "updatedAt": "2023-03-24T16:18:26.689Z",
+        "url": "https://cms.wheelgo.iamprompt.me/media/prince_mahidol_hall.jpg"
+      },
+      "geolocation": [100.32116195959294, 13.789588000061544],
+      "placeCode": "PMH",
+      "createdAt": "2023-03-24T16:18:27.088Z",
+      "updatedAt": "2023-03-24T16:18:27.088Z"
+    },
+    "user": {
+      "id": "642927683f72ef213da80012",
+      "username": "chai77",
+      "firstName": "Thamrongchai",
+      "lastName": "Srisawat",
+      "birthdate": "2023-03-30T17:00:00.000Z",
+      "impairmentLevel": "1",
+      "equipment": "manual-wheelchair",
+      "displayNameType": "user-name",
+      "favoritePlaces": [
+        {
+          "place": {
+            "id": "641dcd53be6468d6f10cf9a6",
+            "nameTH": "มหิดลสิทธาคาร",
+            "nameEN": "Prince Mahidol Hall",
+            "category": "building",
+            "placeAddressTH": "มหิดลสิทธาคาร มหาวิทยาลัยมหิดล ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Prince Mahidol Hall, Mahidol University, Phutthamonthon Sai 4 Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170",
+            "phone": "0869971587",
+            "website": "https://www.mahidol.ac.th/princemahidolhall/",
+            "image": "641dcd52be6468d6f10cf93a",
+            "geolocation": [100.32116195959294, 13.789588000061544],
+            "placeCode": "PMH",
+            "createdAt": "2023-03-24T16:18:27.088Z",
+            "updatedAt": "2023-03-24T16:18:27.088Z"
+          },
+          "addedAt": "2023-04-09T17:00:00.000Z",
+          "id": "64336ad07715862e9bf1fd5f"
+        }
+      ],
+      "email": "mock_2@wheelgo.co",
+      "createdAt": "2023-04-02T06:57:45.224Z",
+      "updatedAt": "2023-04-10T01:48:25.805Z"
+    },
+    "rating": {
+      "overall": 4,
+      "ramp": 4,
+      "assistance": 2,
+      "elevator": 5,
+      "parking": 5,
+      "surface": 4,
+      "toilet": 5,
+      "facility": [],
+      "images": [],
+      "comment": "เหมาะสมกับ wheelchair"
+    },
+    "official": {},
+    "createdAt": "2023-04-10T03:20:17.233Z",
+    "updatedAt": "2023-04-10T03:20:17.233Z"
+  },
+  {
+    "id": "642fcec17dd94a6d158dfbfd",
+    "place": {
+      "id": "641dcd6d9c1ec7369daab89d",
+      "nameTH": "คณะกายภาพบำบัด",
+      "nameEN": "Faculty of Physical Therapy",
+      "category": "building",
+      "placeAddressTH": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Faculty of Physical Therapy, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "024415450",
+      "website": "https://pt.mahidol.ac.th/",
+      "image": {
+        "id": "641dcd6d9c1ec7369daab89b",
+        "filename": "faculty_of_physical_therapy-2.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 32226,
+        "width": 660,
+        "height": 240,
+        "sizes": {
+          "thumbnail": {
+            "width": 400,
+            "height": 300,
+            "mimeType": "image/jpeg",
+            "filesize": 22703,
+            "filename": "faculty_of_physical_therapy-2-400x300.jpg",
+            "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_physical_therapy-2-400x300.jpg"
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "tablet": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        },
+        "createdAt": "2023-03-24T16:18:53.364Z",
+        "updatedAt": "2023-03-24T16:18:53.364Z",
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_physical_therapy-2.jpg"
+      },
+      "geolocation": [100.3220249041263, 13.797522632132894],
+      "placeCode": "PT",
+      "createdAt": "2023-03-24T16:18:53.385Z",
+      "updatedAt": "2023-03-24T16:18:53.385Z"
+    },
+    "user": {
+      "id": "64297ab23f72ef213da80803",
+      "favoritePlaces": [
+        {
+          "place": {
+            "id": "641dcd52be6468d6f10cf8da",
+            "nameTH": "Café Amazon for Chance สาขาคณะสิ่งแวดล้อมและทรัพยากรศาสตร์",
+            "nameEN": "Café Amazon for Chance, Faculty of Environment and Resource Studies",
+            "category": "cafe",
+            "placeAddressTH": "อาคารสิ่งแวดล้อมพัฒนดล มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Badhanatala Environment Building, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "0625945407",
+            "website": "https://www.cafe-amazon.com/index.aspx",
+            "image": "641dcd51be6468d6f10cf8c0",
+            "geolocation": [100.32161014224005, 13.795044516482365],
+            "placeCode": "",
+            "createdAt": "2023-03-24T16:18:26.098Z",
+            "updatedAt": "2023-03-24T16:18:26.098Z"
+          },
+          "addedAt": "2023-04-02T17:00:00.000Z",
+          "id": "642afe6e49cd6f4a89b77ad9"
+        },
+        {
+          "place": {
+            "id": "641dcd6d9c1ec7369daab89d",
+            "nameTH": "คณะกายภาพบำบัด",
+            "nameEN": "Faculty of Physical Therapy",
+            "category": "building",
+            "placeAddressTH": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Faculty of Physical Therapy, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "024415450",
+            "website": "https://pt.mahidol.ac.th/",
+            "image": "641dcd6d9c1ec7369daab89b",
+            "geolocation": [100.3220249041263, 13.797522632132894],
+            "placeCode": "PT",
+            "createdAt": "2023-03-24T16:18:53.385Z",
+            "updatedAt": "2023-03-24T16:18:53.385Z"
+          },
+          "addedAt": "2023-04-01T17:00:00.000Z",
+          "id": "642afe7849cd6f4a89b77ada"
+        }
+      ],
+      "email": "test01@iamprompt.me",
+      "createdAt": "2023-04-02T12:53:06.469Z",
+      "updatedAt": "2023-04-09T08:56:01.659Z",
+      "birthdate": "2020-03-06T17:00:00.000Z",
+      "displayNameType": "full-name",
+      "equipment": "manual-wheelchair",
+      "firstName": "ศุภกานต์",
+      "impairmentLevel": "2",
+      "lastName": "เหล่ารัตนกุล",
+      "username": "iamprompt"
+    },
+    "rating": {
+      "overall": 3,
+      "ramp": 3,
+      "assistance": 2,
+      "elevator": 4,
+      "parking": 3,
+      "surface": 3,
+      "toilet": 3,
+      "facility": [],
+      "images": [
+        {
+          "image": {
+            "id": "642fcec17dd94a6d158dfbfa",
+            "filename": "IMG_8111.jpg",
+            "mimeType": "image/jpeg",
+            "filesize": 236296,
+            "width": 1290,
+            "height": 2796,
+            "sizes": {
+              "thumbnail": {
+                "width": 400,
+                "height": 300,
+                "mimeType": "image/jpeg",
+                "filesize": 33246,
+                "filename": "IMG_8111-400x300.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/IMG_8111-400x300.jpg"
+              },
+              "card": {
+                "width": 768,
+                "height": 1024,
+                "mimeType": "image/jpeg",
+                "filesize": 95031,
+                "filename": "IMG_8111-768x1024.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/IMG_8111-768x1024.jpg"
+              },
+              "tablet": {
+                "width": 1024,
+                "height": 2219,
+                "mimeType": "image/jpeg",
+                "filesize": 175906,
+                "filename": "IMG_8111-1024x2219.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/IMG_8111-1024x2219.jpg"
+              }
+            },
+            "createdAt": "2023-04-07T08:05:21.197Z",
+            "updatedAt": "2023-04-07T08:05:21.197Z",
+            "url": "https://cms.wheelgo.iamprompt.me/media/IMG_8111.jpg"
+          },
+          "id": "642fcec11c149800016ea92d"
+        },
+        {
+          "image": {
+            "id": "642936103f72ef213da804c4",
+            "filename": "2023-01-14.jpg",
+            "mimeType": "image/jpeg",
+            "filesize": 127792,
+            "width": 1289,
+            "height": 580,
+            "sizes": {
+              "thumbnail": {
+                "width": 400,
+                "height": 300,
+                "mimeType": "image/jpeg",
+                "filesize": 24334,
+                "filename": "2023-01-14-400x300.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-400x300.jpg"
+              },
+              "card": {
+                "width": 768,
+                "height": 1024,
+                "mimeType": "image/jpeg",
+                "filesize": 93498,
+                "filename": "2023-01-14-768x1024.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-768x1024.jpg"
+              },
+              "tablet": {
+                "width": 1024,
+                "height": 461,
+                "mimeType": "image/jpeg",
+                "filesize": 85949,
+                "filename": "2023-01-14-1024x461.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-1024x461.jpg"
+              }
+            },
+            "createdAt": "2023-04-02T08:00:16.526Z",
+            "updatedAt": "2023-04-02T08:00:16.526Z",
+            "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14.jpg"
+          },
+          "id": "642fdea15aaa4406ab2a35e6"
+        },
+        {
+          "image": {
+            "id": "642933a43f72ef213da80340",
+            "filename": "20220819_185032.jpg",
+            "mimeType": "image/jpeg",
+            "filesize": 146090,
+            "width": 1289,
+            "height": 580,
+            "sizes": {
+              "thumbnail": {
+                "width": 400,
+                "height": 300,
+                "mimeType": "image/jpeg",
+                "filesize": 28295,
+                "filename": "20220819_185032-400x300.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/20220819_185032-400x300.jpg"
+              },
+              "card": {
+                "width": 768,
+                "height": 1024,
+                "mimeType": "image/jpeg",
+                "filesize": 120937,
+                "filename": "20220819_185032-768x1024.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/20220819_185032-768x1024.jpg"
+              },
+              "tablet": {
+                "width": 1024,
+                "height": 461,
+                "mimeType": "image/jpeg",
+                "filesize": 96419,
+                "filename": "20220819_185032-1024x461.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/20220819_185032-1024x461.jpg"
+              }
+            },
+            "createdAt": "2023-04-02T07:49:56.949Z",
+            "updatedAt": "2023-04-02T07:49:56.949Z",
+            "url": "https://cms.wheelgo.iamprompt.me/media/20220819_185032.jpg"
+          },
+          "id": "642fdea65aaa4406ab2a35e7"
+        }
+      ],
+      "comment": "สวีท เซฟตี้ฟลุต บาร์บี้โฟนคอรัปชั่นสหัชญาณเทคโนแครต ไบเบิลเทคโนแครตพาสเจอร์ไรส์สารขัณฑ์ติวเตอร์ เอาท์กลาส สต็อคสเตชัน โพสต์กับดักแซว ตุ๊กตุ๊กบาบูนโอเลี้ยงคาร์สถาปัตย์ แล็บ สเตย์พุทโธ วิดีโอคันธาระ โกะสหรัฐกิมจิโมเดล เดโมท็อปบู๊ท มหภาคล้มเหลวแคปกิฟท์ตุ๊กตุ๊ก โนติส ตรวจสอบเฉิ่มความหมาย"
+    },
+    "createdAt": "2023-04-07T08:05:21.269Z",
+    "updatedAt": "2023-04-07T09:26:23.806Z"
+  },
+  {
+    "id": "642fbdf0fb623ef8de8077dd",
+    "place": {
+      "id": "641dcd52be6468d6f10cf950",
+      "nameTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "nameEN": "Faculty of Information and Communication Technology",
+      "category": "building",
+      "placeAddressTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Faculty of Information and Communication Technology, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "024410909",
+      "website": "https://www.ict.mahidol.ac.th/",
+      "image": {
+        "id": "641dcd52be6468d6f10cf8f8",
+        "filename": "faculty_of_information_and_communication_technology.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 29143,
+        "width": 408,
+        "height": 273,
+        "sizes": {
+          "thumbnail": {
+            "width": 400,
+            "height": 300,
+            "mimeType": "image/jpeg",
+            "filesize": 27945,
+            "filename": "faculty_of_information_and_communication_technology-400x300.jpg",
+            "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology-400x300.jpg"
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "tablet": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        },
+        "createdAt": "2023-03-24T16:18:26.333Z",
+        "updatedAt": "2023-03-24T16:18:26.333Z",
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "geolocation": [100.32472494259375, 13.79441894220838],
+      "placeCode": "ICT",
+      "createdAt": "2023-03-24T16:18:26.811Z",
+      "updatedAt": "2023-03-24T16:18:26.811Z"
+    },
+    "user": {
+      "id": "64297ab23f72ef213da80803",
+      "favoritePlaces": [
+        {
+          "place": {
+            "id": "641dcd52be6468d6f10cf8da",
+            "nameTH": "Café Amazon for Chance สาขาคณะสิ่งแวดล้อมและทรัพยากรศาสตร์",
+            "nameEN": "Café Amazon for Chance, Faculty of Environment and Resource Studies",
+            "category": "cafe",
+            "placeAddressTH": "อาคารสิ่งแวดล้อมพัฒนดล มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Badhanatala Environment Building, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "0625945407",
+            "website": "https://www.cafe-amazon.com/index.aspx",
+            "image": "641dcd51be6468d6f10cf8c0",
+            "geolocation": [100.32161014224005, 13.795044516482365],
+            "placeCode": "",
+            "createdAt": "2023-03-24T16:18:26.098Z",
+            "updatedAt": "2023-03-24T16:18:26.098Z"
+          },
+          "addedAt": "2023-04-02T17:00:00.000Z",
+          "id": "642afe6e49cd6f4a89b77ad9"
+        },
+        {
+          "place": {
+            "id": "641dcd6d9c1ec7369daab89d",
+            "nameTH": "คณะกายภาพบำบัด",
+            "nameEN": "Faculty of Physical Therapy",
+            "category": "building",
+            "placeAddressTH": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Faculty of Physical Therapy, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "024415450",
+            "website": "https://pt.mahidol.ac.th/",
+            "image": "641dcd6d9c1ec7369daab89b",
+            "geolocation": [100.3220249041263, 13.797522632132894],
+            "placeCode": "PT",
+            "createdAt": "2023-03-24T16:18:53.385Z",
+            "updatedAt": "2023-03-24T16:18:53.385Z"
+          },
+          "addedAt": "2023-04-01T17:00:00.000Z",
+          "id": "642afe7849cd6f4a89b77ada"
+        }
+      ],
+      "email": "test01@iamprompt.me",
+      "createdAt": "2023-04-02T12:53:06.469Z",
+      "updatedAt": "2023-04-09T08:56:01.659Z",
+      "birthdate": "2020-03-06T17:00:00.000Z",
+      "displayNameType": "full-name",
+      "equipment": "manual-wheelchair",
+      "firstName": "ศุภกานต์",
+      "impairmentLevel": "2",
+      "lastName": "เหล่ารัตนกุล",
+      "username": "iamprompt"
+    },
+    "rating": {
+      "overall": 5,
+      "ramp": 5,
+      "elevator": 5,
+      "surface": 5,
+      "toilet": 5,
+      "facility": [],
+      "images": [
+        {
+          "image": {
+            "id": "642936103f72ef213da804c4",
+            "filename": "2023-01-14.jpg",
+            "mimeType": "image/jpeg",
+            "filesize": 127792,
+            "width": 1289,
+            "height": 580,
+            "sizes": {
+              "thumbnail": {
+                "width": 400,
+                "height": 300,
+                "mimeType": "image/jpeg",
+                "filesize": 24334,
+                "filename": "2023-01-14-400x300.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-400x300.jpg"
+              },
+              "card": {
+                "width": 768,
+                "height": 1024,
+                "mimeType": "image/jpeg",
+                "filesize": 93498,
+                "filename": "2023-01-14-768x1024.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-768x1024.jpg"
+              },
+              "tablet": {
+                "width": 1024,
+                "height": 461,
+                "mimeType": "image/jpeg",
+                "filesize": 85949,
+                "filename": "2023-01-14-1024x461.jpg",
+                "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14-1024x461.jpg"
+              }
+            },
+            "createdAt": "2023-04-02T08:00:16.526Z",
+            "updatedAt": "2023-04-02T08:00:16.526Z",
+            "url": "https://cms.wheelgo.iamprompt.me/media/2023-01-14.jpg"
+          },
+          "id": "642fbdf010369d00019abb85"
+        }
+      ],
+      "additionalComment": "HelloWorld!"
+    },
+    "official": {},
+    "createdAt": "2023-04-07T06:53:36.414Z",
+    "updatedAt": "2023-04-07T06:53:36.414Z"
+  },
+  {
+    "id": "642bf8ef3f72ef213da8122b",
+    "place": {
+      "id": "641dcd52be6468d6f10cf950",
+      "nameTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "nameEN": "Faculty of Information and Communication Technology",
+      "category": "building",
+      "placeAddressTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+      "placeAddressEN": "Faculty of Information and Communication Technology, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+      "phone": "024410909",
+      "website": "https://www.ict.mahidol.ac.th/",
+      "image": {
+        "id": "641dcd52be6468d6f10cf8f8",
+        "filename": "faculty_of_information_and_communication_technology.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 29143,
+        "width": 408,
+        "height": 273,
+        "sizes": {
+          "thumbnail": {
+            "width": 400,
+            "height": 300,
+            "mimeType": "image/jpeg",
+            "filesize": 27945,
+            "filename": "faculty_of_information_and_communication_technology-400x300.jpg",
+            "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology-400x300.jpg"
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "tablet": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        },
+        "createdAt": "2023-03-24T16:18:26.333Z",
+        "updatedAt": "2023-03-24T16:18:26.333Z",
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "geolocation": [100.32472494259375, 13.79441894220838],
+      "placeCode": "ICT",
+      "createdAt": "2023-03-24T16:18:26.811Z",
+      "updatedAt": "2023-03-24T16:18:26.811Z"
+    },
+    "user": {
+      "id": "64297ab23f72ef213da80803",
+      "favoritePlaces": [
+        {
+          "place": {
+            "id": "641dcd52be6468d6f10cf8da",
+            "nameTH": "Café Amazon for Chance สาขาคณะสิ่งแวดล้อมและทรัพยากรศาสตร์",
+            "nameEN": "Café Amazon for Chance, Faculty of Environment and Resource Studies",
+            "category": "cafe",
+            "placeAddressTH": "อาคารสิ่งแวดล้อมพัฒนดล มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Badhanatala Environment Building, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "0625945407",
+            "website": "https://www.cafe-amazon.com/index.aspx",
+            "image": "641dcd51be6468d6f10cf8c0",
+            "geolocation": [100.32161014224005, 13.795044516482365],
+            "placeCode": "",
+            "createdAt": "2023-03-24T16:18:26.098Z",
+            "updatedAt": "2023-03-24T16:18:26.098Z"
+          },
+          "addedAt": "2023-04-02T17:00:00.000Z",
+          "id": "642afe6e49cd6f4a89b77ad9"
+        },
+        {
+          "place": {
+            "id": "641dcd6d9c1ec7369daab89d",
+            "nameTH": "คณะกายภาพบำบัด",
+            "nameEN": "Faculty of Physical Therapy",
+            "category": "building",
+            "placeAddressTH": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล เลขที่ 999 ถ.พุทธมณฑล สาย 4 ต. ศาลายา อ.พุทธมณฑล จ.นครปฐม 73170",
+            "placeAddressEN": "Faculty of Physical Therapy, Mahidol University, 999 Phuttamonthon 4 Road, Salaya, Nakhon Pathom 73170 Thailand",
+            "phone": "024415450",
+            "website": "https://pt.mahidol.ac.th/",
+            "image": "641dcd6d9c1ec7369daab89b",
+            "geolocation": [100.3220249041263, 13.797522632132894],
+            "placeCode": "PT",
+            "createdAt": "2023-03-24T16:18:53.385Z",
+            "updatedAt": "2023-03-24T16:18:53.385Z"
+          },
+          "addedAt": "2023-04-01T17:00:00.000Z",
+          "id": "642afe7849cd6f4a89b77ada"
+        }
+      ],
+      "email": "test01@iamprompt.me",
+      "createdAt": "2023-04-02T12:53:06.469Z",
+      "updatedAt": "2023-04-09T08:56:01.659Z",
+      "birthdate": "2020-03-06T17:00:00.000Z",
+      "displayNameType": "full-name",
+      "equipment": "manual-wheelchair",
+      "firstName": "ศุภกานต์",
+      "impairmentLevel": "2",
+      "lastName": "เหล่ารัตนกุล",
+      "username": "iamprompt"
+    },
+    "rating": {
+      "overall": 5,
+      "ramp": 5,
+      "assistance": 5,
+      "elevator": 5,
+      "parking": 5,
+      "surface": 5,
+      "toilet": 5,
+      "facility": null,
+      "additionalComment": "มีกิจกรรมและสัมมนาต่างๆ ที่น่าสนใจและเน้นการพัฒนาทักษะ ซึ่งเป็นสิ่งที่เราคิดว่าเหมาะสมและมีประโยชน์ต่อผู้ใช้รถเข็น"
+    },
+    "createdAt": "2023-04-04T10:16:15.030Z",
+    "updatedAt": "2023-04-04T11:15:40.211Z",
+    "official": {}
+  }
+]

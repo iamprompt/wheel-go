@@ -1,0 +1,337 @@
+{
+  "accessibility_level": {
+    "level_0": "This place is not accessible",
+    "level_1": "This place is hard to access even got the help",
+    "level_2": "Require help from person and equipment to visit this place",
+    "level_3": "This place can access with assistance from another",
+    "level_4": "This place can access by use of equipment or assistance from another",
+    "level_5": "This place can access by use of equipment",
+    "level_6": "This place can access by use of equipment or by yourself",
+    "level_7": "This place can access without any help",
+    "title": "Accessible Rating"
+  },
+  "announcements": {
+    "contact": {
+      "email": "Email",
+      "line": "LINE Official Account",
+      "phone": "Phone",
+      "title": "Contact"
+    },
+    "details": "Detail"
+  },
+  "auth": {
+    "dont_have_account": "Don't have an account?",
+    "email": "Email",
+    "email_placeholder": "Your email",
+    "login": "Sign in",
+    "login_description": "To create more universal environment together",
+    "login_title": "Sign in",
+    "login_to_wheelgo": "Sign in to Wheel Go",
+    "logout": "Sign out",
+    "page_not_signed_in": "You are not signed in",
+    "password": "Password",
+    "password_placeholder": "********",
+    "register": {
+      "confirm_password": "Confirm Password",
+      "confirm_password_placeholder": "********",
+      "consent": "Terms and Conditions",
+      "consent_predescription": "By clicking Register, you agree to our",
+      "email": "Email",
+      "email_placeholder": "Your email",
+      "equipment": "Equipment Type",
+      "equipment_placeholder": "Your equipment type",
+      "firstname": "First name",
+      "firstname_placeholder": "Your first name",
+      "impairment_level": "Impairment Level",
+      "impairment_level_placeholder": "Your impairment level",
+      "lastname": "Last name",
+      "lastname_placeholder": "Your last name",
+      "password": "Password",
+      "password_placeholder": "********",
+      "register_button": "Register",
+      "register_description": "To create more universal environment together",
+      "register_title": "Register",
+      "username": "Username",
+      "username_placeholder": "Your username"
+    },
+    "register_cta": "Register",
+    "sign_in": "Sign in"
+  },
+  "badges": {
+    "coming_soon": "Coming Soon",
+    "master_navigator": "Master Navigator",
+    "master_reviewer": "Master Reviewer",
+    "navigator_description": "Award for your contribution on accessible route tracing",
+    "novice_navigator": "Novice Navigator",
+    "novice_reviewer": "Novice Reviewer",
+    "reviewer_description": "Award for your contribution on reviewing the places",
+    "reviews_mission": "Reviews",
+    "reviews_mission_description": "Contribute {{count}} reviews",
+    "routes_mission": "Routes",
+    "routes_mission_description": "Contribute {{count}} accessible routes tracing",
+    "skillful_navigator": "Skillful Navigator",
+    "skillful_reviewer": "Skillful Reviewer"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "done": "Done",
+    "go": "Go",
+    "ok": "OK",
+    "save": "Save",
+    "sign_in": "Sign in",
+    "skip": "Skip",
+    "stop": "Stop"
+  },
+  "categories": {
+    "BUILDING": "Building",
+    "CAFE": "Cafe",
+    "CURBCUT": "Curb Cut",
+    "FOOD": "Food",
+    "INCIDENT": "Incident",
+    "PARK": "Park",
+    "PARKING": "Parking",
+    "RAMP": "Ramp",
+    "RESIDENCE": "Residence",
+    "ROUTE": "Route",
+    "SPORT": "Sport",
+    "TOILET": "Toilet",
+    "TRANSPORT": "Transport"
+  },
+  "equipment": {
+    "electric_wheelchair": "Electric Wheelchair",
+    "manual_wheelchair": "Manual Wheelchair",
+    "none": "None"
+  },
+  "explore": {
+    "curbcut_modal": {
+      "accessible_label": "This curb cut is easy to access",
+      "broken_label": "This curb cut is broken",
+      "need_assistance_label": "You need help to use this curb cut"
+    },
+    "search_route_placeholder": "Find accessible routes?",
+    "trace_cta_button": "Trace your journey",
+    "transport_modal": {
+      "accessible_label": "This stop is accessible",
+      "bus_lines": {
+        "title": "Accessible Bus Lines"
+      },
+      "inaccessible_label": "This stop is inaccessible",
+      "tram_lines": {
+        "blue": "Blue",
+        "green": "Green",
+        "red": "Red",
+        "title": "Accessible Tram Lines",
+        "yellow": "Yellow"
+      }
+    }
+  },
+  "facilities": {
+    "assistance": "Assistance",
+    "elevator": "Elevator",
+    "parking": "Parking",
+    "ramp": "Ramp",
+    "spot_no": "Spot {{number}}:",
+    "surface": "Surface",
+    "toilet": "Toilet"
+  },
+  "faq": {
+    "contact_us": "Can't find an answer to your questions? Feel free to contact us at",
+    "contact_us_email": "wheelgo.ict.mahidol@gmail.com"
+  },
+  "helpModal": {
+    "description": "You will be redirected to Mahidol Disability Service Support",
+    "title": "Need a help?"
+  },
+  "impairment_level": {
+    "dependent": "4 - Completely dependent",
+    "independent": "0 - Completely independent",
+    "require_assistance": "2 - Requires assistance from another person",
+    "require_equipment": "1 - Requires use of equipment or device",
+    "require_equipment_and_assistance": "3 - Requires help from person/equipment"
+  },
+  "map_prefs_modal": {
+    "conditions": "Surrounding Conditions",
+    "description": "ON/OFF by tapping on the tag",
+    "places": "Places",
+    "show_all": "Show All",
+    "title": "Display Setting"
+  },
+  "non_user_trace_modal": {
+    "description": "คุณสามารถใช้ฟีเจอร์การบันทึกการเดินทางได้\nเมื่อคุณเข้าสู่ระบบแล้วเท่านั้น",
+    "title": "ต้องการบันทึกการเดินทาง?"
+  },
+  "page": {
+    "announcements": "Announcements",
+    "explore": "Explore",
+    "faq": "Frequently Asked Questions",
+    "faq_short": "FAQ",
+    "help": "Help",
+    "how_to_use": "How to use",
+    "privacy_policy": "Privacy Policy",
+    "profile": "Profile",
+    "records": "Records",
+    "settings": "Settings"
+  },
+  "places": {
+    "accessibility_rating_title": "Accessibility Rating",
+    "address": "Address",
+    "all_reviews": "Reviews",
+    "contact": "Contact",
+    "facilities_details": "Facilities Details",
+    "facilities_title": "Facilities",
+    "nearby_places": "Nearby Places",
+    "review_here": "Review Here",
+    "review_text": "Review",
+    "see_more_details": "See More Details",
+    "see_place_details": "See Place Details",
+    "see_reviews": "See Reviews",
+    "share": "Share",
+    "show_on_map": "Show on Map",
+    "website": "Website"
+  },
+  "profile": {
+    "edit": {
+      "account": "Account",
+      "basic_info": "Basic Information",
+      "birthdate": "Birthdate",
+      "email": "Email",
+      "equipment": "Equipment",
+      "firstname": "Name",
+      "impairment_level": "Impairment Level",
+      "lastname": "Lastname",
+      "success": "Successfully updated your profile!",
+      "title": "Edit Profile",
+      "username": "Username"
+    },
+    "edit_profile": "Edit Profile",
+    "my_summary": "Total Activity",
+    "summary_details": {
+      "joined_at": "Start Date",
+      "total_distance": "Traveled Distance",
+      "total_places": "Places Visited",
+      "total_reviews": "Reviews",
+      "total_routes": "Contributed Routes"
+    }
+  },
+  "records": {
+    "contributed_routes": "Contributed Routes",
+    "date": "Date",
+    "distance": "Distance",
+    "elapsed_time": "Elapsed Time",
+    "favorite_places": "Favorite Places",
+    "my_lists": "My Lists",
+    "places_reviews": "Places Reviews",
+    "reviews": {
+      "my_review": "My Review"
+    },
+    "time": "Time"
+  },
+  "reviews": {
+    "accessibility_rating": {
+      "criteria_title": "Accessibility Rating Criteria",
+      "description": "Accessible Level",
+      "rating_0": "This place is not accessible",
+      "rating_1": "This place is hard to access even got the help",
+      "rating_2": "Require help from person and equipment to visit this place",
+      "rating_3": "This place can access by assistance from another",
+      "rating_4": "This place can access by use of equipment",
+      "rating_5": "This place can access without any help"
+    },
+    "add_more_images": "Add more images",
+    "additional_official_comment": "Additional information from official",
+    "details": "Description",
+    "details_placeholder": "What do you think about this place. Is there any accessibility related problem?",
+    "facility": "Facilities",
+    "facility_tags": {
+      "cleanliness": "Cleanliness",
+      "good_service": "Great service mind",
+      "nice_facilities": "Nice facilities",
+      "safety": "Safety"
+    },
+    "images": "Images",
+    "images_limit_description": "Maximum 3 images.",
+    "no_reviews": "This place has no reviews yet.",
+    "rate_this_place": "Rate this place",
+    "see_all_reviews": "See all reviews",
+    "submit_review": "Submit",
+    "upload_images": "Upload images"
+  },
+  "routes": {
+    "route_title": "Route {{id}}",
+    "search": {
+      "placeholder": "Search for a place"
+    }
+  },
+  "routes_search": {
+    "from": "From",
+    "from_placeholder": "Where are you from?",
+    "title": "Route Suggestion",
+    "to": "To",
+    "to_placeholder": "Where are you going to?"
+  },
+  "search": {
+    "categories": "Categories",
+    "near_me": "Near Me",
+    "placeholder": "Explore new place"
+  },
+  "settings": {
+    "about": "About",
+    "copyright": "Copyright",
+    "data_allowance": "My Personal Data Allowance",
+    "delete_account_cta": "Delete Account",
+    "general": "General",
+    "language": "Languages/ภาษา",
+    "mahidol_university": "Mahidol University",
+    "privacy": "Privacy",
+    "privacy_policy": "Privacy Policy",
+    "support_division": "Supported Division Organizations",
+    "version": "Version"
+  },
+  "trace": {
+    "finish_popup": {
+      "description": "Do you want to record your journey",
+      "overall_distance": "Total Distance",
+      "overall_time": "Total Time",
+      "title": "Finish your journey"
+    },
+    "pause": "Pause",
+    "pause_popup": {
+      "description": "continue when you're ready",
+      "title": "Take a break"
+    },
+    "resume": "Resume",
+    "save": "Save Journey",
+    "save_modal": {
+      "description": "Are you sure to save this journey",
+      "title": "Save Journey"
+    },
+    "start": "Start Recording",
+    "status": {
+      "finished": "Finished Recording",
+      "paused": "Paused Recording",
+      "ready": "Ready to Record",
+      "recording": "Recording",
+      "saved": "Saved"
+    },
+    "stop": "Stop",
+    "stop_modal": {
+      "description": "Are you sure to stop recording?",
+      "title": "Stop Recording"
+    }
+  },
+  "units": {
+    "hours": "Hours",
+    "kilometers": "Kilometers",
+    "meters": "Meters",
+    "minutes": "Minutes",
+    "place": "Place",
+    "places": "Places",
+    "review": "Review",
+    "reviews": "Reviews",
+    "route": "Route",
+    "routes": "Routes",
+    "seconds": "Seconds"
+  }
+}

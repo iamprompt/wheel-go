@@ -1,0 +1,45 @@
+/* LINE Seed Sans TH */
+@font-face {
+  font-family: LINE Seed Sans TH;
+  font-display: swap;
+  font-weight: 100;
+  src: url('fonts/LINESeedSansTH/LINESeedSansTH_W_Th.eot') format('embedded-opentype'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Th.woff2') format('woff2'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Th.woff') format('woff');
+}
+
+@font-face {
+  font-family: LINE Seed Sans TH;
+  font-display: swap;
+  font-weight: 400;
+  src: url('fonts/LINESeedSansTH/LINESeedSansTH_W_Rg.eot') format('embedded-opentype'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Rg.woff2') format('woff2'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Rg.woff') format('woff');
+}
+
+@font-face {
+  font-family: LINE Seed Sans TH;
+  font-display: swap;
+  font-weight: 700;
+  src: url('fonts/LINESeedSansTH/LINESeedSansTH_W_Bd.eot') format('embedded-opentype'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Bd.woff2') format('woff2'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_Bd.woff') format('woff');
+}
+
+@font-face {
+  font-family: LINE Seed Sans TH;
+  font-display: swap;
+  font-weight: 800;
+  src: url('fonts/LINESeedSansTH/LINESeedSansTH_W_XBd.eot') format('embedded-opentype'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_XBd.woff2') format('woff2'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_XBd.woff') format('woff');
+}
+
+@font-face {
+  font-family: LINE Seed Sans TH;
+  font-display: swap;
+  font-weight: 900;
+  src: url('fonts/LINESeedSansTH/LINESeedSansTH_W_He.eot') format('embedded-opentype'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_He.woff2') format('woff2'),
+    url('fonts/LINESeedSansTH/LINESeedSansTH_W_He.woff') format('woff');
+}

@@ -1,0 +1,8 @@
+export enum FacilityTypes {
+  RAMP = 'RAMP',
+  ASSISTANCE = 'ASSISTANCE',
+  TOILET = 'TOILET',
+  ELEVATOR = 'ELEVATOR',
+  PARKING = 'PARKING',
+  SURFACE = 'SURFACE',
+}

@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": "6425c26a48106e3b5cca7c02",
+      "createdAt": "2023-03-30T17:10:02.692Z",
+      "updatedAt": "2023-03-30T17:31:06.212Z",
+      "titleTH": "ลิฟต์โดยสารอยู่ระหว่างการปรับปรุงใหม่",
+      "titleEN": "The elevators are now renovating",
+      "descriptionTH": "ลิฟต์โดยสารอยู่ระหว่างการปรับปรุงใหม่",
+      "descriptionEN": "The elevators are now renovating",
+      "location": [13.79441894220838, 100.32472494259375],
+      "place": {
+        "nameTH": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+        "nameEN": "Faculty of Information and Communication Technology"
+      },
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "tags": ["building", "incident"],
+      "contact": {
+        "phone": "024410909",
+        "email": "ict@mahidol.ac.th",
+        "line": " https://line.me/ictmahidol"
+      },
+      "status": "published",
+      "additionalInfo": "ติดต่อพี่ยุ้ย"
+    },
+    {
+      "id": "7425c26a48106e3b5cca7c02",
+      "createdAt": "2023-04-01T17:10:02.692Z",
+      "updatedAt": "2023-04-01T17:31:06.212Z",
+      "titleTH": "ห้องน้ำผู้พิการอยู่ระหว่างการปรับปรุงใหม่",
+      "titleEN": "The accessible toilet is now renovating",
+      "descriptionTH": "ห้องน้ำผู้พิการอยู่ระหว่างการปรับปรุงใหม่ (ชั้น 3)",
+      "descriptionEN": "The accessible toilet is now renovating (3rd Floor)",
+      "location": [13.79441894220838, 100.32472494259375],
+      "place": {
+        "nameTH": "วิทยาลัยราชสุดา",
+        "nameEN": "Ratchasuda College"
+      },
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "tags": ["building", "incident"],
+      "contact": {
+        "phone": "024410909",
+        "email": "rs@mahidol.ac.th",
+        "line": " https://line.me/rsmahidol"
+      },
+      "status": "draft",
+      "additionalInfo": ""
+    },
+    {
+      "id": "7425c26a48106e3b5cca7c02",
+      "createdAt": "2023-04-02T17:10:02.692Z",
+      "updatedAt": "2023-04-02T17:31:06.212Z",
+      "titleTH": "การพัฒนาปรับปรุงลิฟต์ขนย้ายผู้โดยสาร คณะICT",
+      "titleEN": "Passenger Elevator Improvement at Faculty of ICT",
+      "descriptionTH": "คณะ ICT มีสิ่งอำนวยความสะดวกให้กับนักศึกษา บุคลากรและผู้ใช้บริการอาคาร ลิฟต์โดยสารก็เป็นส่วนหนึ่งในสิ่งอำนวยความสะดวกและที่มีการใช้งานมานาน ตั้งแต่ปีพ.ศ. 2546 ปัจจุบันระบบลิฟต์โดยสารประสบปัญหาขัดข้องบ่อยเนื่องจากวัสดุอุปกรณ์เสื่อมสภาพเริ่มหมดอายุการใช้งาน  เพื่อเป็นการบริหารจัดการด้านความปลอดภัยในชีวิตและทรัพย์สิน รวมไปถึงการสร้างสภาพแวดล้อมสำหรับคนทุกคน การสนับสนุนด้านการเรียนการสอน ดังนั้นจึงขอขอแจ้งกำหนดการปรับปรุงลิฟต์ขนย้ายผู้โดยสาร โดยมีระยะเวลาปรับปรุง 240 วัน ตั้งแต่วันที่ 10 มิถุนายน 2565 ถึง 5 กุมภาพันธ์ 2566 นี้",
+      "descriptionEN": "Since 2003, the Faculty of ICT has provided passenger elevators to its students, staff, and the building users. Lately, the elevators are frequently breaking down due to equipment deterioration. In order to ensure the safety of lives and property, and create the inclusive environment for everyone, we would like to inform of the Passenger Elevator Improvement Project which will run from 10 June 2022 to 5 February 2023 (240 days).",
+      "location": [13.79441894220838, 100.32472494259375],
+      "place": {
+        "nameTH": "วิทยาลัยราชสุดา",
+        "nameEN": "Ratchasuda College"
+      },
+      "image": {
+        "url": "https://cms.wheelgo.iamprompt.me/media/faculty_of_information_and_communication_technology.jpg"
+      },
+      "tags": ["building"],
+      "contact": {
+        "phone": "024410909",
+        "email": "ict@mahidol.ac.th",
+        "line": " https://line.me/ictmahidol"
+      },
+      "status": "published",
+      "additionalInfo": ""
+    }
+  ]
+}
