@@ -67,6 +67,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   scheme: 'wheelgo',
   plugins: [
+    'expo-router',
     'expo-localization',
     'expo-location',
     'expo-image-picker',
