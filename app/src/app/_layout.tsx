@@ -16,7 +16,7 @@ import { PreferencesProvider } from '~/context/usePreferences'
 import { StoreonProvider } from '~/context/useStoreon'
 import '~/tasks'
 
-// SplashScreen.preventAutoHideAsync()
+SplashScreen.preventAutoHideAsync()
 
 function RootLayout() {
   const [isReady, setIsReady] = useState(false)
@@ -24,14 +24,10 @@ function RootLayout() {
 
   useEffect(() => {
     if (fontsLoaded) {
-      setIsReady(true)
+      SplashScreen.hideAsync()
     }
   }, [fontsLoaded])
-
-  if (!isReady) {
-    return <SplashScreen />
-  }
-
+  
   return (
     <WheelGoApolloProvider>
       <StoreonProvider>
