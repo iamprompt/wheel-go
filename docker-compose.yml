@@ -1,0 +1,42 @@
+version: '3.9'
+
+services:
+  cms:
+    image: ghcr.io/iamprompt/wheel-go-cms:latest
+    depends_on:
+      - api
+      - db
+
+  api:
+    image: ghcr.io/iamprompt/wheel-go-api:latest
+    environment:
+      - PORT=3000
+      - MONGO_URI=mongodb://root:root@wheel-go-db:27017/wheel-go?authSource=admin
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET}
+      - SERVER_URL=${SERVER_URL}
+    volumes:
+      - /volume1/docker/wheel-go/api/uploads:/app/uploads
+    depends_on:
+      - db
+
+  db:
+    image: mongo:4
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: wheel-go
+
+  # mongo-express:
+  #   image: mongo-express:latest
+  #   restart: always
+  #   environment:
+  #     ME_CONFIG_MONGODB_ADMINUSERNAME: root
+  #     ME_CONFIG_MONGODB_ADMINPASSWORD: root
+  #     ME_CONFIG_MONGODB_SERVER: wheel-go-db
+
+networks:
+  default:
+    name: iamprompt
+    external: true
