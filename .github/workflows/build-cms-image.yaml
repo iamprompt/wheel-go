@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'cms/**'
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
@@ -36,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./cms
-          file: Dockerfile
+          file: ./cms/Dockerfile
           build-args: |
             NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
             NEXT_PUBLIC_WHEELGO_API=${{ secrets.NEXT_PUBLIC_WHEELGO_API }}

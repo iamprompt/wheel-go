@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'api/**'
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
@@ -36,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./api
-          file: Dockerfile
+          file: ./api/Dockerfile
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           cache-from: type=gha
