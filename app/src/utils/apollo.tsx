@@ -18,7 +18,7 @@ import { RefreshToken } from '~/graphql/mutation/auth'
 import { getUserToken, setUserToken } from './asyncStorage'
 
 const uploadLink = createUploadLink({
-  uri: `https://wg-api.iamprompt.me/graphql`,
+  uri: `https://wheelgo-api.iamprompt.me/graphql`,
 })
 
 const client = new ApolloClient({
