@@ -21,6 +21,6 @@ COPY --from=build /app/node_modules ./node_modules
 
 RUN mkdir -p /uploads
 
-VOLUME [ "/uploads" ]
+VOLUME [ "/app/uploads" ]
 
 CMD ["node", "dist/main.js"]
